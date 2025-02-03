@@ -1,5 +1,5 @@
 ---
-title: "About High 0.05"
+title: "About Cuochi senza fuochi"
 format:
   html:
     include-in-header: 
@@ -42,9 +42,5 @@ format:
           </style>
 ---
 
-It all started with debates with University Professors
-where bottles were party where delivered when the P-value of the analysis in progress showed was less than 0.05.
-
-At that moment smiles blossomed and above all we began to share, as the English say, the "High five" with researchers of every background and specialty from biologists, research nurses to Medical Doctors. To dedicate even an additional dose to that magical number, the whole company declared his love by adopting the name of so loved P = 0.05.
-The need to further explore a multidisciplinary approach is since technology is just a tool that can became useful if it brings large-scale changes to everyday life and can identify concrete and high-impact fields of application. 
+A journey to let meet people in a new environment.
 

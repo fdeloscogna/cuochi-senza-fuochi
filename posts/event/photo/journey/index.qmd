@@ -1,0 +1,12 @@
+---
+title: "The journey together"
+date: "2025-01-20"
+categories:
+image: "img.jpg"
+draft: false
+layout: single
+execute: 
+  eval: false
+---
+
+####  The journey

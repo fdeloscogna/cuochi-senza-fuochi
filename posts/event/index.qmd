@@ -1,8 +1,8 @@
 ---
-title: Newcare
-description: "The news about revolution that are solving Medicine's challenges"
+title: experiences
+description: "The news about how to meet and share moments"
 listing:
-  contents: medical_datactor
+  contents: photo
   sort: "date desc"
   type: default
   categories: true
