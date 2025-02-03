@@ -1,7 +1,7 @@
 ---
-title: "Fresh Tech"
+title: "Fresh photos and events"
 listing:
-  contents: posts/datah/medical_datactor
+  contents: posts/event/photo
   type: default
   sort: "date desc"
 format:

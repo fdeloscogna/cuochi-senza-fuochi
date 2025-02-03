@@ -1,5 +1,5 @@
 ---
-title: "Let's keep in touch to find solutions"
+title: "Cheap solution to increase connections"
 format:
   html:
     include-in-header: 
@@ -42,18 +42,17 @@ format:
           </style>
 ---
 
-Affiliations and ongoing projects:
+Starting in March 2022, the idea behind cuochi senza fuochi is to meet together among neighbors.
 
-- With you [today - future]
+When arriving in a new city, the first thing we do is look for affordable places to sleep. 
 
-- Stealth deeptech startup (Verona, IT) [2024 - ongoing]
+Usually, this at least allows us to commute to work. 
 
-- ASST Ospedale Papa Giovanni XXIII di Bergamo [2024 - ongoing]
+With these two elements, the capital is after all guaranteed. 
 
-- Mainz University (Mainz, DE) [2024 - Accomplished]
+But what about human capital? Is it easy to find new like-minded people among us? Working full-time is too challenging.
 
-- Padua University with the department of: Cardiology - internal Medicine - Surgery - Oncology (Padua, IT) [2021 - ongoing]
+For that reason Cuochi senza fuochi arrived. This is the cheapest solution to meet in an affordable and offline way, new people. 
+Avoid disco clubs that you don't like to meet new brains just bring some chocolate with you! 
 
 
-
-email : bisturiep005@gmail.com

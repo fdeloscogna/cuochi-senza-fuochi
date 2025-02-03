@@ -2,18 +2,14 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "High005"
+  title: "Cuochi senza fuochi co-living"
   navbar:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Discover"
+      - text: "Discover recipe"
         href: tutorials.qmd
-      - text: "Click to solve together"
+      - text: "Why it works"
         href: jobs.qmd
-      - text: "About"
-        href: about.qmd
-      - text: "Fresh tech"
+      - text: "Co-living"
         href: tech.qmd
-      - text: "Analyitics tips"
-        href: science.qmd

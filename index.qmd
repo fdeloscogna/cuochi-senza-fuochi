@@ -1,21 +1,19 @@
 ---
-title: "High 005"
-image: images/logo.png
+title: "Cuochi senza fuochi"
+image: images/logo.jpg
 about:
     template: trestles
     image-width: 25em
     image-shape: round
     links:
-    - text: Scientific activity papers
-      url: https://orcid.org/0000-0002-4610-0950
     - icon: youtube
       text: Youtube news 
-      url: https://www.youtube.com/@High_005
+      url: https://www.youtube.com/@cuochisenzafuochi/shorts
 listing:
   contents: posts
   sort: "date desc"
   type: grid # Enhanced grid layout
-  max-items: 6 # Display more items
+  max-items: 3 # Display more items
   categories: false 
   feed: true
   image-height: 200px # Uniform thumbnail size      
@@ -66,7 +64,7 @@ format:
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     new TypeIt("#animated-title", {
-      strings: ["The page of healthcare news and challenges for the next years. Curiosities and questions are the beginning of new journey, let's embrace together!", "Read. Enjoy. Share opinion with us"],
+      strings: ["The page of a part time chef, let's embrace together!", "Read. Enjoy. Share opinion with us", "join our coliving"!],
       speed: 50,
       breakLines: false,
       loop: true,
