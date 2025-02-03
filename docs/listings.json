@@ -27,10 +27,7 @@
   {
     "listing": "/tech.html",
     "items": [
-      "/posts/datah/medical_datactor/longevity/index.html",
-      "/posts/datah/medical_datactor/tech_challenge/index.html",
-      "/posts/datah/medical_datactor/bitcoin/index.html",
-      "/posts/datah/medical_datactor/cardiology/index.html"
+      "/posts/event/photo/journey/index.html"
     ]
   },
   {
@@ -39,6 +36,12 @@
       "/posts/datah/papers/bias/index.html",
       "/posts/datah/papers/survival/index.html",
       "/posts/datah/papers/aspirin/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/event/index.html",
+    "items": [
+      "/posts/event/photo/journey/index.html"
     ]
   }
 ]
