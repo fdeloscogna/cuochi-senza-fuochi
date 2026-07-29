@@ -1,173 +1,148 @@
 ---
-title: "Recipes"
-pagetitle: "What to bring: cheap, no-oven recipes"
-description: "Cheap dishes for 4–6 people that need no oven, no skill and no real kitchen. Exactly what to bring to a potluck when you can't cook."
+title: "What we make"
+pagetitle: "What we make at Cuochi senza fuochi: no oven recipes"
+description: "The recipes we make together at Cuochi senza fuochi. Desserts and easy dishes that need no oven, no hob and no real kitchen, so you can repeat them in any room."
 page-layout: full
 title-block-style: none
 ---
 
 ::: {.csf-hero}
-<p class="csf-hero__eyebrow">No oven · no skill · under €5</p>
+<p class="csf-hero__eyebrow">No oven · no hob · no skill</p>
 
-<h1 class="csf-hero__title">What to bring when you <em>can't</em> cook</h1>
+<h1 class="csf-hero__title">Everything here can be made in a <em>bedroom</em></h1>
 
 <p class="csf-hero__lede">
-Every dish here feeds 4–6 people, costs a few euro, and needs nothing more than
-a bowl, a knife and a fridge. This is the *senza fuochi* part of the name.
+These are the recipes we make together at a session, and they are all deliberately
+chosen for the same reason: a bowl, a knife and a fridge is the entire equipment list.
+Take any of them home and you can do it again on your own.
 </p>
+
+::: {.csf-actions}
+[Come and make one](join.qmd){.csf-btn .csf-btn--primary}
+:::
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">Start here</p>
-<h2 class="csf-section__title">The absolute minimum</h2>
+<p class="csf-section__kicker">The house speciality</p>
+<h2 class="csf-section__title">Desserts, because heat is the thing you don't have</h2>
 <p class="csf-section__sub">
-If you're reading this an hour before the dinner: buy good bread, a jar of olives,
-and a bar of dark chocolate. Total cost about €6. You have contributed. Come anyway.
+Dessert is where cooking without fire stops being a limitation and starts being an
+advantage. Almost nothing good in this category was ever baked.
 </p>
-:::
-
-::: {.csf-section}
-<h2 class="csf-section__title">Nothing to cook at all</h2>
 
 ::: {.csf-grid}
 ::: {.csf-card}
-<span class="csf-card__icon">🍅</span>
-
-### Panzanella
-Tear up yesterday's bread, add chopped tomatoes, red onion, basil, plenty of olive oil,
-a splash of vinegar and salt. Leave it 20 minutes so the bread softens. Better the
-longer it sits, which makes it perfect for carrying across town.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">🥕</span>
-
-### Carrot, orange and cumin salad
-Grate carrots, squeeze in an orange, add a big pinch of cumin, oil, salt.
-Three ingredients, five minutes, and it looks like you tried.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">🫘</span>
-
-### Chickpea and tuna salad
-Two tins of chickpeas, one of tuna, half a red onion sliced thin, lemon, oil,
-parsley. High protein, costs about €3, and it survives a bike ride.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">🥣</span>
-
-### Hummus, the lazy version
-Blitz a tin of chickpeas with tahini, lemon, garlic and a lot of olive oil.
-No blender? Mash it with a fork and call it rustic. Bring carrots and bread to dip.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">🧀</span>
-
-### A proper board
-Cheese, cured meat or olives, fruit, bread, nuts. Zero cooking. Arrange it on
-anything flat. This is always one of the first things to disappear.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">🍉</span>
-
-### Watermelon, feta and mint
-Cube the watermelon, crumble feta over it, tear in mint, black pepper.
-Summer only, gone in four minutes.
-:::
-:::
-:::
-
-::: {.csf-section}
-<h2 class="csf-section__title">One hob, one pan</h2>
-
-::: {.csf-grid}
-::: {.csf-card}
-<span class="csf-card__icon">🍝</span>
-
-### Pasta al pesto, cold
-Boil pasta, drain, rinse under cold water so it doesn't clump, stir through pesto
-with a spoonful of the cooking water. Add cherry tomatoes and pine nuts if the
-budget stretches. Travels fine, eats fine at room temperature.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">🍚</span>
-
-### Rice salad
-Boil rice, cool it, then throw in whatever is cheap: tinned corn, olives, tuna,
-diced cheese, pickles. Dress with oil and lemon. Infinitely forgiving.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">🥔</span>
-
-### Frittata di patate
-Boil potatoes, slice them, fry with onion, pour over six beaten eggs, cook slowly,
-flip with the help of a plate and some courage. Good hot, good cold, feeds many.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">🍲</span>
-
-### Lentil soup
-Onion, carrot, celery, a tin of tomatoes, a bag of red lentils, water, salt.
-Twenty-five minutes unattended. Cheapest way to feed eight people.
-:::
-:::
-:::
-
-::: {.csf-section}
-<h2 class="csf-section__title">Dessert without an oven</h2>
-
-::: {.csf-grid}
-::: {.csf-card}
-<span class="csf-card__icon">🍫</span>
+<span class="csf-card__icon"><i class="bi bi-cookie"></i></span>
 
 ### Salame di cioccolato
-Crush dry biscuits, melt dark chocolate and butter, mix with a little sugar,
-roll into a log in baking paper, fridge for two hours, slice.
-No oven, and it looks impressive on the table.
+The one we make most. Crush dry biscuits in a bag, melt dark chocolate with butter,
+mix with a little sugar, roll it into a log in baking paper and put it in the fridge
+for two hours. It slices like a salami and it never fails.
 :::
 
 ::: {.csf-card}
-<span class="csf-card__icon">☕</span>
+<span class="csf-card__icon"><i class="bi bi-cup-hot"></i></span>
 
-### Tiramisù, no-bake by definition
-Mascarpone, eggs, sugar, coffee, savoiardi, cocoa. It was never baked to begin with.
-Make it the night before and don't move it too fast.
+### Tiramisù
+No bake by definition. Mascarpone, eggs, sugar, coffee, savoiardi, cocoa. The only
+hard part is not moving the tray too fast on the way to the fridge.
 :::
 
 ::: {.csf-card}
-<span class="csf-card__icon">🍓</span>
+<span class="csf-card__icon"><i class="bi bi-cake2"></i></span>
+
+### No bake cheesecake
+A crushed biscuit and butter base pressed into a tin, cream cheese whipped with sugar
+and lemon on top, then several hours of doing nothing at all. Looks like the hardest
+thing on this page and is the easiest.
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon"><i class="bi bi-basket"></i></span>
 
 ### Fruit with lemon and sugar
-Chop whatever fruit is in season, sugar, lemon juice, thirty minutes in the fridge.
-It becomes its own syrup. Costs nothing and everyone takes some.
+Chop whatever is in season, add sugar and lemon juice, thirty minutes in the fridge and
+it makes its own syrup. Costs almost nothing and everybody takes some.
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon"><i class="bi bi-egg"></i></span>
+
+### Chocolate mousse, two ingredients
+Dark chocolate and cream, whipped. That is the whole recipe. Good in small glasses,
+and it makes the room smell like a much more serious kitchen than it is.
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon"><i class="bi bi-snow"></i></span>
+
+### Affogato
+Very cold vanilla ice cream, very hot espresso poured over it at the table. Not really
+a recipe, more a reliable way to end an evening.
 :::
 :::
 :::
 
 ::: {.csf-section}
-<h2 class="csf-section__title">Rules of thumb for potluck cooking</h2>
+<h2 class="csf-section__title">Savoury, when we want something before the sugar</h2>
+<p class="csf-section__sub">
+Same rule applies. Nothing here goes near a flame.
+</p>
 
-- **Room temperature is your friend.** Nothing that has to be served piping hot.
-- **Cook for 4–6, not for everyone.** With fifteen dishes on the table, portions are small.
-- **Bring it in the container you'll carry home.** Nobody wants to redistribute your dish at 1am.
-- **Label it if it matters.** Contains nuts, contains pork, vegan — a scrap of paper is enough.
-- **One dish is one dish.** You are not hosting. You are contributing.
+::: {.csf-grid}
+::: {.csf-card}
+<span class="csf-card__icon"><i class="bi bi-droplet"></i></span>
+
+### Hummus, the lazy version
+Blitz a tin of chickpeas with tahini, lemon, garlic and plenty of olive oil. No
+blender in the flat? Mash it with a fork and call it rustic. Bring carrots and bread.
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon"><i class="bi bi-basket"></i></span>
+
+### Panzanella
+Tear up yesterday's bread, add chopped tomatoes, red onion, basil, a lot of olive oil,
+a splash of vinegar and salt. Twenty minutes of sitting still and the bread softens.
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon"><i class="bi bi-stars"></i></span>
+
+### Carrot, orange and cumin
+Grate carrots, squeeze in an orange, add a big pinch of cumin, oil and salt. Three
+ingredients, five minutes, and it looks like somebody tried.
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon"><i class="bi bi-people"></i></span>
+
+### A proper board
+Cheese, olives, fruit, bread, nuts. Zero cooking, arranged on anything flat. Always
+one of the first things to disappear.
+:::
+:::
+:::
+
+::: {.csf-section}
+<h2 class="csf-section__title">Why these and not others</h2>
+
+- **Nothing needs heat.** No oven, no hob, no risk of a shared kitchen being occupied.
+- **Everything survives being made by fifteen people at once.** Recipes that need
+  precision or timing do not work in a room full of people talking.
+- **The steps split up.** Somebody crushes, somebody melts, somebody rolls. If a recipe
+  can only be done by one pair of hands, it is a bad recipe for us.
+- **You can repeat it alone.** Every one of these is doable in a bedroom with a fridge
+  down the hall, which is the whole point of the club.
 :::
 
 ::: {.csf-band}
-## Pick one and come
+## Pick one and come and make it
 
-Genuinely — the chocolate option counts.
+You don't need to buy anything or practise first. Just turn up.
 
 ::: {.csf-actions}
-[Join the next dinner](join.qmd){.csf-btn .csf-btn--primary}
+[Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
 [How it works](how-it-works.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::

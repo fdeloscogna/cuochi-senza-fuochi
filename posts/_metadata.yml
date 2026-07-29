@@ -8,6 +8,6 @@ freeze: true
 title-block-banner: true
 title-block-categories: true
 
-# posts are prose — keep them narrow and readable
+# posts are prose, so keep them narrow and readable
 page-layout: article
 toc: false

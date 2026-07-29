@@ -1,17 +1,17 @@
 ---
 title: "Cuochi senza fuochi"
-pagetitle: "Cuochi senza fuochi — a free potluck club in Padova"
-description: "Bring one dish, meet fifteen neighbours. Cuochi senza fuochi is a free potluck dinner club in Padova for people who just moved here. No kitchen needed, no fee, come on your own."
+pagetitle: "Cuochi senza fuochi, a free no kitchen baking club in Padova"
+description: "We meet up in Padova and make desserts and easy recipes together, without an oven and without a kitchen. Free, no skill needed, come on your own."
 page-layout: full
 title-block-style: none
 listing:
-  id: latest-events
+  id: latest-sessions
   contents: posts/event/photo
   sort: "date desc"
   type: grid
   max-items: 3
   grid-columns: 3
-  image-height: 200px
+  image-height: 240px
   categories: false
   fields: [image, date, title, description]
   feed: true
@@ -19,29 +19,27 @@ listing:
 
 ::: {.csf-hero .csf-hero--split}
 ::: {.csf-hero__body}
-<img src="images/logo-wordmark.jpg" class="csf-hero__mark" alt="Cuochi senza fuochi — a whisk crossed over a flame inside a rope wreath">
+<p class="csf-hero__eyebrow">Padova · free · no kitchen needed</p>
 
-<p class="csf-hero__eyebrow">🍫 Padova · always free · since 2022</p>
-
-<h1 class="csf-hero__title">Bring one dish.<br>Meet <em>fifteen neighbours</em>.</h1>
+<h1 class="csf-hero__title">We make dessert.<br>Without a <em>kitchen</em>.</h1>
 
 <p class="csf-hero__lede">
-<strong>Cuochi senza fuochi is a free potluck dinner club in Padova.</strong> Once a month,
-about fifteen people who mostly haven't met put one dish each in the middle of a table
-and eat everything. You don't need a kitchen, you don't pay anything, and coming on
-your own is the normal way to arrive.
+<strong>Cuochi senza fuochi means cooks without fires.</strong> We get a group together in
+Padova and make desserts and easy recipes on the spot: no oven, no hob, nothing that
+needs a real kitchen. The ingredients are waiting when you arrive. You learn something
+you can make again in your own room, and then everybody eats it.
 </p>
 
 ::: {.csf-actions}
-[Come to the next dinner](join.qmd){.csf-btn .csf-btn--primary}
+[Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
 [See how it works](how-it-works.qmd){.csf-btn .csf-btn--ghost}
 :::
 
 <div class="csf-hero__meta">
-  <span>✅ Always free</span>
-  <span>✅ No cooking skill needed</span>
-  <span>✅ Come alone, that's the point</span>
-  <span>✅ English &amp; Italian</span>
+  <span>Always free</span>
+  <span>Nothing to cook beforehand</span>
+  <span>Come on your own</span>
+  <span>Italian and English</span>
 </div>
 
 <div class="csf-follow">
@@ -53,39 +51,41 @@ your own is the normal way to arrive.
 :::
 
 ::: {.csf-hero__figure}
-![](images/dinner-01.jpg){.csf-hero__photo fig-alt="About eighteen people standing among tables of shared food in a borrowed common room in Padova"}
+![](images/session-01.jpg){.csf-hero__photo fig-alt="A group of about eighteen people standing around tables in a borrowed common room in Padova, with bowls and ingredients laid out"}
 
-<p class="csf-hero__caption">A real evening: a borrowed common room, trays carried across town, and eighteen people who met two hours earlier.</p>
+<p class="csf-hero__caption">A real session in a borrowed common room. Almost everybody here had met for the first time two hours earlier.</p>
 :::
 :::
 
 <div class="csf-strip">
-  <span class="csf-strip__item"><strong>1 dish</strong> is your whole contribution</span>
-  <span class="csf-strip__item"><strong>€0</strong> to attend, about €5 of ingredients</span>
-  <span class="csf-strip__item"><strong>~15 people</strong> around one table</span>
-  <span class="csf-strip__item"><strong>Monthly</strong> evenings, always in Padova</span>
+  <span class="csf-strip__item"><strong>Zero euro</strong> to take part</span>
+  <span class="csf-strip__item"><strong>No oven</strong> and no hob, ever</span>
+  <span class="csf-strip__item"><strong>About 15</strong> people per session</span>
+  <span class="csf-strip__item"><strong>Monthly</strong> in Padova</span>
 </div>
 
 ::: {.csf-section}
 <p class="csf-section__kicker">Start to finish</p>
 <h2 class="csf-section__title">What actually happens</h2>
-<p class="csf-section__sub">Four steps, and nothing hidden between them. This is the entire format.</p>
+<p class="csf-section__sub">Four steps, with nothing hidden between them. This is the whole format.</p>
 
 ::: {.csf-steps}
 - ### You say you're coming
-  Send a message on Instagram, TikTok or YouTube. We reply with the address, the date
-  and roughly how many people to expect.
+  One message on Instagram, TikTok or YouTube. We send back the address, the time,
+  and what we're making.
 
-- ### You bring one dish
-  Something you can make without a real kitchen, for 4–6 people. Bought at the
-  supermarket counts. Nobody is judging.
+- ### You turn up empty handed
+  This is the part people get wrong. You do not cook anything beforehand and you do
+  not bring a dish. Everything is already on the table when you walk in.
 
-- ### Everyone eats everything
-  Plates go in the middle of the table. You try fourteen things you've never had,
-  and you talk to whoever is next to you.
+- ### We make it together
+  Someone talks the group through a recipe that needs no oven and no hob. Salame di
+  cioccolato, tiramisù, a no bake cheesecake. You do the mixing, the crushing and the
+  rolling, standing up, talking to whoever is next to you.
 
-- ### You go home with numbers
-  Not a networking event. Just the neighbours you'll now bump into at the market.
+- ### Then we eat it
+  It goes in the fridge, we wait, we eat the whole thing. You leave knowing a recipe
+  you can repeat in a room with no kitchen, and knowing the people you made it with.
 :::
 :::
 
@@ -95,56 +95,80 @@ your own is the normal way to arrive.
 
 ::: {.csf-grid}
 ::: {.csf-card}
-<span class="csf-card__icon">🔥</span>
+<span class="csf-card__icon"><i class="bi bi-fire"></i></span>
 
-### Senza fuochi — without fires
-The name is the promise. Student rooms don't have real kitchens, and that has never
-stopped anyone. No-bake, no-oven, one-pan: everything on our table was made in a
-shared kitchen or not cooked at all.
+### Senza fuochi, without fires
+The name is the promise. Student rooms come with two hobs that half work, no oven,
+and a fridge shared between five people. Every recipe we make is built for exactly
+that, so nobody is ever excluded by their kitchen.
 :::
 
 ::: {.csf-card}
-<span class="csf-card__icon">💸</span>
+<span class="csf-card__icon"><i class="bi bi-piggy-bank"></i></span>
 
 ### Cheaper than one drink
-A potluck costs each person the price of one dish. Meeting people in this city usually
-means a bar tab or a club entry. This is the version you can afford every month.
+Taking part costs you nothing. Meeting people in this city usually means a bar tab
+or a club entry, every single time. This is the version you can afford every month.
 :::
 
 ::: {.csf-card}
-<span class="csf-card__icon">🧠</span>
+<span class="csf-card__icon"><i class="bi bi-wifi-off"></i></span>
 
 ### Offline, on purpose
-No app, no swiping, no feed. Fifteen people, one table, phones face down.
-You remember conversations you had standing up with a plate in your hand.
+No app, no swiping, no feed. Fifteen people, one table, phones face down and your
+hands covered in crushed biscuit. It turns out that talking is easier when you are
+both busy doing something else.
 :::
 :::
 :::
 
 ::: {.csf-quote}
-When you arrive in a new city you look for an affordable place to sleep and a way to get to work.
-With those two things, the capital is guaranteed. But what about **human capital**?
+Housing is solvable. **Loneliness is the expensive part.**
 
-<cite>— the idea behind Cuochi senza fuochi, March 2022</cite>
+<cite>the idea behind Cuochi senza fuochi, March 2022</cite>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">Why we bother</p>
+<h2 class="csf-section__title">You can rent a room. You cannot rent the people.</h2>
+
+<p class="csf-section__sub">
+When you move somewhere new, you sort out a room and a commute within weeks. Those
+two things guarantee the financial capital. Human capital is the one nobody hands you
+a contract for, and working or studying full time leaves very little room to build it.
+</p>
+
+Cuochi senza fuochi exists because the usual alternatives don't work for everyone.
+Bars cost money every single time. Clubs are loud and you meet no one. Apps put you
+back on a screen. Standing around a table making a dessert costs nothing, and it puts
+you in a room with people who live ten minutes away: the ones you can actually keep seeing.
+
+::: {.csf-tags}
+- New in Padova
+- Erasmus and exchange
+- PhD students and researchers
+- Started a job here
+- Lived here for years and want a wider table
+:::
 :::
 
 ::: {.csf-section}
 <p class="csf-section__kicker">From the table</p>
-<h2 class="csf-section__title">Recent dinners</h2>
-<p class="csf-section__sub">Photos and short write-ups from the last few evenings. This is what you're walking into.</p>
+<h2 class="csf-section__title">Recent sessions</h2>
+<p class="csf-section__sub">Photos and short write ups from the last few. This is what you would be walking into.</p>
 
-::: {#latest-events}
+::: {#latest-sessions}
 :::
 
-[See all events →](events.qmd)
+[See all sessions](events.qmd)
 :::
 
 ::: {.csf-section}
 <p class="csf-section__kicker">Follow along</p>
-<h2 class="csf-section__title">See a dinner before you come to one</h2>
+<h2 class="csf-section__title">Watch one before you come to one</h2>
 <p class="csf-section__sub">
-Every table gets filmed and photographed. If you'd rather watch before you commit,
-start here — and a DM on any of the three is a perfectly good way to sign up.
+Every session gets filmed and photographed. If you would rather see it before you
+commit, start here. A message on any of the three is also a perfectly good way to sign up.
 </p>
 
 <div class="csf-social">
@@ -152,34 +176,35 @@ start here — and a DM on any of the three is a perfectly good way to sign up.
     <span class="csf-social__icon"><i class="bi bi-instagram"></i></span>
     <span class="csf-social__name">Instagram</span>
     <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
-    <span class="csf-social__note">Photos from every dinner, and the next date in stories.</span>
-    <span class="csf-social__cta">Follow →</span>
+    <span class="csf-social__note">Photos from every session, and the next date in stories.</span>
+    <span class="csf-social__cta">Follow</span>
   </a>
   <a class="csf-social__card csf-social__card--tt" href="https://www.tiktok.com/@cuochi_senza_fuochi">
     <span class="csf-social__icon"><i class="bi bi-tiktok"></i></span>
     <span class="csf-social__name">TikTok</span>
     <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
-    <span class="csf-social__note">Short clips of the table filling up — the fastest way to get the idea.</span>
-    <span class="csf-social__cta">Watch →</span>
+    <span class="csf-social__note">Short clips of a recipe coming together. The fastest way to get the idea.</span>
+    <span class="csf-social__cta">Watch</span>
   </a>
   <a class="csf-social__card csf-social__card--yt" href="https://www.youtube.com/@cuochisenzafuochi">
     <span class="csf-social__icon"><i class="bi bi-youtube"></i></span>
     <span class="csf-social__name">YouTube</span>
     <span class="csf-social__handle">&#64;cuochisenzafuochi</span>
-    <span class="csf-social__note">Longer cuts, plus recipes you can make with no oven at all.</span>
-    <span class="csf-social__cta">Subscribe →</span>
+    <span class="csf-social__note">Longer cuts, and the full recipes you can redo with no oven.</span>
+    <span class="csf-social__cta">Subscribe</span>
   </a>
 </div>
 :::
 
 ::: {.csf-band}
-## Next dinner: come and bring something
+## Next session: just turn up
 
-You don't need to know anyone. You don't need to cook. Most people at their first
-Cuochi senza fuochi came on their own — that is the normal way to arrive.
+You don't need to know anyone. You don't need to cook. You don't need to bring
+anything. Most people at their first Cuochi senza fuochi came on their own, and
+that is the normal way to arrive.
 
 ::: {.csf-actions}
-[Join the next dinner](join.qmd){.csf-btn .csf-btn--primary}
-[Watch a 30-second clip](https://www.tiktok.com/@cuochi_senza_fuochi){.csf-btn .csf-btn--ghost}
+[Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
+[What we make](recipes.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::

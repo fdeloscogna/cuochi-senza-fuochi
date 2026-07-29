@@ -1,26 +1,32 @@
 ---
 title: "The journey together"
-description: "Eighteen people in a borrowed common room, a few trays of pasta and a bowl of crackers. Nobody had met before that evening."
+# set explicitly so Quarto does not compose "title EN-DASH site title" for the
+# browser tab and the Open Graph / Twitter share cards
+pagetitle: "The journey together, a Cuochi senza fuochi session"
+description: "Eighteen people in a borrowed common room, a table of ingredients and nothing switched on. Nobody had met before that evening."
 date: "2025-01-20"
 author: "Cuochi senza fuochi"
-categories: [dinner, Padova]
+categories: [session, Padova]
 image: "img.jpg"
-image-alt: "About eighteen people standing among tables of shared food in a borrowed common room in Padova"
+image-alt: "About eighteen people standing among tables of ingredients in a borrowed common room in Padova"
 draft: false
 ---
 
-![](img.jpg){fig-alt="About eighteen people standing among tables in a borrowed common room, with trays of pasta, grated carrot and a bowl of crackers laid out"}
+![](img.jpg){fig-alt="About eighteen people standing among tables in a borrowed common room, with bowls, ingredients and plates laid out"}
 
 Almost everybody in this photo had met for the first time about two hours earlier.
 
-The venue is what we usually get: a borrowed common room, tables pushed where they
-fit, chairs dragged in from next door. The food is what people carried across town —
-a tray of pasta, grated carrot, something fried, a bowl of crackers to keep everyone
-going while the rest arrived. And a banana, for reasons nobody explained.
+The venue is what we usually get: a borrowed common room, tables pushed where they fit,
+chairs dragged in from next door. Everything on those tables arrived as shopping and got
+turned into something by the people standing around it. Nothing was switched on all evening.
 
-Nothing there needed an oven. Nobody spent more than about five euro. People stayed
-standing and talking long after the trays were empty, which is the part that matters.
+That is the part worth repeating, because people assume the opposite. Nobody carried a
+finished dish across town. You walk in with empty hands, somebody hands you a bag of
+biscuits to crush, and an hour later there is dessert.
 
-This is what we mean when we say *come alone*. It is the normal way to arrive.
+People stayed standing and talking long after the plates were empty, which is the part
+that actually matters.
 
-[What should I bring? →](../../../../recipes.qmd) &nbsp;·&nbsp; [Join the next dinner →](../../../../join.qmd)
+This is what we mean when we say *come on your own*. It is the normal way to arrive.
+
+[What we make](../../../../recipes.qmd) &nbsp;·&nbsp; [Come to the next one](../../../../join.qmd)

@@ -1,19 +1,20 @@
 ---
 title: "How it works"
-pagetitle: "How it works"
-description: "Everything a first-timer needs to know: what to bring, what it costs, who comes, and what happens when you get there."
+pagetitle: "How it works at Cuochi senza fuochi"
+description: "Everything a first timer needs to know: what we make, what it costs, who comes, and what happens when you get there. You bring nothing."
 page-layout: full
 title-block-style: none
 ---
 
 ::: {.csf-hero}
-<p class="csf-hero__eyebrow">For first-timers</p>
+<p class="csf-hero__eyebrow">For first timers</p>
 
-<h1 class="csf-hero__title">One dish. One table.<br>No <em>experience</em> required.</h1>
+<h1 class="csf-hero__title">You turn up.<br>We make it <em>together</em>.</h1>
 
 <p class="csf-hero__lede">
-If you have never been to a potluck, here is the whole thing, start to finish,
-with nothing left to guess.
+There is one thing worth saying twice, because everybody assumes the opposite:
+<strong>you do not cook anything beforehand and you do not bring a dish.</strong>
+You arrive with empty hands and we make something together on the spot.
 </p>
 :::
 
@@ -24,18 +25,19 @@ with nothing left to guess.
   One message on [Instagram](https://www.instagram.com/cuochi_senza_fuochi/),
   [TikTok](https://www.tiktok.com/@cuochi_senza_fuochi) or
   [YouTube](https://www.youtube.com/@cuochisenzafuochi) is enough. We reply with the
-  address, the time, and how many people to expect so you know how much to bring.
+  address, the time and what we're making.
 
-- ### Make or buy one dish
-  For roughly 4–6 people. If you can't cook, buy something. Chocolate, bread,
-  fruit, a bag of crisps — it all counts.
+- ### Turn up empty handed
+  Everything is already there: ingredients, bowls, a fridge. Whoever is hosting buys
+  the shopping, so all you have to do is find the door.
 
-- ### Show up and put it on the table
-  Everything goes in the middle. Grab a plate, take a bit of everything,
-  and start with whoever is next to you.
+- ### Make it together
+  Somebody walks the group through a recipe that needs no oven and no hob. You crush,
+  mix, roll and layer. It takes about an hour and nobody stands around watching.
 
-- ### Stay for the washing up
-  This is where the actual conversations happen. Nobody has ever regretted staying.
+- ### Eat the results
+  Into the fridge, then onto the table. You leave with a recipe you can repeat in a
+  room with no kitchen, and with the numbers of the people you made it with.
 :::
 
 ::: {.csf-section}
@@ -44,73 +46,90 @@ with nothing left to guess.
 
 ### How do I actually sign up?
 
-Send one message to any of our three accounts — they all reach the same people.
+Send one message to any of our three accounts, they all reach the same people.
 [Instagram](https://www.instagram.com/cuochi_senza_fuochi/) and
 [TikTok](https://www.tiktok.com/@cuochi_senza_fuochi) are both
 **&#64;cuochi_senza_fuochi**; [YouTube](https://www.youtube.com/@cuochisenzafuochi)
 is **&#64;cuochisenzafuochi**. There is no form to fill in and nothing to pay.
 
+### So I really don't bring anything?
+
+Really. This is not a potluck. Whoever hosts does the shopping for the recipe, and the
+cost per head is small enough that we don't collect it at the door. Turn up with your
+hands free.
+
+### What do we actually make?
+
+Desserts, mostly, because they are the easiest thing to make well without heat.
+Salame di cioccolato, tiramisù, no bake cheesecake, chocolate salami, fruit with lemon
+and sugar. Sometimes a savoury thing that needs nothing but a bowl and a knife.
+The [recipes page](recipes.qmd) has the full list.
+
 ### What does it cost?
 
-Nothing to attend. Your only expense is the ingredients for the dish you bring —
-in practice a few euro. There is no membership, no fee, no collection at the door.
+Nothing to attend. There is no membership, no fee and no collection at the door.
 
 ### I genuinely cannot cook. Is that a problem?
 
-No. The name means *cooks without fires* — half the club has no working kitchen.
-See the [recipes page](recipes.qmd) for things that need no oven, no hob and no skill.
-Buying something ready-made is completely fine and very common.
+It is closer to a qualification. The name means cooks without fires, and half the club
+has no working kitchen. Every recipe is chosen so that somebody who has never made
+anything in their life can do it in a group, first try.
 
 ### Do I need to bring a friend?
 
-Most people come alone. That is the normal way to arrive and nobody will find it odd —
-the whole point is that you don't know anyone yet.
+Most people come alone. That is the normal way to arrive and nobody will find it odd,
+because the whole point is that you don't know anyone yet.
 
 ### What language is spoken?
 
-Both Italian and English, usually in the same sentence. If your Italian is at
-*"un caffè, per favore"* level, you will still have a good evening.
+Both Italian and English, usually in the same sentence. If your Italian stops at
+*"un caffè, per favore"* you will still have a good evening.
 
-### I have allergies / I'm vegetarian / I don't drink
+### I have allergies, or I'm vegetarian, or I'm vegan
 
-Tell us when you sign up and we'll flag it to the group. Dishes get labelled on
-the table. There is always plenty without meat, and nobody tracks what you drink.
+Tell us when you sign up. It changes what gets bought, so it genuinely helps to know
+in advance rather than on the night. There is almost always a version that works.
 
 ### How many people come?
 
-Usually between ten and twenty. Big enough that you have options, small enough
-that you actually talk to people rather than shout over music.
+Usually between ten and twenty. Big enough that you have options, small enough that
+you actually talk to people rather than shout over music.
 
 ### How often does it happen?
 
-Roughly once a month, in the evening, in someone's flat or a shared common room
-in Padova. Dates go out to the list a couple of weeks ahead.
+Roughly once a month, in the evening, in somebody's flat or a shared common room in
+Padova. Dates go out on the social accounts a couple of weeks ahead.
 
 ### Is this a networking thing?
 
-No. People do end up helping each other find flats, jobs and doctors, but that
-happens the way it happens between neighbours — as a side effect, not the agenda.
+No. People do end up helping each other find flats, jobs and doctors, but that happens
+the way it happens between neighbours: as a side effect, not as the agenda.
+:::
+
+::: {.csf-quote}
+Housing is solvable. **Loneliness is the expensive part.**
+
+<cite>the idea behind Cuochi senza fuochi, March 2022</cite>
 :::
 
 ::: {.csf-section}
 <p class="csf-section__kicker">Why we bother</p>
-<h2 class="csf-section__title">Housing is solvable. Loneliness is the expensive part.</h2>
+<h2 class="csf-section__title">You can rent a room. You cannot rent the people.</h2>
 
 <p class="csf-section__sub">
-When you move somewhere new, you sort out a room and a commute within weeks.
-Those two things guarantee the financial capital. Human capital is the one nobody
-hands you a contract for — and working or studying full-time leaves very little
-room to build it.
+When you move somewhere new, you sort out a room and a commute within weeks. Those two
+things guarantee the financial capital. Human capital is the one nobody hands you a
+contract for, and working or studying full time leaves very little room to build it.
 </p>
 
 Cuochi senza fuochi exists because the usual alternatives don't work for everyone.
 Bars cost money every single time. Clubs are loud and you meet no one. Apps put you
-back on a screen. A shared table costs the price of one dish and it puts you in a
-room with people who live a ten-minute walk away — the ones you can actually keep seeing.
+back on a screen. Standing around a table making a dessert costs nothing, and it puts
+you in a room with people who live ten minutes away: the ones you can actually keep seeing.
 
 ::: {.csf-tags}
 - New in Padova
-- Erasmus & exchange
+- Erasmus and exchange
 - PhD students and researchers
 - Started a job here
 - Lived here for years and want a wider table
@@ -123,8 +142,8 @@ room with people who live a ten-minute walk away — the ones you can actually k
 Tell us you're coming and we'll send you the address.
 
 ::: {.csf-actions}
-[Join the next dinner](join.qmd){.csf-btn .csf-btn--primary}
-[See past events](events.qmd){.csf-btn .csf-btn--ghost}
+[Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
+[See past sessions](events.qmd){.csf-btn .csf-btn--ghost}
 :::
 
 <div class="csf-follow">

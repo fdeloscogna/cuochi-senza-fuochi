@@ -1,7 +1,7 @@
 ---
 title: "Our story"
-pagetitle: "Our story"
-description: "How a potluck between neighbours in Padova started in March 2022, and why it kept going."
+pagetitle: "Our story, Cuochi senza fuochi"
+description: "How a group of people in Padova started making desserts without a kitchen in March 2022, and why it kept going."
 page-layout: full
 title-block-style: none
 ---
@@ -9,76 +9,81 @@ title-block-style: none
 ::: {.csf-hero}
 <p class="csf-hero__eyebrow">Since March 2022</p>
 
-<h1 class="csf-hero__title">It started because nobody knew their <em>neighbours</em></h1>
+<h1 class="csf-hero__title">It started because nobody had a <em>kitchen</em></h1>
 
 <p class="csf-hero__lede">
-Cuochi senza fuochi began in March 2022 as a dinner between people who lived in the
-same few streets in Padova and had never spoken to each other.
+Cuochi senza fuochi began in March 2022 between people who lived in the same few
+streets in Padova, had never spoken to each other, and between them owned about one
+working oven.
 </p>
 :::
 
 ::: {.csf-section}
 <h2 class="csf-section__title">The problem we noticed</h2>
 
-Arriving in a new city follows a script. You find a room you can afford. You work
-out how to get to the university or the office. Both of those get solved in the
-first month, because both of them have a market, a price and a contract.
+Arriving in a new city follows a script. You find a room you can afford. You work out
+how to get to the university or the office. Both of those get solved in the first month,
+because both of them have a market, a price and a contract.
 
 Then the script runs out. There is no listing site for *people who live near you and
-would also like someone to eat with*. Full-time work or a full course load leaves
-almost no room to go looking, and the standard options are worse than they sound:
-bars charge you every time, clubs are too loud to talk in, and apps hand you back
-the same screen you were trying to get away from.
+would also like some company*. Full time work or a full course load leaves almost no
+room to go looking, and the standard options are worse than they sound: bars charge you
+every time, clubs are too loud to talk in, and apps hand you back the same screen you
+were trying to get away from.
 
-So the format was deliberately kept as simple as possible: **one table, one dish each,
-somebody's flat, no money changing hands.**
+So the format was kept as simple as it could possibly be. **One table, one recipe,
+somebody's flat, no money changing hands, and nothing that needs to be switched on.**
 
 ::: {.csf-quote}
-With a room and a commute, the capital is guaranteed. But what about human capital?
-Is it easy to find new like-minded people? Working full-time makes it too hard.
+With a room and a commute, the capital is guaranteed. But what about **human capital**?
+Is it easy to find new like minded people? Working full time makes it too hard.
 
-<cite>— the note that started the whole thing, March 2022</cite>
+<cite>the note that started the whole thing, March 2022</cite>
 :::
 :::
 
 ::: {.csf-section}
-<h2 class="csf-section__title">Why "cooks without fires"</h2>
+<h2 class="csf-section__title">Why cooks without fires</h2>
 
-Because none of us had a real kitchen. Student rooms and shared flats come with two
-hobs that half work, no oven, and a fridge shared between five people. That could
-have been the reason not to do it. Instead it became the constraint that defined it:
-if the dish needs no fire, everyone can take part, including the person who has
-never cooked anything in their life.
+Because none of us had a real kitchen. Student rooms and shared flats come with two hobs
+that half work, no oven, and a fridge shared between five people. That could have been
+the reason not to do it. Instead it became the constraint that defined the whole thing:
+if the recipe needs no fire, then everybody can take part, including the person who has
+never made anything in their life.
 
-It also keeps the door genuinely open. The barrier to entry is a bar of chocolate.
+It also settles the question of what to make. Desserts are the category where cooking
+without heat stops being a compromise, so that is mostly what we do: things that get
+crushed, whipped, layered and left in a fridge.
+
+And it keeps the door genuinely open. The barrier to entry is turning up.
 :::
 
 ::: {.csf-section}
-<h2 class="csf-section__title">What it is — and what it isn't</h2>
+<h2 class="csf-section__title">What it is, and what it isn't</h2>
 
 ::: {.csf-grid}
 ::: {.csf-card}
-<span class="csf-card__icon">✅</span>
+<span class="csf-card__icon"><i class="bi bi-people"></i></span>
 
 ### It is
-A recurring free potluck in Padova, mostly for people who arrived recently for
-work or study, hosted in flats and shared common rooms, roughly monthly.
+A free, roughly monthly gathering in Padova where a group makes a dessert or an easy
+recipe together without an oven, mostly for people who arrived recently for work or study.
 :::
 
 ::: {.csf-card}
-<span class="csf-card__icon">🚫</span>
+<span class="csf-card__icon"><i class="bi bi-fire"></i></span>
 
 ### It isn't
-A restaurant, a cooking class, a networking event, a dating app, or a business.
-Nobody is paid and nobody pays.
+A potluck, a restaurant, a paid cooking class, a networking event, a dating app or a
+business. Nobody is paid and nobody pays. You do not bring a dish.
 :::
 
 ::: {.csf-card}
-<span class="csf-card__icon">🤝</span>
+<span class="csf-card__icon"><i class="bi bi-heart"></i></span>
 
 ### What comes out of it
-Neighbours. People do end up passing on flat leads, job tips and a good dentist —
-but that happens the way it happens between neighbours, not because it's the agenda.
+Neighbours. People do end up passing on flat leads, job tips and the name of a good
+dentist, but that happens the way it happens between neighbours, not because it is the agenda.
 :::
 :::
 :::
@@ -86,22 +91,22 @@ but that happens the way it happens between neighbours, not because it's the age
 ::: {.csf-section}
 <h2 class="csf-section__title">Who runs it</h2>
 
-A small rotating group of people who have been coming since the start. Whoever has
-space that month hosts; everyone else brings food. There is no committee, and there
-is nothing to join beyond turning up.
+A small rotating group of people who have been coming since the start. Whoever has the
+space that month hosts and does the shopping; everybody else turns up. There is no
+committee, and there is nothing to join beyond arriving.
 
-If you have a flat with a big enough table and you'd like to host one, tell us —
-that is how the next few dinners get scheduled.
+If you have a flat with a big enough table and a fridge with room in it, tell us. That
+is how the next few sessions get scheduled.
 :::
 
 ::: {.csf-band}
 ## Come and see for yourself
 
-Reading about a potluck is a poor substitute for sitting at one.
+Reading about it is a poor substitute for standing at the table with a bowl.
 
 ::: {.csf-actions}
-[Join the next dinner](join.qmd){.csf-btn .csf-btn--primary}
-[Photos from past events](events.qmd){.csf-btn .csf-btn--ghost}
+[Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
+[Photos from past sessions](events.qmd){.csf-btn .csf-btn--ghost}
 :::
 
 <div class="csf-follow">

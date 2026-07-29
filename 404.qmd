@@ -1,6 +1,6 @@
 ---
 title: "Page not found"
-pagetitle: "Page not found"
+pagetitle: "Page not found, Cuochi senza fuochi"
 page-layout: full
 title-block-style: none
 ---
@@ -11,11 +11,11 @@ title-block-style: none
 <h1 class="csf-hero__title">This page went the way of the <em>leftovers</em></h1>
 
 <p class="csf-hero__lede">
-Nothing here. The dinners, though, are still happening.
+Nothing here. The sessions, though, are still happening.
 </p>
 
 ::: {.csf-actions}
 [Back to the start](index.qmd){.csf-btn .csf-btn--primary}
-[Join the next dinner](join.qmd){.csf-btn .csf-btn--ghost}
+[Come to the next one](join.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::

@@ -12,7 +12,7 @@ project:
     - join.qmd
     - about.qmd
     - 404.qmd
-    # only the individual event posts — events.qmd is the single events index,
+    # only the individual event posts. events.qmd is the single events index,
     # so the old nested posts/event/index.qmd is deliberately not rendered
     - posts/event/photo/*/index.qmd
   # Old drafts from a different project, kept on disk but not published:
@@ -20,14 +20,14 @@ project:
 
 website:
   title: "Cuochi senza fuochi"
-  description: "A free potluck club in Padova. Bring one dish, meet your neighbours. No kitchen skills needed."
+  description: "A free club in Padova where we make desserts and easy recipes together, without an oven and without a kitchen."
   site-url: "https://fdeloscogna.github.io/cuochi-senza-fuochi/"
   favicon: images/logo.jpg
   open-graph: true
   twitter-card: true
 
   navbar:
-    # the logo is a wide script wordmark — illegible at navbar height,
+    # the logo is a wide script wordmark, illegible at navbar height,
     # so it lives in the homepage hero instead and the navbar uses text
     title: "Cuochi senza fuochi"
     pinned: false
@@ -36,9 +36,9 @@ website:
         href: index.qmd
       - text: "How it works"
         href: how-it-works.qmd
-      - text: "Events"
+      - text: "Sessions"
         href: events.qmd
-      - text: "Recipes"
+      - text: "What we make"
         href: recipes.qmd
       - text: "Our story"
         href: about.qmd
@@ -58,14 +58,14 @@ website:
 
   page-footer:
     left: |
-      **Cuochi senza fuochi** — a free potluck club in Padova.
-      Bring one dish, meet your neighbours. Since March 2022.
+      **Cuochi senza fuochi.** We make desserts without a kitchen, in Padova.
+      Free, monthly, since March 2022.
     center:
       - text: "How it works"
         href: how-it-works.qmd
-      - text: "Events"
+      - text: "Sessions"
         href: events.qmd
-      - text: "Recipes"
+      - text: "What we make"
         href: recipes.qmd
       - text: "Join us"
         href: join.qmd
@@ -87,9 +87,12 @@ format:
     theme: cosmo
     # plain CSS, loaded after the Bootstrap theme (not an scss layer)
     css: styles.css
+    # Quarto otherwise builds <title> as "page title EN-DASH site title".
+    # Every pagetitle below already names the club, and we want no dashes anywhere.
+    title-prefix: ""
     toc: false
     anchor-sections: true
     smooth-scroll: true
     link-external-newwindow: true
     grid:
-      body-width: 1000px
+      body-width: 1140px

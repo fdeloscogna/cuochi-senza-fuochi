@@ -1,20 +1,20 @@
 ---
 title: "Join us"
-pagetitle: "Join the next dinner"
-description: "Free to attend, no cooking skill needed, come on your own. Send one message on Instagram, TikTok or YouTube to get on the list for the next Cuochi senza fuochi dinner in Padova."
+pagetitle: "Come to the next Cuochi senza fuochi session"
+description: "Free to attend, nothing to bring, nothing to cook beforehand. Send one message on Instagram, TikTok or YouTube to come to the next Cuochi senza fuochi session in Padova."
 page-layout: full
 title-block-style: none
 ---
 
 ::: {.csf-hero}
-<p class="csf-hero__eyebrow">Free · Padova · come alone</p>
+<p class="csf-hero__eyebrow">Free · Padova · come on your own</p>
 
 <h1 class="csf-hero__title">Say you're coming.<br>That's the <em>whole</em> process.</h1>
 
 <p class="csf-hero__lede">
-There is no application, no form and no fee. Send us one message on any of the three
-accounts below and you'll get back the address, the date, and an idea of how many
-people to bring food for.
+No application, no form, no fee. Send one message to any of the three accounts below
+and you'll get back the address, the time and what we're making.
+<strong>You bring nothing.</strong>
 </p>
 
 <div class="csf-follow">
@@ -29,8 +29,8 @@ people to bring food for.
 <p class="csf-section__kicker">Get in touch</p>
 <h2 class="csf-section__title">Pick whichever is easiest</h2>
 <p class="csf-section__sub">
-All three reach the same handful of people, so there is no wrong one.
-A DM saying <em>"I'm new in Padova, I'd like to come"</em> is genuinely enough.
+All three reach the same handful of people, so there is no wrong one. A message saying
+<em>"I'm new in Padova, I'd like to come"</em> is genuinely enough.
 </p>
 
 <div class="csf-social">
@@ -38,22 +38,22 @@ A DM saying <em>"I'm new in Padova, I'd like to come"</em> is genuinely enough.
     <span class="csf-social__icon"><i class="bi bi-instagram"></i></span>
     <span class="csf-social__name">Instagram</span>
     <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
-    <span class="csf-social__note">The quickest reply, and where the next date goes up first. Send a DM.</span>
-    <span class="csf-social__cta">Send a DM →</span>
+    <span class="csf-social__note">The quickest reply, and where the next date goes up first.</span>
+    <span class="csf-social__cta">Send a message</span>
   </a>
   <a class="csf-social__card csf-social__card--tt" href="https://www.tiktok.com/@cuochi_senza_fuochi">
     <span class="csf-social__icon"><i class="bi bi-tiktok"></i></span>
     <span class="csf-social__name">TikTok</span>
     <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
-    <span class="csf-social__note">Watch a clip of a real dinner first, then comment or message us.</span>
-    <span class="csf-social__cta">Watch &amp; message →</span>
+    <span class="csf-social__note">Watch a recipe come together first, then comment or message us.</span>
+    <span class="csf-social__cta">Watch and message</span>
   </a>
   <a class="csf-social__card csf-social__card--yt" href="https://www.youtube.com/@cuochisenzafuochi">
     <span class="csf-social__icon"><i class="bi bi-youtube"></i></span>
     <span class="csf-social__name">YouTube</span>
     <span class="csf-social__handle">&#64;cuochisenzafuochi</span>
-    <span class="csf-social__note">Longer videos from past evenings. Comments get read and answered.</span>
-    <span class="csf-social__cta">Leave a comment →</span>
+    <span class="csf-social__note">Longer videos from past sessions. Comments get read and answered.</span>
+    <span class="csf-social__cta">Leave a comment</span>
   </a>
 </div>
 :::
@@ -64,33 +64,33 @@ A DM saying <em>"I'm new in Padova, I'd like to come"</em> is genuinely enough.
 
 ::: {.csf-steps}
 - ### Tell us about food
-  Allergies, vegetarian, vegan, anything you can't eat. We pass it to the group
-  and dishes get labelled.
+  Allergies, vegetarian, vegan, anything you can't eat. This one matters, because it
+  changes what gets bought for the recipe. Say it when you sign up, not on the night.
 
-- ### Decide what to bring
-  One dish for 4–6 people. Stuck? The [recipes page](recipes.qmd) has options
-  that need no oven and no talent.
+- ### Don't cook anything
+  Worth repeating: this is not a potluck. The shopping is done for you and everything
+  is on the table when you arrive.
 
-- ### Bring a container
-  For your dish, and for leftovers. There are always leftovers, and they are
-  always good.
+- ### Bring a container if you like
+  Only for leftovers. There are usually leftovers, and they are usually the best part
+  of the following morning.
 
-- ### Come on time-ish
-  The first half hour is when introductions happen. Arriving with everyone
-  else is easier than arriving late to a full room.
+- ### Come roughly on time
+  The first half hour is when the recipe gets started and when everybody introduces
+  themselves. Arriving with everyone else is easier than arriving late to a full room.
 :::
 :::
 
 ::: {.csf-quote}
-Avoid the clubs you don't enjoy anyway. To meet new brains, just bring some chocolate with you.
+Avoid the clubs you don't enjoy anyway. To meet new brains, just turn up and start crushing biscuits.
 
-<cite>— the founding principle, more or less</cite>
+<cite>the founding principle, more or less</cite>
 :::
 
 ::: {.csf-band}
 ## One message and you're in
 
-No forms, no fee, no need to know anybody already there.
+No forms, no fee, nothing to carry, and no need to know anybody already there.
 
 <div class="csf-follow">
   <span class="csf-follow__label">Message us:</span>
@@ -100,6 +100,6 @@ No forms, no fee, no need to know anybody already there.
 </div>
 
 ::: {.csf-actions}
-[See what a dinner looks like](events.qmd){.csf-btn .csf-btn--ghost}
+[See what a session looks like](events.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::
