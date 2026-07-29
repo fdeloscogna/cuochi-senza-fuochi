@@ -1,5 +1,5 @@
 ---
-title: "Join us"
+title: "Join in"
 pagetitle: "Come to the next Cuochi senza fuochi session"
 description: "Free to attend, nothing to bring, nothing to cook beforehand. Send one message on Instagram, TikTok or YouTube to come to the next Cuochi senza fuochi session in Padova."
 page-layout: full
@@ -13,12 +13,12 @@ title-block-style: none
 
 <p class="csf-hero__lede">
 No application, no form, no fee. Send one message to any of the three accounts below
-and you'll get back the address, the time and what we're making.
+and back comes the address, the time and the recipe for that evening.
 <strong>You bring nothing.</strong>
 </p>
 
 <div class="csf-follow">
-  <span class="csf-follow__label">Message us:</span>
+  <span class="csf-follow__label">Say hello:</span>
   <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi on Instagram"><i class="bi bi-instagram"></i> Instagram</a>
   <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi on TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
   <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>
@@ -45,7 +45,7 @@ All three reach the same handful of people, so there is no wrong one. A message 
     <span class="csf-social__icon"><i class="bi bi-tiktok"></i></span>
     <span class="csf-social__name">TikTok</span>
     <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
-    <span class="csf-social__note">Watch a recipe come together first, then comment or message us.</span>
+    <span class="csf-social__note">Watch a recipe come together first, then comment or send a message.</span>
     <span class="csf-social__cta">Watch and message</span>
   </a>
   <a class="csf-social__card csf-social__card--yt" href="https://www.youtube.com/@cuochisenzafuochi">
@@ -63,7 +63,7 @@ All three reach the same handful of people, so there is no wrong one. A message 
 <h2 class="csf-section__title">Before you come</h2>
 
 ::: {.csf-steps}
-- ### Tell us about food
+- ### Say something about food
   Allergies, vegetarian, vegan, anything you can't eat. This one matters, because it
   changes what gets bought for the recipe. Say it when you sign up, not on the night.
 
@@ -93,7 +93,7 @@ Avoid the clubs you don't enjoy anyway. To meet new brains, just turn up and sta
 No forms, no fee, nothing to carry, and no need to know anybody already there.
 
 <div class="csf-follow">
-  <span class="csf-follow__label">Message us:</span>
+  <span class="csf-follow__label">Say hello:</span>
   <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi on Instagram"><i class="bi bi-instagram"></i> Instagram</a>
   <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi on TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
   <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>

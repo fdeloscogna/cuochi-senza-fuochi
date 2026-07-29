@@ -1,7 +1,7 @@
 ---
 title: "Cuochi senza fuochi"
 pagetitle: "Cuochi senza fuochi, a free no kitchen baking club in Padova"
-description: "We meet up in Padova and make desserts and easy recipes together, without an oven and without a kitchen. Free, no skill needed, come on your own."
+description: "A free club in Padova for making desserts and easy recipes together, without an oven and without a kitchen. Nothing to bring, no skill needed, come on your own."
 page-layout: full
 title-block-style: none
 listing:
@@ -21,13 +21,13 @@ listing:
 ::: {.csf-hero__body}
 <p class="csf-hero__eyebrow">Padova · free · no kitchen needed</p>
 
-<h1 class="csf-hero__title">We make dessert.<br>Without a <em>kitchen</em>.</h1>
+<h1 class="csf-hero__title">Make dessert.<br>Without a <em>kitchen</em>.</h1>
 
 <p class="csf-hero__lede">
-<strong>Cuochi senza fuochi means cooks without fires.</strong> We get a group together in
-Padova and make desserts and easy recipes on the spot: no oven, no hob, nothing that
-needs a real kitchen. The ingredients are waiting when you arrive. You learn something
-you can make again in your own room, and then everybody eats it.
+<strong>Cuochi senza fuochi means cooks without fires.</strong> About fifteen people get
+together in Padova and make desserts and easy recipes on the spot: no oven, no hob,
+nothing that needs a real kitchen. The ingredients are already there when you arrive.
+You pick up a recipe you can redo in your own room, and then everyone eats the result.
 </p>
 
 ::: {.csf-actions}
@@ -70,22 +70,23 @@ you can make again in your own room, and then everybody eats it.
 <p class="csf-section__sub">Four steps, with nothing hidden between them. This is the whole format.</p>
 
 ::: {.csf-steps}
-- ### You say you're coming
-  One message on Instagram, TikTok or YouTube. We send back the address, the time,
-  and what we're making.
+- ### Say you're coming
+  One message on Instagram, TikTok or YouTube is enough. Back comes the address, the
+  time, and the recipe for that evening.
 
-- ### You turn up empty handed
-  This is the part people get wrong. You do not cook anything beforehand and you do
-  not bring a dish. Everything is already on the table when you walk in.
+- ### Turn up empty handed
+  This is the part people get wrong. Nothing gets cooked beforehand and nobody brings
+  a dish. Everything is already on the table when you walk in.
 
-- ### We make it together
-  Someone talks the group through a recipe that needs no oven and no hob. Salame di
-  cioccolato, tiramisù, a no bake cheesecake. You do the mixing, the crushing and the
-  rolling, standing up, talking to whoever is next to you.
+- ### Everyone makes it together
+  Somebody talks the group through a recipe that needs no oven and no hob. Salame di
+  cioccolato, tiramisù, a no bake cheesecake. The mixing, the crushing and the rolling
+  get shared out, standing up, talking to whoever is next to you.
 
-- ### Then we eat it
-  It goes in the fridge, we wait, we eat the whole thing. You leave knowing a recipe
-  you can repeat in a room with no kitchen, and knowing the people you made it with.
+- ### Then everyone eats it
+  It goes in the fridge, everybody waits, and then the whole thing disappears. You
+  leave with a recipe you can repeat in a room with no kitchen, and with the numbers
+  of the people you made it with.
 :::
 :::
 
@@ -98,26 +99,26 @@ you can make again in your own room, and then everybody eats it.
 <span class="csf-card__icon"><i class="bi bi-fire"></i></span>
 
 ### Senza fuochi, without fires
-The name is the promise. Student rooms come with two hobs that half work, no oven,
-and a fridge shared between five people. Every recipe we make is built for exactly
-that, so nobody is ever excluded by their kitchen.
+The name is the promise. Student rooms come with two hobs that half work, no oven, and
+a fridge shared between five people. Every recipe here is built for exactly that, so
+nobody is ever excluded by their kitchen.
 :::
 
 ::: {.csf-card}
 <span class="csf-card__icon"><i class="bi bi-piggy-bank"></i></span>
 
 ### Cheaper than one drink
-Taking part costs you nothing. Meeting people in this city usually means a bar tab
-or a club entry, every single time. This is the version you can afford every month.
+Taking part costs nothing. Meeting people in this city usually means a bar tab or a
+club entry, every single time. This is the version you can afford every month.
 :::
 
 ::: {.csf-card}
 <span class="csf-card__icon"><i class="bi bi-wifi-off"></i></span>
 
 ### Offline, on purpose
-No app, no swiping, no feed. Fifteen people, one table, phones face down and your
-hands covered in crushed biscuit. It turns out that talking is easier when you are
-both busy doing something else.
+No app, no swiping, no feed. Fifteen people, one table, phones face down and everyone's
+hands covered in crushed biscuit. It turns out that talking is easier when you are both
+busy doing something else.
 :::
 :::
 :::
@@ -129,19 +130,19 @@ Housing is solvable. **Loneliness is the expensive part.**
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">Why we bother</p>
+<p class="csf-section__kicker">Why this exists</p>
 <h2 class="csf-section__title">You can rent a room. You cannot rent the people.</h2>
 
 <p class="csf-section__sub">
-When you move somewhere new, you sort out a room and a commute within weeks. Those
-two things guarantee the financial capital. Human capital is the one nobody hands you
-a contract for, and working or studying full time leaves very little room to build it.
+When you move somewhere new, you sort out a room and a commute within weeks. Those two
+things guarantee the financial capital. Human capital is the one nobody hands you a
+contract for, and working or studying full time leaves very little room to build it.
 </p>
 
-Cuochi senza fuochi exists because the usual alternatives don't work for everyone.
-Bars cost money every single time. Clubs are loud and you meet no one. Apps put you
-back on a screen. Standing around a table making a dessert costs nothing, and it puts
-you in a room with people who live ten minutes away: the ones you can actually keep seeing.
+Cuochi senza fuochi exists because the usual alternatives don't work for everyone. Bars
+cost money every single time. Clubs are loud and you meet no one. Apps put you back on
+a screen. Standing around a table making a dessert costs nothing, and it puts you in a
+room with people who live ten minutes away: the ones you can actually keep seeing.
 
 ::: {.csf-tags}
 - New in Padova
@@ -190,7 +191,7 @@ commit, start here. A message on any of the three is also a perfectly good way t
     <span class="csf-social__icon"><i class="bi bi-youtube"></i></span>
     <span class="csf-social__name">YouTube</span>
     <span class="csf-social__handle">&#64;cuochisenzafuochi</span>
-    <span class="csf-social__note">Longer cuts, and the full recipes you can redo with no oven.</span>
+    <span class="csf-social__note">Longer cuts, and the full recipes anyone can redo with no oven.</span>
     <span class="csf-social__cta">Subscribe</span>
   </a>
 </div>
@@ -200,11 +201,11 @@ commit, start here. A message on any of the three is also a perfectly good way t
 ## Next session: just turn up
 
 You don't need to know anyone. You don't need to cook. You don't need to bring
-anything. Most people at their first Cuochi senza fuochi came on their own, and
-that is the normal way to arrive.
+anything. Most people at their first Cuochi senza fuochi came on their own, and that
+is the normal way to arrive.
 
 ::: {.csf-actions}
 [Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
-[What we make](recipes.qmd){.csf-btn .csf-btn--ghost}
+[The recipes](recipes.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::

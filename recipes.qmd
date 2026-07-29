@@ -1,7 +1,7 @@
 ---
-title: "What we make"
-pagetitle: "What we make at Cuochi senza fuochi: no oven recipes"
-description: "The recipes we make together at Cuochi senza fuochi. Desserts and easy dishes that need no oven, no hob and no real kitchen, so you can repeat them in any room."
+title: "The recipes"
+pagetitle: "The recipes at Cuochi senza fuochi: no oven, no hob"
+description: "The recipes made together at Cuochi senza fuochi. Desserts and easy dishes that need no oven, no hob and no real kitchen, so you can repeat them in any room."
 page-layout: full
 title-block-style: none
 ---
@@ -12,7 +12,7 @@ title-block-style: none
 <h1 class="csf-hero__title">Everything here can be made in a <em>bedroom</em></h1>
 
 <p class="csf-hero__lede">
-These are the recipes we make together at a session, and they are all deliberately
+These are the recipes that get made together at a session, and they are all
 chosen for the same reason: a bowl, a knife and a fridge is the entire equipment list.
 Take any of them home and you can do it again on your own.
 </p>
@@ -35,7 +35,7 @@ advantage. Almost nothing good in this category was ever baked.
 <span class="csf-card__icon"><i class="bi bi-cookie"></i></span>
 
 ### Salame di cioccolato
-The one we make most. Crush dry biscuits in a bag, melt dark chocolate with butter,
+The one that comes up most. Crush dry biscuits in a bag, melt dark chocolate with butter,
 mix with a little sugar, roll it into a log in baking paper and put it in the fridge
 for two hours. It slices like a salami and it never fails.
 :::
@@ -84,7 +84,7 @@ a recipe, more a reliable way to end an evening.
 :::
 
 ::: {.csf-section}
-<h2 class="csf-section__title">Savoury, when we want something before the sugar</h2>
+<h2 class="csf-section__title">Savoury, for before the sugar</h2>
 <p class="csf-section__sub">
 Same rule applies. Nothing here goes near a flame.
 </p>
@@ -131,7 +131,7 @@ one of the first things to disappear.
 - **Everything survives being made by fifteen people at once.** Recipes that need
   precision or timing do not work in a room full of people talking.
 - **The steps split up.** Somebody crushes, somebody melts, somebody rolls. If a recipe
-  can only be done by one pair of hands, it is a bad recipe for us.
+  can only be done by one pair of hands, it is the wrong recipe for a group.
 - **You can repeat it alone.** Every one of these is doable in a bedroom with a fridge
   down the hall, which is the whole point of the club.
 :::

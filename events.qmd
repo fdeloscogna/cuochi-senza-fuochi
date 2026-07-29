@@ -23,7 +23,7 @@ listing:
 ::: {.csf-hero}
 <p class="csf-hero__eyebrow">The archive</p>
 
-<h1 class="csf-hero__title">Every table we've <em>filled</em> so far</h1>
+<h1 class="csf-hero__title">Every table <em>filled</em> so far</h1>
 
 <p class="csf-hero__lede">
 Photos and short notes from past sessions. Have a scroll if you want to know exactly
@@ -48,10 +48,10 @@ what you would be walking into before you commit to an evening.
 ::: {.csf-band}
 ## Want to be in the next set of photos?
 
-Turn up with empty hands. We'll handle the rest.
+Turn up with empty hands. Everything else is already handled.
 
 ::: {.csf-actions}
 [Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
-[What we make](recipes.qmd){.csf-btn .csf-btn--ghost}
+[The recipes](recipes.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::

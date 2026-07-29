@@ -16,7 +16,7 @@ draft: false
 
 Almost everybody in this photo had met for the first time about two hours earlier.
 
-The venue is what we usually get: a borrowed common room, tables pushed where they fit,
+The venue is the usual: a borrowed common room, tables pushed where they fit,
 chairs dragged in from next door. Everything on those tables arrived as shopping and got
 turned into something by the people standing around it. Nothing was switched on all evening.
 
@@ -27,6 +27,6 @@ biscuits to crush, and an hour later there is dessert.
 People stayed standing and talking long after the plates were empty, which is the part
 that actually matters.
 
-This is what we mean when we say *come on your own*. It is the normal way to arrive.
+This is what *come on your own* means in practice. It is the normal way to arrive.
 
-[What we make](../../../../recipes.qmd) &nbsp;·&nbsp; [Come to the next one](../../../../join.qmd)
+[The recipes](../../../../recipes.qmd) &nbsp;·&nbsp; [Come to the next one](../../../../join.qmd)

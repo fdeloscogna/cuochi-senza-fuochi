@@ -1,31 +1,35 @@
 /* ============================================================
    Cuochi senza fuochi, design system
 
-   Direction: clean and photo forward. White surfaces, hairline
-   rules instead of drop shadows, large confident type, real line
-   icons (Bootstrap Icons) instead of emoji. Photographs carry the
-   page; colour is used sparingly.
+   Direction: clean and photo forward, on a warm kitchen palette.
+   Cream paper rather than white, espresso brown rather than black,
+   burnt orange as the accent and pistachio as a second one.
+   Hairline rules instead of drop shadows, large confident type,
+   real line icons (Bootstrap Icons) instead of emoji.
    ============================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  /* surfaces: near white, with one barely warm tint for alternating bands */
-  --csf-white:      #FFFFFF;
-  --csf-paper:      #FDFBF8;
+  /* surfaces. --csf-white is the lightest warm tone, not pure white: it lifts
+     the navbar off the page and reads as warm white on the espresso blocks. */
+  --csf-white:      #FFFAF0;
+  --csf-paper:      #FAF1E0;
 
-  /* ink */
-  --csf-ink:        #16130F;
-  --csf-ink-soft:   #574F46;
-  --csf-ink-faint:  #8A8177;
+  /* ink: espresso brown rather than black, so nothing on the page is neutral */
+  --csf-ink:        #2E1F16;
+  --csf-ink-soft:   #5E4B3C;
+  --csf-ink-faint:  #907E6C;
 
-  /* a single accent, taken from the flame in the logo */
+  /* the accent is the flame in the logo */
   --csf-accent:     #C1440E;
   --csf-accent-dk:  #9A3409;
+  /* a second accent, used for the card icons and the small hero markers */
+  --csf-pistachio:  #6B7F5B;
 
   /* hairlines do the work that shadows used to */
-  --csf-line:       rgba(22, 19, 15, 0.13);
-  --csf-line-firm:  rgba(22, 19, 15, 0.26);
+  --csf-line:       rgba(46, 31, 22, 0.16);
+  --csf-line-firm:  rgba(46, 31, 22, 0.32);
 
   --csf-radius:     10px;
   --csf-measure:    66ch;
@@ -100,7 +104,7 @@ strong { font-weight: 620; color: var(--csf-ink); }
    and search chrome default to white and vanish on our light surface. */
 .navbar .navbar-toggler {
   border-color: var(--csf-line);
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2316130F' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%232E1F16' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar .navbar-toggler:focus { box-shadow: 0 0 0 3px rgba(193, 68, 14, .3); }
 
@@ -299,7 +303,7 @@ main:has(.csf-hero) > #title-block-header { display: none; }
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: var(--csf-accent);
+  background: var(--csf-pistachio);
   flex: none;
 }
 
@@ -465,9 +469,9 @@ p.csf-section__sub {
 .csf-card__icon {
   display: block;
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 1;
-  color: var(--csf-accent);
+  color: var(--csf-pistachio);
 }
 .csf-card__icon .bi { line-height: 1; }
 

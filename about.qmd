@@ -1,6 +1,6 @@
 ---
-title: "Our story"
-pagetitle: "Our story, Cuochi senza fuochi"
+title: "How it started"
+pagetitle: "How Cuochi senza fuochi started"
 description: "How a group of people in Padova started making desserts without a kitchen in March 2022, and why it kept going."
 page-layout: full
 title-block-style: none
@@ -19,7 +19,7 @@ working oven.
 :::
 
 ::: {.csf-section}
-<h2 class="csf-section__title">The problem we noticed</h2>
+<h2 class="csf-section__title">The problem behind it</h2>
 
 Arriving in a new city follows a script. You find a room you can afford. You work out
 how to get to the university or the office. Both of those get solved in the first month,
@@ -45,14 +45,14 @@ Is it easy to find new like minded people? Working full time makes it too hard.
 ::: {.csf-section}
 <h2 class="csf-section__title">Why cooks without fires</h2>
 
-Because none of us had a real kitchen. Student rooms and shared flats come with two hobs
+Because nobody involved had a real kitchen. Student rooms and shared flats come with two hobs
 that half work, no oven, and a fridge shared between five people. That could have been
 the reason not to do it. Instead it became the constraint that defined the whole thing:
 if the recipe needs no fire, then everybody can take part, including the person who has
 never made anything in their life.
 
 It also settles the question of what to make. Desserts are the category where cooking
-without heat stops being a compromise, so that is mostly what we do: things that get
+without heat stops being a compromise, so that is mostly what happens: things that get
 crushed, whipped, layered and left in a fridge.
 
 And it keeps the door genuinely open. The barrier to entry is turning up.
@@ -95,7 +95,7 @@ A small rotating group of people who have been coming since the start. Whoever h
 space that month hosts and does the shopping; everybody else turns up. There is no
 committee, and there is nothing to join beyond arriving.
 
-If you have a flat with a big enough table and a fridge with room in it, tell us. That
+If you have a flat with a big enough table and a fridge with room in it, say so. That
 is how the next few sessions get scheduled.
 :::
 

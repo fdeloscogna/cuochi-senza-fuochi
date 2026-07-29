@@ -1,7 +1,7 @@
 ---
 title: "How it works"
 pagetitle: "How it works at Cuochi senza fuochi"
-description: "Everything a first timer needs to know: what we make, what it costs, who comes, and what happens when you get there. You bring nothing."
+description: "Everything a first timer needs to know: what gets made, what it costs, who comes, and what happens when you get there. You bring nothing."
 page-layout: full
 title-block-style: none
 ---
@@ -9,31 +9,32 @@ title-block-style: none
 ::: {.csf-hero}
 <p class="csf-hero__eyebrow">For first timers</p>
 
-<h1 class="csf-hero__title">You turn up.<br>We make it <em>together</em>.</h1>
+<h1 class="csf-hero__title">Turn up.<br>Make it <em>together</em>.</h1>
 
 <p class="csf-hero__lede">
-There is one thing worth saying twice, because everybody assumes the opposite:
-<strong>you do not cook anything beforehand and you do not bring a dish.</strong>
-You arrive with empty hands and we make something together on the spot.
+One thing is worth saying twice, because everybody assumes the opposite:
+<strong>nothing gets cooked beforehand and nobody brings a dish.</strong>
+You arrive with empty hands, and the whole group makes something together on the spot.
 </p>
 :::
 
 <h2 class="csf-section__title">The four steps</h2>
 
 ::: {.csf-steps}
-- ### Tell us you're coming
+- ### Say you're coming
   One message on [Instagram](https://www.instagram.com/cuochi_senza_fuochi/),
   [TikTok](https://www.tiktok.com/@cuochi_senza_fuochi) or
-  [YouTube](https://www.youtube.com/@cuochisenzafuochi) is enough. We reply with the
-  address, the time and what we're making.
+  [YouTube](https://www.youtube.com/@cuochisenzafuochi) is enough. Back comes the
+  address, the time and the recipe for that evening.
 
 - ### Turn up empty handed
-  Everything is already there: ingredients, bowls, a fridge. Whoever is hosting buys
+  Everything is already there: ingredients, bowls, a fridge. Whoever is hosting does
   the shopping, so all you have to do is find the door.
 
 - ### Make it together
-  Somebody walks the group through a recipe that needs no oven and no hob. You crush,
-  mix, roll and layer. It takes about an hour and nobody stands around watching.
+  Somebody walks the group through a recipe that needs no oven and no hob. Crushing,
+  mixing, rolling and layering all get shared out. It takes about an hour and nobody
+  stands around watching.
 
 - ### Eat the results
   Into the fridge, then onto the table. You leave with a recipe you can repeat in a
@@ -46,7 +47,7 @@ You arrive with empty hands and we make something together on the spot.
 
 ### How do I actually sign up?
 
-Send one message to any of our three accounts, they all reach the same people.
+Send one message to any of the three accounts, they all reach the same people.
 [Instagram](https://www.instagram.com/cuochi_senza_fuochi/) and
 [TikTok](https://www.tiktok.com/@cuochi_senza_fuochi) are both
 **&#64;cuochi_senza_fuochi**; [YouTube](https://www.youtube.com/@cuochisenzafuochi)
@@ -55,15 +56,15 @@ is **&#64;cuochisenzafuochi**. There is no form to fill in and nothing to pay.
 ### So I really don't bring anything?
 
 Really. This is not a potluck. Whoever hosts does the shopping for the recipe, and the
-cost per head is small enough that we don't collect it at the door. Turn up with your
+cost per head is small enough that nobody collects it at the door. Turn up with your
 hands free.
 
-### What do we actually make?
+### What actually gets made?
 
-Desserts, mostly, because they are the easiest thing to make well without heat.
-Salame di cioccolato, tiramisù, no bake cheesecake, chocolate salami, fruit with lemon
-and sugar. Sometimes a savoury thing that needs nothing but a bowl and a knife.
-The [recipes page](recipes.qmd) has the full list.
+Desserts, mostly, because they are the easiest thing to make well without heat. Salame
+di cioccolato, tiramisù, no bake cheesecake, chocolate mousse, fruit with lemon and
+sugar. Sometimes a savoury thing that needs nothing but a bowl and a knife. The
+[recipes page](recipes.qmd) has the full list.
 
 ### What does it cost?
 
@@ -87,8 +88,8 @@ Both Italian and English, usually in the same sentence. If your Italian stops at
 
 ### I have allergies, or I'm vegetarian, or I'm vegan
 
-Tell us when you sign up. It changes what gets bought, so it genuinely helps to know
-in advance rather than on the night. There is almost always a version that works.
+Say so when you sign up. It changes what gets bought, so it genuinely helps to know in
+advance rather than on the night. There is almost always a version that works.
 
 ### How many people come?
 
@@ -113,7 +114,7 @@ Housing is solvable. **Loneliness is the expensive part.**
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">Why we bother</p>
+<p class="csf-section__kicker">Why this exists</p>
 <h2 class="csf-section__title">You can rent a room. You cannot rent the people.</h2>
 
 <p class="csf-section__sub">
@@ -122,10 +123,10 @@ things guarantee the financial capital. Human capital is the one nobody hands yo
 contract for, and working or studying full time leaves very little room to build it.
 </p>
 
-Cuochi senza fuochi exists because the usual alternatives don't work for everyone.
-Bars cost money every single time. Clubs are loud and you meet no one. Apps put you
-back on a screen. Standing around a table making a dessert costs nothing, and it puts
-you in a room with people who live ten minutes away: the ones you can actually keep seeing.
+Cuochi senza fuochi exists because the usual alternatives don't work for everyone. Bars
+cost money every single time. Clubs are loud and you meet no one. Apps put you back on
+a screen. Standing around a table making a dessert costs nothing, and it puts you in a
+room with people who live ten minutes away: the ones you can actually keep seeing.
 
 ::: {.csf-tags}
 - New in Padova
@@ -139,7 +140,7 @@ you in a room with people who live ten minutes away: the ones you can actually k
 ::: {.csf-band}
 ## Ready for the next one?
 
-Tell us you're coming and we'll send you the address.
+One message is all it takes. The address comes back with it.
 
 ::: {.csf-actions}
 [Come to the next one](join.qmd){.csf-btn .csf-btn--primary}

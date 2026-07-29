@@ -20,7 +20,7 @@ project:
 
 website:
   title: "Cuochi senza fuochi"
-  description: "A free club in Padova where we make desserts and easy recipes together, without an oven and without a kitchen."
+  description: "A free club in Padova for making desserts and easy recipes together, without an oven and without a kitchen."
   site-url: "https://fdeloscogna.github.io/cuochi-senza-fuochi/"
   favicon: images/logo.jpg
   open-graph: true
@@ -38,12 +38,12 @@ website:
         href: how-it-works.qmd
       - text: "Sessions"
         href: events.qmd
-      - text: "What we make"
+      - text: "Recipes"
         href: recipes.qmd
-      - text: "Our story"
+      - text: "How it started"
         href: about.qmd
     right:
-      # social icons before the CTA so "Join us" stays the last, rightmost thing
+      # social icons before the CTA so "Join in" stays the last, rightmost thing
       - icon: instagram
         href: https://www.instagram.com/cuochi_senza_fuochi/
         aria-label: "Cuochi senza fuochi on Instagram"
@@ -53,23 +53,23 @@ website:
       - icon: youtube
         href: https://www.youtube.com/@cuochisenzafuochi
         aria-label: "Cuochi senza fuochi on YouTube"
-      - text: "Join us"
+      - text: "Join in"
         href: join.qmd
 
   page-footer:
     left: |
-      **Cuochi senza fuochi.** We make desserts without a kitchen, in Padova.
+      **Cuochi senza fuochi.** Desserts made without a kitchen, in Padova.
       Free, monthly, since March 2022.
     center:
       - text: "How it works"
         href: how-it-works.qmd
       - text: "Sessions"
         href: events.qmd
-      - text: "What we make"
+      - text: "Recipes"
         href: recipes.qmd
-      - text: "Join us"
+      - text: "Join in"
         href: join.qmd
-      - text: "Our story"
+      - text: "How it started"
         href: about.qmd
     right:
       - icon: instagram
