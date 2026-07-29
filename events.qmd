@@ -1,0 +1,50 @@
+---
+title: "Events"
+pagetitle: "Past dinners and photos"
+description: "Photos and short write-ups from past Cuochi senza fuochi dinners in Padova."
+page-layout: full
+title-block-style: none
+listing:
+  id: all-events
+  contents: posts/event/photo
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  image-height: 220px
+  # sidebar off: it squeezes the hero and adds little until there are many posts.
+  # Set to `true` once the archive grows. Card pills come from `fields` below.
+  categories: false
+  fields: [image, date, title, description, categories]
+  feed: true
+  sort-ui: false
+  filter-ui: false
+---
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow">The archive</p>
+
+<h1 class="csf-hero__title">Every table we've <em>filled</em> so far</h1>
+
+<p class="csf-hero__lede">
+Photos and short notes from past evenings. Scroll through if you want to know
+what you'd be walking into before you commit to a Tuesday night.
+</p>
+
+::: {.csf-actions}
+[Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
+:::
+:::
+
+::: {#all-events}
+:::
+
+::: {.csf-band}
+## Want to be in the next set of photos?
+
+Bring one dish. We'll handle the rest.
+
+::: {.csf-actions}
+[Join the next dinner](join.qmd){.csf-btn .csf-btn--primary}
+[What should I bring?](recipes.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::

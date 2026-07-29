@@ -1,0 +1,98 @@
+---
+title: "Join us"
+pagetitle: "Join the next dinner"
+description: "Free to attend, no cooking skill needed, come on your own. Here's how to get on the list for the next Cuochi senza fuochi dinner in Padova."
+page-layout: full
+title-block-style: none
+---
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow">Free · Padova · come alone</p>
+
+<h1 class="csf-hero__title">Say you're coming.<br>That's the <em>whole</em> process.</h1>
+
+<p class="csf-hero__lede">
+There is no application and no fee. Send one message, and you'll get the address,
+the date, and an idea of how many people to cook for.
+</p>
+
+::: {.csf-actions}
+[Message us on YouTube](https://www.youtube.com/@cuochisenzafuochi/shorts){.csf-btn .csf-btn--primary}
+[Read how it works first](how-it-works.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">Get in touch</p>
+<h2 class="csf-section__title">Pick whichever is easiest</h2>
+
+::: {.csf-grid}
+::: {.csf-card}
+<span class="csf-card__icon">📺</span>
+
+### YouTube
+Clips from past dinners, and the fastest place to leave us a comment.
+
+[@cuochisenzafuochi](https://www.youtube.com/@cuochisenzafuochi/shorts)
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon">✉️</span>
+
+### Email
+Write one line — "I'm new in Padova, I'd like to come" is plenty.
+
+<!-- TODO: replace with the real address -->
+[hello@example.com](mailto:hello@example.com)
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon">💬</span>
+
+### The group chat
+Where the dates and the "who's bringing what" gets sorted out.
+
+<!-- TODO: paste the real WhatsApp / Telegram invite link -->
+[Ask us for the invite link](mailto:hello@example.com)
+:::
+:::
+:::
+
+::: {.csf-section}
+<h2 class="csf-section__title">Before you come</h2>
+
+::: {.csf-steps}
+- ### Tell us about food
+  Allergies, vegetarian, vegan, anything you can't eat. We pass it to the group
+  and dishes get labelled.
+
+- ### Decide what to bring
+  One dish for 4–6 people. Stuck? The [recipes page](recipes.qmd) has options
+  that need no oven and no talent.
+
+- ### Bring a container
+  For your dish, and for leftovers. There are always leftovers, and they are
+  always good.
+
+- ### Come on time-ish
+  The first half hour is when introductions happen. Arriving with everyone
+  else is easier than arriving late to a full room.
+:::
+:::
+
+::: {.csf-quote}
+Avoid the clubs you don't enjoy anyway. To meet new brains, just bring some chocolate with you.
+
+<cite>— the founding principle, more or less</cite>
+:::
+
+::: {.csf-band}
+## One message and you're in
+
+No forms, no fee, no need to know anybody already there.
+
+::: {.csf-actions}
+[Write to us](mailto:hello@example.com){.csf-btn .csf-btn--primary}
+[See what a dinner looks like](events.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::

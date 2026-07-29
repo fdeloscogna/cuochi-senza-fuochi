@@ -8,5 +8,7 @@ format: html
 Here, we will walk through an example of performing GSEA in R...
 
 ```{r}
+#| eval: false
 library(clusterProfiler)
 # Example code for GSEA
+```

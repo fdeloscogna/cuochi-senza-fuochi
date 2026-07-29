@@ -1,0 +1,119 @@
+---
+title: "How it works"
+pagetitle: "How it works"
+description: "Everything a first-timer needs to know: what to bring, what it costs, who comes, and what happens when you get there."
+page-layout: full
+title-block-style: none
+---
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow">For first-timers</p>
+
+<h1 class="csf-hero__title">One dish. One table.<br>No <em>experience</em> required.</h1>
+
+<p class="csf-hero__lede">
+If you have never been to a potluck, here is the whole thing, start to finish,
+with nothing left to guess.
+</p>
+:::
+
+<h2 class="csf-section__title">The four steps</h2>
+
+::: {.csf-steps}
+- ### Tell us you're coming
+  A message is enough. We reply with the address, the time, and how many people
+  to expect so you know how much to bring.
+
+- ### Make or buy one dish
+  For roughly 4–6 people. If you can't cook, buy something. Chocolate, bread,
+  fruit, a bag of crisps — it all counts.
+
+- ### Show up and put it on the table
+  Everything goes in the middle. Grab a plate, take a bit of everything,
+  and start with whoever is next to you.
+
+- ### Stay for the washing up
+  This is where the actual conversations happen. Nobody has ever regretted staying.
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">Practical answers</p>
+<h2 class="csf-section__title">The questions everybody asks</h2>
+
+### What does it cost?
+
+Nothing to attend. Your only expense is the ingredients for the dish you bring —
+in practice a few euro. There is no membership, no fee, no collection at the door.
+
+### I genuinely cannot cook. Is that a problem?
+
+No. The name means *cooks without fires* — half the club has no working kitchen.
+See the [recipes page](recipes.qmd) for things that need no oven, no hob and no skill.
+Buying something ready-made is completely fine and very common.
+
+### Do I need to bring a friend?
+
+Most people come alone. That is the normal way to arrive and nobody will find it odd —
+the whole point is that you don't know anyone yet.
+
+### What language is spoken?
+
+Both Italian and English, usually in the same sentence. If your Italian is at
+*"un caffè, per favore"* level, you will still have a good evening.
+
+### I have allergies / I'm vegetarian / I don't drink
+
+Tell us when you sign up and we'll flag it to the group. Dishes get labelled on
+the table. There is always plenty without meat, and nobody tracks what you drink.
+
+### How many people come?
+
+Usually between ten and twenty. Big enough that you have options, small enough
+that you actually talk to people rather than shout over music.
+
+### How often does it happen?
+
+Roughly once a month, in the evening, in someone's flat or a shared common room
+in Padova. Dates go out to the list a couple of weeks ahead.
+
+### Is this a networking thing?
+
+No. People do end up helping each other find flats, jobs and doctors, but that
+happens the way it happens between neighbours — as a side effect, not the agenda.
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">Why we bother</p>
+<h2 class="csf-section__title">Housing is solvable. Loneliness is the expensive part.</h2>
+
+<p class="csf-section__sub">
+When you move somewhere new, you sort out a room and a commute within weeks.
+Those two things guarantee the financial capital. Human capital is the one nobody
+hands you a contract for — and working or studying full-time leaves very little
+room to build it.
+</p>
+
+Cuochi senza fuochi exists because the usual alternatives don't work for everyone.
+Bars cost money every single time. Clubs are loud and you meet no one. Apps put you
+back on a screen. A shared table costs the price of one dish and it puts you in a
+room with people who live a ten-minute walk away — the ones you can actually keep seeing.
+
+::: {.csf-tags}
+- New in Padova
+- Erasmus & exchange
+- PhD students and researchers
+- Started a job here
+- Lived here for years and want a wider table
+:::
+:::
+
+::: {.csf-band}
+## Ready for the next one?
+
+Tell us you're coming and we'll send you the address.
+
+::: {.csf-actions}
+[Join the next dinner](join.qmd){.csf-btn .csf-btn--primary}
+[See past events](events.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::

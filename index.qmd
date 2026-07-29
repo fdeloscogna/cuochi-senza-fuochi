@@ -1,83 +1,118 @@
 ---
 title: "Cuochi senza fuochi"
-image: images/logo.jpg
-about:
-    template: trestles
-    image-width: 25em
-    image-shape: round
-    links:
-    - icon: youtube
-      text: Youtube news 
-      url: https://www.youtube.com/@cuochisenzafuochi/shorts
+pagetitle: "Meet your neighbours over food, in Padova"
+description: "New in town? Bring one dish, meet fifteen neighbours. A free, offline potluck club in Padova. No kitchen required."
+page-layout: full
+title-block-style: none
 listing:
-  contents: posts
+  id: latest-events
+  contents: posts/event/photo
   sort: "date desc"
-  type: grid # Enhanced grid layout
-  max-items: 3 # Display more items
-  categories: false 
+  type: grid
+  max-items: 3
+  grid-columns: 3
+  image-height: 200px
+  categories: false
+  fields: [image, date, title, description]
   feed: true
-  image-height: 200px # Uniform thumbnail size      
-format:
-  html:
-    include-in-header: 
-      - text: |
-          <!-- Include TypeIt for text animations -->
-          <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
-          <!-- Custom CSS for Yellow and Pink Theme -->
-          <style>
-            body {
-              font-family: 'Inter', sans-serif; /* Modern, clean font */
-              background-color: #fff8e1; /* Soft yellow background */
-              color: #333; /* Dark gray text for readability */
-            }
-            .quarto-listing-item {
-              border: 2px solid #ffc1e3; /* Pink border for listing items */
-              padding: 10px;
-              border-radius: 8px;
-              background: #fff; /* White background for contrast */
-              transition: transform 0.3s, box-shadow 0.3s;
-            }
-            .quarto-listing-item:hover {
-              transform: translateY(-5px);
-              box-shadow: 0 4px 20px rgba(255, 193, 227, 0.5); /* Pink shadow */
-            }
-            .quarto-title-banner {
-              text-align: center;
-              padding: 50px 20px;
-              background: linear-gradient(135deg, #ffb74d, #ff80ab); /* Gradient: yellow to pink */
-              color: white;
-              font-size: 2.5em;
-              text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
-            }
-            a {
-              color: #ff4081; /* Pink links */
-              text-decoration: none;
-            }
-            a:hover {
-              text-decoration: underline;
-            }
-          </style>
 ---
 
-<div id="animated-title" style="text-align: center; padding: 20px 0;"></div>
+::: {.csf-hero}
+<img src="images/logo-wordmark.jpg" class="csf-hero__mark" alt="Cuochi senza fuochi — a whisk crossed over a flame inside a rope wreath">
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    new TypeIt("#animated-title", {
-      strings: ["The page of a part time chef, let's embrace together!", "Read. Enjoy. Share opinion with us", "join our coliving"!],
-      speed: 50,
-      breakLines: false,
-      loop: true,
-    }).go();
-  });
-</script>
+<p class="csf-hero__eyebrow">🍫 Padova · free · no kitchen needed</p>
 
+<h1 class="csf-hero__title">Moving to a new city is easy.<br>Making <em>friends</em> is the hard part.</h1>
 
-::: column-page
-::: {style="font-size: 2em; face: bold; color: #343a40;"}
-Click to go deeper on your your curiosity
-:::
+<p class="csf-hero__lede">
+Cuochi senza fuochi is a potluck club for people who just arrived in Padova for work or study.
+You bring one thing to eat — anything, even a bar of chocolate — and you leave with a table
+full of people who live near you.
+</p>
+
+::: {.csf-actions}
+[Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
+[See how it works](how-it-works.qmd){.csf-btn .csf-btn--ghost}
 :::
 
+<div class="csf-hero__meta">
+  <span>✅ Always free</span>
+  <span>✅ No cooking skill required</span>
+  <span>✅ Come alone, that's the point</span>
+  <span>✅ English &amp; Italian spoken</span>
+</div>
+:::
 
+<h2 class="csf-section__title">What actually happens</h2>
 
+::: {.csf-steps}
+- ### You say you're coming
+  Send us a message. We tell you the address, the date and roughly how many people to expect.
+
+- ### You bring one dish
+  Something you can make without a real kitchen. Bought at the supermarket counts. Nobody is judging.
+
+- ### Everyone eats everything
+  Plates go in the middle of the table. You try fourteen things you've never had, and you talk.
+
+- ### You go home with numbers
+  Not a networking event. Just the neighbours you'll now bump into at the market.
+:::
+
+::: {.csf-section}
+::: {.csf-grid}
+::: {.csf-card}
+<span class="csf-card__icon">🔥</span>
+
+### Senza fuochi — without fires
+The name is the promise. Student rooms don't have real kitchens, and that has never stopped anyone.
+No-bake, no-oven, one-pan: everything on our table was made in a shared kitchen or not cooked at all.
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon">💸</span>
+
+### Cheaper than one drink
+A potluck costs each person the price of one dish. Meeting people in this city usually means
+a bar tab or a club entry. This is the version you can afford every month.
+:::
+
+::: {.csf-card}
+<span class="csf-card__icon">🧠</span>
+
+### Offline, on purpose
+No app, no swiping, no feed. Fifteen people, one table, phones face down.
+You remember conversations you had standing up with a plate in your hand.
+:::
+:::
+:::
+
+::: {.csf-quote}
+When you arrive in a new city you look for an affordable place to sleep and a way to get to work.
+With those two things, the capital is guaranteed. But what about **human capital**?
+
+<cite>— the idea behind Cuochi senza fuochi, March 2022</cite>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">From the table</p>
+<h2 class="csf-section__title">Recent dinners</h2>
+<p class="csf-section__sub">Photos and short write-ups from the last few evenings. This is what you're walking into.</p>
+
+::: {#latest-events}
+:::
+
+[See all events →](events.qmd)
+:::
+
+::: {.csf-band}
+## Next dinner: come and bring something
+
+You don't need to know anyone. You don't need to cook. Most people at their first
+Cuochi senza fuochi came on their own — that is the normal way to arrive.
+
+::: {.csf-actions}
+[Join the next dinner](join.qmd){.csf-btn .csf-btn--primary}
+[Watch a 30-second clip](https://www.youtube.com/@cuochisenzafuochi/shorts){.csf-btn .csf-btn--ghost}
+:::
+:::

@@ -1,15 +1,76 @@
 project:
   type: website
   output-dir: docs
+  # copied into docs/ on every render so GitHub Pages doesn't run Jekyll over it
+  resources:
+    - .nojekyll
+  render:
+    - index.qmd
+    - how-it-works.qmd
+    - events.qmd
+    - recipes.qmd
+    - join.qmd
+    - about.qmd
+    - 404.qmd
+    # only the individual event posts — events.qmd is the single events index,
+    # so the old nested posts/event/index.qmd is deliberately not rendered
+    - posts/event/photo/*/index.qmd
+  # Old drafts from a different project, kept on disk but not published:
+  #   science.qmd, Chicche.qmd, tech.qmd, tutorials.qmd, jobs.qmd
+
 website:
-  title: "Cuochi senza fuochi co-living"
+  title: "Cuochi senza fuochi"
+  description: "A free potluck club in Padova. Bring one dish, meet your neighbours. No kitchen skills needed."
+  site-url: "https://fdeloscogna.github.io/cuochi-senza-fuochi/"
+  favicon: images/logo.jpg
+  open-graph: true
+  twitter-card: true
+
   navbar:
+    # the logo is a wide script wordmark — illegible at navbar height,
+    # so it lives in the homepage hero instead and the navbar uses text
+    title: "Cuochi senza fuochi"
+    pinned: false
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Discover recipe"
-        href: tutorials.qmd
-      - text: "Why it works"
-        href: jobs.qmd
-      - text: "Co-living"
-        href: tech.qmd
+      - text: "How it works"
+        href: how-it-works.qmd
+      - text: "Events"
+        href: events.qmd
+      - text: "Recipes"
+        href: recipes.qmd
+      - text: "Our story"
+        href: about.qmd
+    right:
+      - text: "Join us"
+        href: join.qmd
+      - icon: youtube
+        href: https://www.youtube.com/@cuochisenzafuochi/shorts
+        aria-label: "Cuochi senza fuochi on YouTube"
+
+  page-footer:
+    left: "Cuochi senza fuochi — meeting neighbours over food since March 2022."
+    center:
+      - text: "How it works"
+        href: how-it-works.qmd
+      - text: "Join us"
+        href: join.qmd
+      - text: "Our story"
+        href: about.qmd
+    right:
+      - icon: youtube
+        href: https://www.youtube.com/@cuochisenzafuochi/shorts
+        aria-label: "YouTube"
+
+format:
+  html:
+    theme: cosmo
+    # plain CSS, loaded after the Bootstrap theme (not an scss layer)
+    css: styles.css
+    toc: false
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      body-width: 1000px

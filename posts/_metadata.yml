@@ -1,8 +1,13 @@
-# options specified here will apply to all posts in this folder
+# options specified here apply to every post in this folder
 
 # freeze computational output
 # (see https://quarto.org/docs/projects/code-execution.html#freeze)
 freeze: true
 
-# Enable banner style title blocks
+# banner-style title block, restyled in styles.css
 title-block-banner: true
+title-block-categories: true
+
+# posts are prose — keep them narrow and readable
+page-layout: article
+toc: false

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Cuochi senza fuochi</title>
+<link>https://fdeloscogna.github.io/cuochi-senza-fuochi/</link>
+<atom:link href="https://fdeloscogna.github.io/cuochi-senza-fuochi/index.xml" rel="self" type="application/rss+xml"/>
+<description>New in town? Bring one dish, meet fifteen neighbours. A free, offline potluck club in Padova. No kitchen required.</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Sun, 19 Jan 2025 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>The journey together</title>
+  <dc:creator>Cuochi senza fuochi</dc:creator>
+  <link>https://fdeloscogna.github.io/cuochi-senza-fuochi/posts/event/photo/journey/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://fdeloscogna.github.io/cuochi-senza-fuochi/posts/event/photo/journey/img.jpg" class="img-fluid" alt="About eighteen people standing among tables in a borrowed common room, with trays of pasta, grated carrot and a bowl of crackers laid out"></p>
+<p>Almost everybody in this photo had met for the first time about two hours earlier.</p>
+<p>The venue is what we usually get: a borrowed common room, tables pushed where they fit, chairs dragged in from next door. The food is what people carried across town — a tray of pasta, grated carrot, something fried, a bowl of crackers to keep everyone going while the rest arrived. And a banana, for reasons nobody explained.</p>
+<p>Nothing there needed an oven. Nobody spent more than about five euro. People stayed standing and talking long after the trays were empty, which is the part that matters.</p>
+<p>This is what we mean when we say <em>come alone</em>. It is the normal way to arrive.</p>
+<p><a href="../../../../recipes.html">What should I bring? →</a> &nbsp;·&nbsp; <a href="../../../../join.html">Join the next dinner →</a></p>
+
+
+
+ ]]></description>
+  <category>dinner</category>
+  <category>Padova</category>
+  <guid>https://fdeloscogna.github.io/cuochi-senza-fuochi/posts/event/photo/journey/</guid>
+  <pubDate>Sun, 19 Jan 2025 23:00:00 GMT</pubDate>
+  <media:content url="https://fdeloscogna.github.io/cuochi-senza-fuochi/posts/event/photo/journey/img.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

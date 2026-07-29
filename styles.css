@@ -1,1 +1,635 @@
-/* css styles */
+/* ============================================================
+   Cuochi senza fuochi — design system
+   Palette taken from the logo: cream paper, black retro script,
+   ember orange for the flame.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* surfaces */
+  --csf-cream:      #FBEFD8;
+  --csf-cream-deep: #F4E2C2;
+  --csf-paper:      #FFFCF6;
+
+  /* ink */
+  --csf-ink:        #1E1913;
+  --csf-ink-soft:   #4B423A;
+  --csf-ink-faint:  #857A6D;
+
+  /* accents */
+  --csf-ember:      #D2541F;
+  --csf-ember-dark: #A63C12;
+  --csf-gold:       #E9A93A;
+  --csf-sage:       #4A6B58;
+
+  --csf-line:       rgba(30, 25, 19, 0.14);
+  --csf-shadow:     0 2px 4px rgba(30, 25, 19, .05), 0 10px 30px rgba(30, 25, 19, .07);
+  --csf-shadow-lg:  0 4px 8px rgba(30, 25, 19, .06), 0 20px 50px rgba(30, 25, 19, .12);
+
+  --csf-radius:     16px;
+  --csf-measure:    68ch;
+}
+
+/* ------------------------------------------------------------
+   Base
+   ------------------------------------------------------------ */
+
+body {
+  background-color: var(--csf-cream);
+  color: var(--csf-ink);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .csf-display {
+  font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  color: var(--csf-ink);
+}
+
+/* Quarto underlines section h2s; the cards and bands supply their own separation */
+h2 {
+  font-size: clamp(1.6rem, 1.1rem + 1.8vw, 2.3rem);
+  margin-top: 2.75rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+h3 { font-size: clamp(1.2rem, 1rem + 0.7vw, 1.45rem); margin-top: 2rem; }
+
+/* Prose is always the sans face, whatever a section wrapper might have inherited. */
+p, li, dd, td, figcaption {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-weight: 400;
+}
+p, li { max-width: var(--csf-measure); }
+
+a {
+  color: var(--csf-ember-dark);
+  text-decoration-color: rgba(210, 84, 31, .4);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+a:hover { color: var(--csf-ember); text-decoration-color: currentColor; }
+
+strong { font-weight: 650; color: var(--csf-ink); }
+
+::selection { background: var(--csf-gold); color: var(--csf-ink); }
+
+/* ------------------------------------------------------------
+   Navbar & footer
+   ------------------------------------------------------------ */
+
+.navbar {
+  background: var(--csf-paper) !important;
+  border-bottom: 1px solid var(--csf-line);
+  box-shadow: 0 1px 12px rgba(30, 25, 19, .05);
+  padding-block: .45rem;
+}
+
+.navbar-brand,
+.navbar .navbar-title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 900;
+  font-size: 1.12rem;
+  letter-spacing: -0.02em;
+  color: var(--csf-ink) !important;
+}
+
+.navbar-brand img { max-height: 34px; }
+
+.navbar .nav-link {
+  color: var(--csf-ink-soft) !important;
+  font-weight: 500;
+  font-size: .95rem;
+  border-radius: 999px;
+  padding: .3rem .8rem !important;
+  transition: background .18s ease, color .18s ease;
+}
+.navbar .nav-link:hover {
+  color: var(--csf-ink) !important;
+  background: var(--csf-cream-deep);
+}
+.navbar .nav-link.active {
+  color: var(--csf-ember-dark) !important;
+  background: rgba(210, 84, 31, .1);
+}
+
+/* the "Join us" navbar item — Quarto gives no hook for a class, so target the href */
+.navbar-nav .nav-link[href$="join.html"] {
+  background: var(--csf-ember) !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-nav .nav-link[href$="join.html"]:hover {
+  background: var(--csf-ember-dark) !important;
+  color: #fff !important;
+}
+
+.nav-footer {
+  background: var(--csf-ink);
+  color: rgba(255, 252, 246, .72);
+  border-top: none;
+  font-size: .92rem;
+  padding-block: 1.5rem;
+}
+.nav-footer a { color: var(--csf-gold); text-decoration: none; }
+.nav-footer a:hover { color: #fff; text-decoration: underline; }
+.nav-footer p { max-width: none; margin-bottom: 0; }
+
+/* Quarto's banner title block, restyled to match the hero rather than hidden. */
+.quarto-title-banner {
+  background: var(--csf-cream-deep);
+  color: var(--csf-ink);
+  padding-block: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-size: inherit;
+  text-shadow: none;
+}
+.quarto-title-banner h1.title { color: var(--csf-ink); }
+.quarto-title-banner .quarto-title-meta,
+.quarto-title-banner .quarto-title-meta-heading { color: var(--csf-ink-soft); }
+
+/* ------------------------------------------------------------
+   Hero
+   ------------------------------------------------------------ */
+
+/* Quarto always injects <h1 class="title"> above the body, even with
+   title-block-style: none. On pages that supply their own hero headline that
+   is a duplicate h1, so drop it from the accessibility tree entirely. */
+main:has(.csf-hero) > #title-block-header { display: none; }
+
+.csf-hero {
+  position: relative;
+  margin: 0 0 3.5rem;
+  padding: clamp(2.5rem, 5vw, 4.5rem) clamp(1.25rem, 4vw, 3.5rem);
+  border-radius: 24px;
+  background:
+    radial-gradient(120% 130% at 88% 8%, rgba(233, 169, 58, .30) 0%, transparent 55%),
+    radial-gradient(110% 120% at 4% 96%, rgba(210, 84, 31, .18) 0%, transparent 55%),
+    var(--csf-paper);
+  border: 1px solid var(--csf-line);
+  box-shadow: var(--csf-shadow);
+  overflow: hidden;
+}
+
+/* Deliberately over-qualified: page-layout: full wraps content in .page-columns,
+   so the generic `.page-columns img` rule further down ties on specificity and
+   would win on source order. */
+.csf-hero img.csf-hero__mark {
+  display: block;
+  width: 100%;
+  max-width: 210px;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 0 1.5rem;
+  box-shadow: 0 1px 3px rgba(30, 25, 19, .08);
+}
+
+.csf-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .78rem;
+  font-weight: 650;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--csf-ember-dark);
+  background: rgba(210, 84, 31, .1);
+  border-radius: 999px;
+  padding: .35rem .85rem;
+  margin-bottom: 1.25rem;
+}
+
+.csf-hero h1,
+.csf-hero__title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 900;
+  font-size: clamp(2.1rem, 1.2rem + 3.6vw, 3.9rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin: 0 0 1.1rem;
+  max-width: 22ch;
+}
+.csf-hero__title em {
+  font-style: italic;
+  color: var(--csf-ember);
+}
+
+.csf-hero__lede {
+  font-size: clamp(1.08rem, 1rem + .45vw, 1.3rem);
+  line-height: 1.6;
+  color: var(--csf-ink-soft);
+  max-width: 52ch;
+  margin-bottom: 1.9rem;
+}
+
+.csf-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.4rem;
+  margin-top: 2rem;
+  padding-top: 1.4rem;
+  border-top: 1px dashed var(--csf-line);
+  font-size: .92rem;
+  color: var(--csf-ink-faint);
+}
+.csf-hero__meta span { display: inline-flex; align-items: center; gap: .45rem; }
+
+/* ------------------------------------------------------------
+   Buttons
+   ------------------------------------------------------------ */
+
+.csf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  align-items: center;
+}
+
+.csf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1;
+  padding: .85rem 1.6rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  border: 1.5px solid transparent;
+  transition: transform .16s ease, box-shadow .16s ease, background .16s ease;
+}
+.csf-btn--primary {
+  background: var(--csf-ember);
+  color: #fff !important;
+  box-shadow: 0 3px 0 var(--csf-ember-dark);
+}
+.csf-btn--primary:hover {
+  background: var(--csf-ember-dark);
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 0 #7d2c0c;
+}
+.csf-btn--ghost {
+  background: transparent;
+  color: var(--csf-ink) !important;
+  border-color: var(--csf-ink);
+}
+.csf-btn--ghost:hover {
+  background: var(--csf-ink);
+  color: var(--csf-paper) !important;
+  transform: translateY(-2px);
+}
+
+/* ------------------------------------------------------------
+   Section headers
+   ------------------------------------------------------------ */
+
+.csf-section { margin: 4rem 0; }
+
+.csf-section__kicker {
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--csf-ember-dark);
+  margin-bottom: .5rem;
+}
+/* Element-qualified on purpose: pandoc copies a heading's classes onto the
+   wrapping <section> as well, so a bare .csf-section__title selector would
+   set the font for every descendant of that section. */
+h1.csf-section__title,
+h2.csf-section__title,
+h3.csf-section__title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 800;
+  font-size: clamp(1.65rem, 1.2rem + 1.7vw, 2.4rem);
+  letter-spacing: -0.02em;
+  margin: 0 0 .6rem;
+}
+p.csf-section__sub {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--csf-ink-soft);
+  max-width: 56ch;
+  margin-bottom: 2rem;
+}
+
+/* ------------------------------------------------------------
+   Cards & grids
+   ------------------------------------------------------------ */
+
+.csf-grid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+}
+
+.csf-card {
+  background: var(--csf-paper);
+  border: 1px solid var(--csf-line);
+  border-radius: var(--csf-radius);
+  padding: 1.6rem 1.5rem;
+  box-shadow: var(--csf-shadow);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.csf-card:hover { transform: translateY(-4px); box-shadow: var(--csf-shadow-lg); }
+.csf-card h3 {
+  margin: 0 0 .5rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.csf-card p { margin: 0; color: var(--csf-ink-soft); font-size: .98rem; max-width: none; }
+.csf-card__icon {
+  font-size: 1.7rem;
+  line-height: 1;
+  display: block;
+  margin-bottom: .9rem;
+}
+
+/* Numbered steps. Pandoc wraps a markdown list inside the div, so the grid has to
+   live on the <ul>; when the markup is a bare <ul class="csf-steps"> it applies directly. */
+ul.csf-steps,
+.csf-steps > ul {
+  display: grid;
+  gap: 1.5rem 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+  counter-reset: csf-step;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.csf-steps li {
+  counter-increment: csf-step;
+  position: relative;
+  background: var(--csf-paper);
+  border: 1px solid var(--csf-line);
+  border-radius: var(--csf-radius);
+  padding: 2.4rem 1.4rem 1.5rem;
+  max-width: none;
+  box-shadow: var(--csf-shadow);
+}
+.csf-steps li::before {
+  content: counter(csf-step);
+  position: absolute;
+  top: -.85rem;
+  left: 1.3rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--csf-ember);
+  color: #fff;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.csf-steps h3 { margin: 0 0 .4rem; font-size: 1.08rem; }
+.csf-steps p { margin: 0; font-size: .96rem; color: var(--csf-ink-soft); max-width: none; }
+
+/* quote / testimonial */
+.csf-quote {
+  border-left: 4px solid var(--csf-gold);
+  background: var(--csf-paper);
+  border-radius: 0 var(--csf-radius) var(--csf-radius) 0;
+  padding: 1.4rem 1.6rem;
+  margin: 2rem 0;
+  box-shadow: var(--csf-shadow);
+}
+.csf-quote p {
+  font-family: 'Fraunces', Georgia, serif;  /* deliberate: the pull-quote voice */
+  font-size: 1.15rem;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1.55;
+  margin: 0 0 .6rem;
+  max-width: none;
+}
+.csf-quote cite {
+  font-style: normal;
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--csf-ink-faint);
+}
+
+/* stat row */
+.csf-stats {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+  margin: 2rem 0;
+}
+.csf-stat {
+  background: var(--csf-cream-deep);
+  border-radius: var(--csf-radius);
+  padding: 1.3rem 1.2rem;
+  text-align: center;
+}
+.csf-stat__num {
+  display: block;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: clamp(1.8rem, 1.4rem + 1.4vw, 2.5rem);
+  line-height: 1;
+  color: var(--csf-ember);
+  letter-spacing: -0.03em;
+}
+.csf-stat__label {
+  display: block;
+  margin-top: .45rem;
+  font-size: .86rem;
+  font-weight: 500;
+  color: var(--csf-ink-soft);
+}
+
+/* callout band */
+.csf-band {
+  background: var(--csf-ink);
+  color: var(--csf-paper);
+  border-radius: 24px;
+  padding: clamp(2rem, 4vw, 3.2rem);
+  margin: 4rem 0 2rem;
+  text-align: center;
+}
+.csf-band h2 {
+  color: var(--csf-paper);
+  margin: 0 0 .8rem;
+  font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.3rem);
+}
+.csf-band p {
+  color: rgba(255, 252, 246, .8);
+  max-width: 48ch;
+  margin: 0 auto 1.8rem;
+}
+.csf-band .csf-actions { justify-content: center; }
+.csf-band .csf-btn--ghost {
+  color: var(--csf-paper) !important;
+  border-color: rgba(255, 252, 246, .5);
+}
+.csf-band .csf-btn--ghost:hover {
+  background: var(--csf-paper);
+  color: var(--csf-ink) !important;
+}
+
+/* small pill tags */
+ul.csf-tags,
+.csf-tags > ul {
+  display: flex; flex-wrap: wrap; gap: .45rem;
+  margin: 1rem 0 0; padding: 0; list-style: none;
+}
+.csf-tags li {
+  max-width: none;
+  font-size: .82rem;
+  font-weight: 550;
+  padding: .3rem .75rem;
+  border-radius: 999px;
+  background: var(--csf-cream-deep);
+  color: var(--csf-ink-soft);
+}
+
+/* ------------------------------------------------------------
+   Quarto listings (events / recipes)
+   ------------------------------------------------------------ */
+
+.quarto-listing { margin-top: 1rem; }
+
+div.quarto-post,
+.quarto-grid-item.card {
+  background: var(--csf-paper);
+  border: 1px solid var(--csf-line) !important;
+  border-radius: var(--csf-radius) !important;
+  overflow: hidden;
+  box-shadow: var(--csf-shadow);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+div.quarto-post:hover,
+.quarto-grid-item.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--csf-shadow-lg);
+}
+
+.quarto-grid-item .card-body { padding: 1.2rem 1.25rem 1.4rem; }
+
+.quarto-grid-item .card-title,
+div.quarto-post .listing-title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+.quarto-grid-item .card-title a,
+div.quarto-post .listing-title a {
+  color: var(--csf-ink);
+  text-decoration: none;
+}
+.quarto-grid-item .card-title a:hover,
+div.quarto-post .listing-title a:hover { color: var(--csf-ember-dark); }
+
+.quarto-grid-item .card-text,
+div.quarto-post .listing-description {
+  color: var(--csf-ink-soft);
+  font-size: .96rem;
+}
+
+.quarto-grid-item .listing-date,
+div.quarto-post .metadata .listing-date {
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--csf-ember-dark);
+}
+
+.quarto-grid-item img.thumbnail-image,
+div.quarto-post .thumbnail img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.listing-category,
+.quarto-category {
+  background: var(--csf-cream-deep) !important;
+  border: none !important;
+  color: var(--csf-ink-soft) !important;
+  border-radius: 999px !important;
+  font-size: .78rem !important;
+  padding: .22rem .7rem !important;
+  text-transform: none !important;
+}
+.listing-category:hover { background: var(--csf-gold) !important; color: var(--csf-ink) !important; }
+
+/* empty-listing hint we render ourselves */
+.csf-empty {
+  border: 1.5px dashed var(--csf-line);
+  border-radius: var(--csf-radius);
+  padding: 2rem;
+  text-align: center;
+  color: var(--csf-ink-faint);
+  background: rgba(255, 252, 246, .5);
+}
+
+/* ------------------------------------------------------------
+   Post pages
+   ------------------------------------------------------------ */
+
+#title-block-header .quarto-title h1.title {
+  font-size: clamp(1.9rem, 1.3rem + 2.4vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  margin-bottom: .5rem;
+}
+#title-block-header .quarto-title-meta { color: var(--csf-ink-faint); font-size: .9rem; }
+
+.page-columns img,
+main img { border-radius: var(--csf-radius); max-width: 100%; height: auto; }
+
+/* Cap photos in post bodies so a portrait shot doesn't fill the whole screen.
+   Listing thumbnails and the hero wordmark are sized by their own rules. */
+main p > img:not(.thumbnail-image):not(.csf-hero__mark) {
+  display: block;
+  max-height: 640px;
+  width: auto;
+  margin-inline: auto;
+}
+
+figcaption { color: var(--csf-ink-faint); font-size: .88rem; }
+
+/* ------------------------------------------------------------
+   Accessibility & motion
+   ------------------------------------------------------------ */
+
+a:focus-visible,
+.csf-btn:focus-visible,
+.nav-link:focus-visible {
+  outline: 3px solid var(--csf-ember);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+  .csf-card:hover, .csf-btn:hover, div.quarto-post:hover, .quarto-grid-item.card:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .csf-hero { border-radius: 18px; }
+  .csf-actions { flex-direction: column; align-items: stretch; }
+  .csf-btn { justify-content: center; width: 100%; }
+}
