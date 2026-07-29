@@ -103,4 +103,11 @@ Reading about a potluck is a poor substitute for sitting at one.
 [Join the next dinner](join.qmd){.csf-btn .csf-btn--primary}
 [Photos from past events](events.qmd){.csf-btn .csf-btn--ghost}
 :::
+
+<div class="csf-follow">
+  <span class="csf-follow__label">Follow along:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi on Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi on TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+</div>
 :::

@@ -43,24 +43,43 @@ website:
       - text: "Our story"
         href: about.qmd
     right:
+      # social icons before the CTA so "Join us" stays the last, rightmost thing
+      - icon: instagram
+        href: https://www.instagram.com/cuochi_senza_fuochi/
+        aria-label: "Cuochi senza fuochi on Instagram"
+      - icon: tiktok
+        href: https://www.tiktok.com/@cuochi_senza_fuochi
+        aria-label: "Cuochi senza fuochi on TikTok"
+      - icon: youtube
+        href: https://www.youtube.com/@cuochisenzafuochi
+        aria-label: "Cuochi senza fuochi on YouTube"
       - text: "Join us"
         href: join.qmd
-      - icon: youtube
-        href: https://www.youtube.com/@cuochisenzafuochi/shorts
-        aria-label: "Cuochi senza fuochi on YouTube"
 
   page-footer:
-    left: "Cuochi senza fuochi — meeting neighbours over food since March 2022."
+    left: |
+      **Cuochi senza fuochi** — a free potluck club in Padova.
+      Bring one dish, meet your neighbours. Since March 2022.
     center:
       - text: "How it works"
         href: how-it-works.qmd
+      - text: "Events"
+        href: events.qmd
+      - text: "Recipes"
+        href: recipes.qmd
       - text: "Join us"
         href: join.qmd
       - text: "Our story"
         href: about.qmd
     right:
+      - icon: instagram
+        href: https://www.instagram.com/cuochi_senza_fuochi/
+        aria-label: "Instagram"
+      - icon: tiktok
+        href: https://www.tiktok.com/@cuochi_senza_fuochi
+        aria-label: "TikTok"
       - icon: youtube
-        href: https://www.youtube.com/@cuochisenzafuochi/shorts
+        href: https://www.youtube.com/@cuochisenzafuochi
         aria-label: "YouTube"
 
 format:

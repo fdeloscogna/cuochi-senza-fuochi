@@ -33,6 +33,13 @@ what you'd be walking into before you commit to a Tuesday night.
 ::: {.csf-actions}
 [Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
 :::
+
+<div class="csf-follow">
+  <span class="csf-follow__label">More photos and clips:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi on Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi on TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+</div>
 :::
 
 ::: {#all-events}

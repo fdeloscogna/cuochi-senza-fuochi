@@ -1,7 +1,7 @@
 ---
 title: "Join us"
 pagetitle: "Join the next dinner"
-description: "Free to attend, no cooking skill needed, come on your own. Here's how to get on the list for the next Cuochi senza fuochi dinner in Padova."
+description: "Free to attend, no cooking skill needed, come on your own. Send one message on Instagram, TikTok or YouTube to get on the list for the next Cuochi senza fuochi dinner in Padova."
 page-layout: full
 title-block-style: none
 ---
@@ -12,53 +12,54 @@ title-block-style: none
 <h1 class="csf-hero__title">Say you're coming.<br>That's the <em>whole</em> process.</h1>
 
 <p class="csf-hero__lede">
-There is no application and no fee. Send one message, and you'll get the address,
-the date, and an idea of how many people to cook for.
+There is no application, no form and no fee. Send us one message on any of the three
+accounts below and you'll get back the address, the date, and an idea of how many
+people to bring food for.
 </p>
 
-::: {.csf-actions}
-[Message us on YouTube](https://www.youtube.com/@cuochisenzafuochi/shorts){.csf-btn .csf-btn--primary}
-[Read how it works first](how-it-works.qmd){.csf-btn .csf-btn--ghost}
-:::
+<div class="csf-follow">
+  <span class="csf-follow__label">Message us:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi on Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi on TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+</div>
 :::
 
 ::: {.csf-section}
 <p class="csf-section__kicker">Get in touch</p>
 <h2 class="csf-section__title">Pick whichever is easiest</h2>
+<p class="csf-section__sub">
+All three reach the same handful of people, so there is no wrong one.
+A DM saying <em>"I'm new in Padova, I'd like to come"</em> is genuinely enough.
+</p>
 
-::: {.csf-grid}
-::: {.csf-card}
-<span class="csf-card__icon">📺</span>
-
-### YouTube
-Clips from past dinners, and the fastest place to leave us a comment.
-
-[@cuochisenzafuochi](https://www.youtube.com/@cuochisenzafuochi/shorts)
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">✉️</span>
-
-### Email
-Write one line — "I'm new in Padova, I'd like to come" is plenty.
-
-<!-- TODO: replace with the real address -->
-[hello@example.com](mailto:hello@example.com)
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon">💬</span>
-
-### The group chat
-Where the dates and the "who's bringing what" gets sorted out.
-
-<!-- TODO: paste the real WhatsApp / Telegram invite link -->
-[Ask us for the invite link](mailto:hello@example.com)
-:::
-:::
+<div class="csf-social">
+  <a class="csf-social__card csf-social__card--ig" href="https://www.instagram.com/cuochi_senza_fuochi/">
+    <span class="csf-social__icon"><i class="bi bi-instagram"></i></span>
+    <span class="csf-social__name">Instagram</span>
+    <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
+    <span class="csf-social__note">The quickest reply, and where the next date goes up first. Send a DM.</span>
+    <span class="csf-social__cta">Send a DM →</span>
+  </a>
+  <a class="csf-social__card csf-social__card--tt" href="https://www.tiktok.com/@cuochi_senza_fuochi">
+    <span class="csf-social__icon"><i class="bi bi-tiktok"></i></span>
+    <span class="csf-social__name">TikTok</span>
+    <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
+    <span class="csf-social__note">Watch a clip of a real dinner first, then comment or message us.</span>
+    <span class="csf-social__cta">Watch &amp; message →</span>
+  </a>
+  <a class="csf-social__card csf-social__card--yt" href="https://www.youtube.com/@cuochisenzafuochi">
+    <span class="csf-social__icon"><i class="bi bi-youtube"></i></span>
+    <span class="csf-social__name">YouTube</span>
+    <span class="csf-social__handle">&#64;cuochisenzafuochi</span>
+    <span class="csf-social__note">Longer videos from past evenings. Comments get read and answered.</span>
+    <span class="csf-social__cta">Leave a comment →</span>
+  </a>
+</div>
 :::
 
 ::: {.csf-section}
+<p class="csf-section__kicker">Then what</p>
 <h2 class="csf-section__title">Before you come</h2>
 
 ::: {.csf-steps}
@@ -91,8 +92,14 @@ Avoid the clubs you don't enjoy anyway. To meet new brains, just bring some choc
 
 No forms, no fee, no need to know anybody already there.
 
+<div class="csf-follow">
+  <span class="csf-follow__label">Message us:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi on Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi on TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+</div>
+
 ::: {.csf-actions}
-[Write to us](mailto:hello@example.com){.csf-btn .csf-btn--primary}
 [See what a dinner looks like](events.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::

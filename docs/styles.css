@@ -29,6 +29,11 @@
 
   --csf-radius:     16px;
   --csf-measure:    68ch;
+
+  /* platform brand colours, used only for the social cards & icon hovers */
+  --csf-ig:         #C13584;
+  --csf-tt:         #111111;
+  --csf-yt:         #FF0000;
 }
 
 /* ------------------------------------------------------------
@@ -91,6 +96,28 @@ strong { font-weight: 650; color: var(--csf-ink); }
   padding-block: .45rem;
 }
 
+/* Quarto stamps data-bs-theme="dark" on the navbar, so Bootstrap's burger glyph
+   and search chrome default to white — invisible on our cream surface. */
+.navbar .navbar-toggler {
+  border-color: var(--csf-line);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%231E1913' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar .navbar-toggler:focus { box-shadow: 0 0 0 3px rgba(210, 84, 31, .35); }
+
+.navbar #quarto-search .aa-Autocomplete .aa-Form,
+.navbar .aa-DetachedSearchButton {
+  background: var(--csf-cream) !important;
+  border-color: var(--csf-line) !important;
+  color: var(--csf-ink-soft) !important;
+}
+.navbar .aa-DetachedSearchButtonIcon,
+.navbar .aa-DetachedSearchButtonPlaceholder,
+.navbar #quarto-search .aa-SubmitIcon,
+.navbar #quarto-search .aa-Input {
+  color: var(--csf-ink-soft) !important;
+  fill: var(--csf-ink-soft);
+}
+
 .navbar-brand,
 .navbar .navbar-title {
   font-family: 'Fraunces', Georgia, serif;
@@ -130,6 +157,22 @@ strong { font-weight: 650; color: var(--csf-ink); }
   color: #fff !important;
 }
 
+/* Social icons in the navbar. Quarto renders icon-only items as
+   <a class="nav-link"><i class="bi bi-instagram"></i></a> with no distinguishing
+   class, so size them via the icon child and tint per platform by href. */
+.navbar .nav-link > .bi {
+  font-size: 1.15rem;
+  line-height: 1;
+  vertical-align: -.1em;
+}
+.navbar .nav-link:has(> .bi) {
+  padding: .3rem .48rem !important;
+  color: var(--csf-ink) !important;
+}
+.navbar .nav-link[href*="instagram.com"]:hover { color: var(--csf-ig) !important; background: rgba(193, 53, 132, .1); }
+.navbar .nav-link[href*="tiktok.com"]:hover    { color: var(--csf-tt) !important; background: rgba(17, 17, 17, .08); }
+.navbar .nav-link[href*="youtube.com"]:hover   { color: var(--csf-yt) !important; background: rgba(255, 0, 0, .1); }
+
 .nav-footer {
   background: var(--csf-ink);
   color: rgba(255, 252, 246, .72);
@@ -140,6 +183,27 @@ strong { font-weight: 650; color: var(--csf-ink); }
 .nav-footer a { color: var(--csf-gold); text-decoration: none; }
 .nav-footer a:hover { color: #fff; text-decoration: underline; }
 .nav-footer p { max-width: none; margin-bottom: 0; }
+.nav-footer .nav-footer-left { max-width: 42ch; line-height: 1.55; }
+/* the global `strong` rule paints dark ink, which vanishes on the dark footer */
+.nav-footer strong { color: var(--csf-paper); }
+.nav-footer .nav-footer-center .nav-link { padding-inline: .55rem; }
+
+/* Footer socials read as circular buttons rather than bare glyphs. */
+.nav-footer .nav-link:has(> .bi) {
+  display: inline-grid;
+  place-items: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  background: rgba(255, 252, 246, .1);
+  color: var(--csf-paper) !important;
+  transition: background .18s ease, color .18s ease, transform .18s ease;
+}
+.nav-footer .nav-link:has(> .bi) > .bi { font-size: 1.1rem; line-height: 1; }
+.nav-footer .nav-link:has(> .bi):hover { transform: translateY(-2px); }
+.nav-footer .nav-link[href*="instagram.com"]:hover { background: var(--csf-ig); }
+.nav-footer .nav-link[href*="tiktok.com"]:hover    { background: #fff; color: var(--csf-tt) !important; }
+.nav-footer .nav-link[href*="youtube.com"]:hover   { background: var(--csf-yt); }
 
 /* Quarto's banner title block, restyled to match the hero rather than hidden. */
 .quarto-title-banner {
@@ -240,6 +304,119 @@ main:has(.csf-hero) > #title-block-header { display: none; }
   color: var(--csf-ink-faint);
 }
 .csf-hero__meta span { display: inline-flex; align-items: center; gap: .45rem; }
+
+/* --- Split hero: copy on the left, a real photo on the right -------------- */
+
+.csf-hero--split {
+  display: grid;
+  gap: clamp(1.75rem, 4vw, 3rem);
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  align-items: center;
+}
+/* Grid items default to a min-content floor; the photo's intrinsic width would
+   then push the whole track — and the page — wider than the viewport. */
+.csf-hero--split > * { min-width: 0; }
+
+/* Below the two-column breakpoint the photo leads, because it explains the
+   club faster than any paragraph does. */
+@media (max-width: 850px) {
+  .csf-hero--split { grid-template-columns: minmax(0, 1fr); }
+  .csf-hero--split .csf-hero__figure { order: -1; }
+}
+
+.csf-hero--split .csf-hero__title { max-width: 18ch; }
+.csf-hero--split .csf-hero__lede  { max-width: 46ch; }
+
+.csf-hero__figure { margin: 0; min-width: 0; }
+.csf-hero__figure > p { margin: 0; }
+/* Over-qualified to beat the generic `main p > img` and `.page-columns img`
+   rules further down, which would otherwise cap and centre this photo. */
+.csf-hero__figure img.csf-hero__photo {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  max-height: 460px;
+  height: auto;
+  margin: 0;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: var(--csf-shadow-lg);
+}
+p.csf-hero__caption {
+  margin: .85rem 0 0;
+  max-width: 42ch;
+  font-size: .84rem;
+  line-height: 1.5;
+  color: var(--csf-ink-faint);
+}
+
+/* --- Inline "have a look first" social row -------------------------------- */
+
+.csf-follow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem .6rem;
+  margin-top: 1.6rem;
+}
+.csf-follow > p { display: contents; }
+.csf-follow__label {
+  font-size: .84rem;
+  font-weight: 600;
+  color: var(--csf-ink-faint);
+  margin-right: .1rem;
+}
+.csf-follow__link {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .87rem;
+  font-weight: 600;
+  padding: .35rem .8rem;
+  border-radius: 999px;
+  border: 1px solid var(--csf-line);
+  background: var(--csf-cream);
+  color: var(--csf-ink) !important;
+  text-decoration: none !important;
+  transition: transform .16s ease, background .16s ease, color .16s ease, border-color .16s ease;
+}
+.csf-follow__link .bi { font-size: 1rem; line-height: 1; }
+.csf-follow__link:hover { transform: translateY(-2px); border-color: transparent; color: #fff !important; }
+.csf-follow__link[href*="instagram.com"]:hover { background: var(--csf-ig); }
+.csf-follow__link[href*="tiktok.com"]:hover    { background: var(--csf-tt); }
+.csf-follow__link[href*="youtube.com"]:hover   { background: var(--csf-yt); }
+
+/* --- At-a-glance fact strip ---------------------------------------------- */
+
+.csf-strip {
+  display: grid;
+  gap: .25rem 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+  margin: -1.75rem 0 3.5rem;
+  padding: 1.15rem clamp(1.1rem, 3vw, 1.9rem);
+  border-radius: var(--csf-radius);
+  background: var(--csf-cream-deep);
+  border: 1px solid var(--csf-line);
+}
+/* The items are inline elements, so pandoc collects them into a <p> inside the
+   wrapper. Dissolve that paragraph box so they become grid items directly.
+   Same trick is needed for .csf-follow and .csf-social below. */
+.csf-strip > p { display: contents; }
+
+.csf-strip__item {
+  font-size: .92rem;
+  line-height: 1.45;
+  color: var(--csf-ink-soft);
+  padding-block: .35rem;
+}
+.csf-strip__item strong {
+  display: block;
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 800;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+  color: var(--csf-ember-dark);
+}
 
 /* ------------------------------------------------------------
    Buttons
@@ -471,6 +648,7 @@ ul.csf-steps,
   max-width: 48ch;
   margin: 0 auto 1.8rem;
 }
+.csf-band strong { color: var(--csf-paper); }
 .csf-band .csf-actions { justify-content: center; }
 .csf-band .csf-btn--ghost {
   color: var(--csf-paper) !important;
@@ -479,6 +657,99 @@ ul.csf-steps,
 .csf-band .csf-btn--ghost:hover {
   background: var(--csf-paper);
   color: var(--csf-ink) !important;
+}
+
+/* ------------------------------------------------------------
+   Social cards (Instagram / TikTok / YouTube)
+   ------------------------------------------------------------ */
+
+.csf-social {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  margin: 2rem 0;
+}
+.csf-social > p { display: contents; }
+
+.csf-social__card {
+  --csf-social-brand: var(--csf-ember);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .3rem;
+  padding: 1.6rem 1.5rem 1.4rem;
+  background: var(--csf-paper);
+  border: 1px solid var(--csf-line);
+  border-radius: var(--csf-radius);
+  box-shadow: var(--csf-shadow);
+  text-decoration: none !important;
+  color: var(--csf-ink) !important;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.csf-social__card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--csf-shadow-lg);
+  border-color: var(--csf-social-brand);
+  color: var(--csf-ink) !important;
+}
+.csf-social__card--ig { --csf-social-brand: var(--csf-ig); }
+.csf-social__card--tt { --csf-social-brand: var(--csf-tt); }
+.csf-social__card--yt { --csf-social-brand: var(--csf-yt); }
+
+.csf-social__icon {
+  display: grid;
+  place-items: center;
+  width: 2.9rem;
+  height: 2.9rem;
+  margin-bottom: .7rem;
+  border-radius: 12px;
+  background: var(--csf-social-brand);
+  color: #fff;
+  font-size: 1.45rem;
+  line-height: 1;
+}
+.csf-social__icon .bi { line-height: 1; }
+/* Instagram's mark is a gradient, not a flat magenta. */
+.csf-social__card--ig .csf-social__icon {
+  background: linear-gradient(45deg, #F9CE34 4%, #EE2A7B 46%, #6228D7 96%);
+}
+
+.csf-social__name {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+}
+.csf-social__handle {
+  font-size: .86rem;
+  font-weight: 600;
+  color: var(--csf-social-brand);
+  word-break: break-all;
+}
+.csf-social__card--tt .csf-social__handle { color: var(--csf-ink-soft); }
+.csf-social__note {
+  margin-top: .45rem;
+  font-size: .95rem;
+  line-height: 1.6;
+  color: var(--csf-ink-soft);
+}
+.csf-social__cta {
+  margin-top: auto;
+  padding-top: 1rem;
+  font-size: .88rem;
+  font-weight: 650;
+  color: var(--csf-ember-dark);
+}
+.csf-social__card:hover .csf-social__cta { color: var(--csf-social-brand); }
+.csf-social__card--tt:hover .csf-social__cta { color: var(--csf-ink); }
+
+/* Social row inside the dark band: same shapes, inverted surface. */
+.csf-band .csf-follow { justify-content: center; margin-top: 1.6rem; }
+.csf-band .csf-follow__label { color: rgba(255, 252, 246, .65); }
+.csf-band .csf-follow__link {
+  background: rgba(255, 252, 246, .1);
+  border-color: rgba(255, 252, 246, .28);
+  color: var(--csf-paper) !important;
 }
 
 /* small pill tags */
@@ -597,7 +868,7 @@ main img { border-radius: var(--csf-radius); max-width: 100%; height: auto; }
 
 /* Cap photos in post bodies so a portrait shot doesn't fill the whole screen.
    Listing thumbnails and the hero wordmark are sized by their own rules. */
-main p > img:not(.thumbnail-image):not(.csf-hero__mark) {
+main p > img:not(.thumbnail-image):not(.csf-hero__mark):not(.csf-hero__photo) {
   display: block;
   max-height: 640px;
   width: auto;
@@ -623,7 +894,8 @@ a:focus-visible,
     animation-duration: .01ms !important;
     transition-duration: .01ms !important;
   }
-  .csf-card:hover, .csf-btn:hover, div.quarto-post:hover, .quarto-grid-item.card:hover {
+  .csf-card:hover, .csf-btn:hover, div.quarto-post:hover, .quarto-grid-item.card:hover,
+  .csf-social__card:hover, .csf-follow__link:hover, .nav-footer .nav-link:hover {
     transform: none;
   }
 }
@@ -631,5 +903,11 @@ a:focus-visible,
 @media (max-width: 575px) {
   .csf-hero { border-radius: 18px; }
   .csf-actions { flex-direction: column; align-items: stretch; }
+  /* the pill social links stay inline — only the big CTAs go full width */
   .csf-btn { justify-content: center; width: 100%; }
+
+  .csf-hero--split .csf-hero__figure img.csf-hero__photo { max-height: 300px; }
+  /* the strip stops overlapping the hero once it stacks to one item per row */
+  .csf-strip { margin-top: -1rem; }
+  .csf-follow__label { width: 100%; margin-bottom: .1rem; }
 }

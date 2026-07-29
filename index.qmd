@@ -1,7 +1,7 @@
 ---
 title: "Cuochi senza fuochi"
-pagetitle: "Meet your neighbours over food, in Padova"
-description: "New in town? Bring one dish, meet fifteen neighbours. A free, offline potluck club in Padova. No kitchen required."
+pagetitle: "Cuochi senza fuochi — a free potluck club in Padova"
+description: "Bring one dish, meet fifteen neighbours. Cuochi senza fuochi is a free potluck dinner club in Padova for people who just moved here. No kitchen needed, no fee, come on your own."
 page-layout: full
 title-block-style: none
 listing:
@@ -17,64 +17,98 @@ listing:
   feed: true
 ---
 
-::: {.csf-hero}
+::: {.csf-hero .csf-hero--split}
+::: {.csf-hero__body}
 <img src="images/logo-wordmark.jpg" class="csf-hero__mark" alt="Cuochi senza fuochi — a whisk crossed over a flame inside a rope wreath">
 
-<p class="csf-hero__eyebrow">🍫 Padova · free · no kitchen needed</p>
+<p class="csf-hero__eyebrow">🍫 Padova · always free · since 2022</p>
 
-<h1 class="csf-hero__title">Moving to a new city is easy.<br>Making <em>friends</em> is the hard part.</h1>
+<h1 class="csf-hero__title">Bring one dish.<br>Meet <em>fifteen neighbours</em>.</h1>
 
 <p class="csf-hero__lede">
-Cuochi senza fuochi is a potluck club for people who just arrived in Padova for work or study.
-You bring one thing to eat — anything, even a bar of chocolate — and you leave with a table
-full of people who live near you.
+<strong>Cuochi senza fuochi is a free potluck dinner club in Padova.</strong> Once a month,
+about fifteen people who mostly haven't met put one dish each in the middle of a table
+and eat everything. You don't need a kitchen, you don't pay anything, and coming on
+your own is the normal way to arrive.
 </p>
 
 ::: {.csf-actions}
-[Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
+[Come to the next dinner](join.qmd){.csf-btn .csf-btn--primary}
 [See how it works](how-it-works.qmd){.csf-btn .csf-btn--ghost}
 :::
 
 <div class="csf-hero__meta">
   <span>✅ Always free</span>
-  <span>✅ No cooking skill required</span>
+  <span>✅ No cooking skill needed</span>
   <span>✅ Come alone, that's the point</span>
-  <span>✅ English &amp; Italian spoken</span>
+  <span>✅ English &amp; Italian</span>
+</div>
+
+<div class="csf-follow">
+  <span class="csf-follow__label">Have a look first:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi on Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi on TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>
 </div>
 :::
 
+::: {.csf-hero__figure}
+![](images/dinner-01.jpg){.csf-hero__photo fig-alt="About eighteen people standing among tables of shared food in a borrowed common room in Padova"}
+
+<p class="csf-hero__caption">A real evening: a borrowed common room, trays carried across town, and eighteen people who met two hours earlier.</p>
+:::
+:::
+
+<div class="csf-strip">
+  <span class="csf-strip__item"><strong>1 dish</strong> is your whole contribution</span>
+  <span class="csf-strip__item"><strong>€0</strong> to attend, about €5 of ingredients</span>
+  <span class="csf-strip__item"><strong>~15 people</strong> around one table</span>
+  <span class="csf-strip__item"><strong>Monthly</strong> evenings, always in Padova</span>
+</div>
+
+::: {.csf-section}
+<p class="csf-section__kicker">Start to finish</p>
 <h2 class="csf-section__title">What actually happens</h2>
+<p class="csf-section__sub">Four steps, and nothing hidden between them. This is the entire format.</p>
 
 ::: {.csf-steps}
 - ### You say you're coming
-  Send us a message. We tell you the address, the date and roughly how many people to expect.
+  Send a message on Instagram, TikTok or YouTube. We reply with the address, the date
+  and roughly how many people to expect.
 
 - ### You bring one dish
-  Something you can make without a real kitchen. Bought at the supermarket counts. Nobody is judging.
+  Something you can make without a real kitchen, for 4–6 people. Bought at the
+  supermarket counts. Nobody is judging.
 
 - ### Everyone eats everything
-  Plates go in the middle of the table. You try fourteen things you've never had, and you talk.
+  Plates go in the middle of the table. You try fourteen things you've never had,
+  and you talk to whoever is next to you.
 
 - ### You go home with numbers
   Not a networking event. Just the neighbours you'll now bump into at the market.
 :::
+:::
 
 ::: {.csf-section}
+<p class="csf-section__kicker">Why it works</p>
+<h2 class="csf-section__title">Three things that make it different</h2>
+
 ::: {.csf-grid}
 ::: {.csf-card}
 <span class="csf-card__icon">🔥</span>
 
 ### Senza fuochi — without fires
-The name is the promise. Student rooms don't have real kitchens, and that has never stopped anyone.
-No-bake, no-oven, one-pan: everything on our table was made in a shared kitchen or not cooked at all.
+The name is the promise. Student rooms don't have real kitchens, and that has never
+stopped anyone. No-bake, no-oven, one-pan: everything on our table was made in a
+shared kitchen or not cooked at all.
 :::
 
 ::: {.csf-card}
 <span class="csf-card__icon">💸</span>
 
 ### Cheaper than one drink
-A potluck costs each person the price of one dish. Meeting people in this city usually means
-a bar tab or a club entry. This is the version you can afford every month.
+A potluck costs each person the price of one dish. Meeting people in this city usually
+means a bar tab or a club entry. This is the version you can afford every month.
 :::
 
 ::: {.csf-card}
@@ -105,6 +139,39 @@ With those two things, the capital is guaranteed. But what about **human capital
 [See all events →](events.qmd)
 :::
 
+::: {.csf-section}
+<p class="csf-section__kicker">Follow along</p>
+<h2 class="csf-section__title">See a dinner before you come to one</h2>
+<p class="csf-section__sub">
+Every table gets filmed and photographed. If you'd rather watch before you commit,
+start here — and a DM on any of the three is a perfectly good way to sign up.
+</p>
+
+<div class="csf-social">
+  <a class="csf-social__card csf-social__card--ig" href="https://www.instagram.com/cuochi_senza_fuochi/">
+    <span class="csf-social__icon"><i class="bi bi-instagram"></i></span>
+    <span class="csf-social__name">Instagram</span>
+    <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
+    <span class="csf-social__note">Photos from every dinner, and the next date in stories.</span>
+    <span class="csf-social__cta">Follow →</span>
+  </a>
+  <a class="csf-social__card csf-social__card--tt" href="https://www.tiktok.com/@cuochi_senza_fuochi">
+    <span class="csf-social__icon"><i class="bi bi-tiktok"></i></span>
+    <span class="csf-social__name">TikTok</span>
+    <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
+    <span class="csf-social__note">Short clips of the table filling up — the fastest way to get the idea.</span>
+    <span class="csf-social__cta">Watch →</span>
+  </a>
+  <a class="csf-social__card csf-social__card--yt" href="https://www.youtube.com/@cuochisenzafuochi">
+    <span class="csf-social__icon"><i class="bi bi-youtube"></i></span>
+    <span class="csf-social__name">YouTube</span>
+    <span class="csf-social__handle">&#64;cuochisenzafuochi</span>
+    <span class="csf-social__note">Longer cuts, plus recipes you can make with no oven at all.</span>
+    <span class="csf-social__cta">Subscribe →</span>
+  </a>
+</div>
+:::
+
 ::: {.csf-band}
 ## Next dinner: come and bring something
 
@@ -113,6 +180,6 @@ Cuochi senza fuochi came on their own — that is the normal way to arrive.
 
 ::: {.csf-actions}
 [Join the next dinner](join.qmd){.csf-btn .csf-btn--primary}
-[Watch a 30-second clip](https://www.youtube.com/@cuochisenzafuochi/shorts){.csf-btn .csf-btn--ghost}
+[Watch a 30-second clip](https://www.tiktok.com/@cuochi_senza_fuochi){.csf-btn .csf-btn--ghost}
 :::
 :::
