@@ -14,7 +14,8 @@ title-block-style: none
 <p class="csf-hero__lede">
 No application, no form, no fee. Send one message to any of the three accounts below
 and back comes the address, the time and the recipe for that evening.
-<strong>You bring nothing.</strong>
+<strong>You bring nothing.</strong> Curiosity is the entire packing list, and nobody
+checks it at the door.
 </p>
 
 <div class="csf-follow">
