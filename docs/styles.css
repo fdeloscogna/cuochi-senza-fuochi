@@ -734,6 +734,97 @@ ul.csf-steps,
 .csf-social__card:hover .csf-social__cta { color: var(--csf-social-brand); }
 
 /* ------------------------------------------------------------
+   Auto synced feed (the Last content page)
+   ------------------------------------------------------------ */
+
+.csf-feed {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  margin: 2.25rem 0;
+}
+@media (min-width: 620px) { .csf-feed { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 940px) { .csf-feed { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+.csf-feed__card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  text-decoration: none !important;
+  color: var(--csf-ink) !important;
+}
+.csf-feed__card:hover { color: var(--csf-ink) !important; }
+
+/* The newest item gets the whole first row and a wider crop. */
+@media (min-width: 620px) {
+  .csf-feed__card--featured { grid-column: 1 / -1; }
+  .csf-feed__card--featured .csf-feed__thumb {
+    aspect-ratio: 16 / 9;
+    /* 16:9 across the full measure is over 600px tall and swamps the grid,
+       so cap the height and let object-fit crop instead */
+    max-height: 440px;
+  }
+  .csf-feed__card--featured .csf-feed__title { font-size: clamp(1.3rem, 1.1rem + 1vw, 1.9rem); }
+}
+
+.csf-feed__thumb {
+  display: block;
+  overflow: hidden;
+  /* YouTube hqdefault is 4:3 with the frame letterboxed inside, so cover and
+     crop rather than showing the black bars */
+  aspect-ratio: 4 / 3;
+  margin-bottom: .9rem;
+  border-radius: var(--csf-radius);
+  background: var(--csf-line);
+}
+.csf-feed__thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--csf-radius);
+  transition: opacity .2s ease, transform .35s ease;
+}
+.csf-feed__card:hover .csf-feed__thumb img { opacity: .9; transform: scale(1.02); }
+
+.csf-feed__body { display: flex; flex-direction: column; gap: .35rem; min-width: 0; }
+
+.csf-feed__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .74rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--csf-ink-faint);
+}
+.csf-feed__badge .bi { font-size: .95rem; line-height: 1; }
+.csf-feed__badge--youtube   { color: var(--csf-yt); }
+.csf-feed__badge--instagram { color: var(--csf-ig); }
+.csf-feed__badge--tiktok    { color: var(--csf-ink); }
+
+.csf-feed__title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+  /* feed titles are arbitrary length and must not shove the grid around */
+  overflow-wrap: anywhere;
+}
+.csf-feed__card:hover .csf-feed__title { color: var(--csf-accent); }
+
+.csf-feed__date { font-size: .82rem; color: var(--csf-ink-faint); }
+
+.csf-feed__cta {
+  margin-top: .5rem;
+  font-size: .86rem;
+  font-weight: 600;
+  color: var(--csf-accent-dk);
+}
+
+/* ------------------------------------------------------------
    Small pill tags
    ------------------------------------------------------------ */
 

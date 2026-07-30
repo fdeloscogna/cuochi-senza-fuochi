@@ -1,0 +1,76 @@
+name: Sync last content
+
+# Refreshes data/latest-content.json from the public YouTube feed and commits it
+# if anything changed. The site is served from docs/, and the sync script writes
+# the docs/ copy too, so this never has to render the site.
+
+on:
+  schedule:
+    # every six hours, at :17 to stay off the busy top of the hour.
+    # GitHub queues cron on shared runners, so treat the time as approximate.
+    - cron: '17 */6 * * *'
+  # lets you press Run workflow to pull a video in immediately
+  workflow_dispatch:
+
+# Two overlapping runs would race on the same commit.
+concurrency:
+  group: sync-latest-content
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # No dependencies to install: the script uses only Node built ins.
+      - name: Fetch the newest posts
+        run: node scripts/sync-latest-content.mjs
+
+      - name: Commit if the feed changed
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Staged first on purpose: `git diff` alone ignores untracked files, so
+          # on the very first run the new data files would look like no change.
+          git add data/latest-content.json docs/data/latest-content.json
+
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+
+          # `generated` moves on every run, so committing any diff would push
+          # noise every six hours. Only a change to the item list counts.
+          # -U0 drops context lines; ^[+-][^+-] skips the ---/+++ file headers.
+          substantive="$(git diff --cached -U0 -- data/latest-content.json \
+            | grep -E '^[+-][^+-]' | grep -v '"generated"' || true)"
+          if [ -z "$substantive" ]; then
+            echo "only the timestamp moved, not committing"
+            git reset -q -- data/latest-content.json docs/data/latest-content.json
+            git checkout -- data/latest-content.json docs/data/latest-content.json
+            exit 0
+          fi
+
+          git commit -m "Sync last content from YouTube"
+
+          # Someone may have pushed while this ran.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "pushed"
+              exit 0
+            fi
+            echo "push rejected, rebasing and retrying ($attempt)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          done
+          echo "could not push after 3 attempts" >&2
+          exit 1

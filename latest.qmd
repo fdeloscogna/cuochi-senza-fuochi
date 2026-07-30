@@ -1,0 +1,174 @@
+---
+title: "Last content"
+pagetitle: "Last content from Cuochi senza fuochi"
+description: "The newest videos and posts from Cuochi senza fuochi, updated automatically as soon as something new goes up on YouTube."
+page-layout: full
+title-block-style: none
+---
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow">Updated automatically</p>
+
+<h1 class="csf-hero__title">The <em>newest</em> thing, always on top</h1>
+
+<p class="csf-hero__lede">
+Whatever went up most recently lands here on its own. Nobody edits this page: it reads
+the channel directly, so a video posted this morning is already below.
+</p>
+
+<div class="csf-follow">
+  <span class="csf-follow__label">Straight to the source:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi on Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi on TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+</div>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">Fresh out</p>
+<h2 class="csf-section__title">Last content</h2>
+<p class="csf-section__sub" id="csf-feed-status">Loading the newest posts.</p>
+
+<div class="csf-feed" id="csf-feed" aria-busy="true" aria-live="polite"></div>
+
+<noscript>
+<div class="csf-empty">
+This page builds its list in the browser, so it needs JavaScript. Everything is also
+on <a href="https://www.youtube.com/@cuochisenzafuochi">YouTube</a>,
+<a href="https://www.instagram.com/cuochi_senza_fuochi/">Instagram</a> and
+<a href="https://www.tiktok.com/@cuochi_senza_fuochi">TikTok</a>.
+</div>
+</noscript>
+:::
+
+```{=html}
+<script>
+(function () {
+  "use strict";
+
+  var LABELS = {
+    youtube:   { name: "YouTube",   icon: "bi-youtube",   verb: "Watch on YouTube" },
+    instagram: { name: "Instagram", icon: "bi-instagram", verb: "See on Instagram" },
+    tiktok:    { name: "TikTok",    icon: "bi-tiktok",    verb: "Watch on TikTok" }
+  };
+
+  var feed   = document.getElementById("csf-feed");
+  var status = document.getElementById("csf-feed-status");
+  if (!feed) return;
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  // Rendered with the DOM rather than innerHTML: titles come from a feed, so
+  // they are untrusted text and must never be parsed as markup.
+  function card(item, featured) {
+    var meta = LABELS[item.platform] || { name: item.platform, icon: "bi-link-45deg", verb: "Open" };
+
+    var a = el("a", "csf-feed__card" + (featured ? " csf-feed__card--featured" : ""));
+    a.href = item.url;
+    a.rel = "noopener";
+
+    if (item.thumbnail) {
+      var frame = el("span", "csf-feed__thumb");
+      var img = document.createElement("img");
+      img.src = item.thumbnail;
+      img.alt = "";
+      img.loading = featured ? "eager" : "lazy";
+      img.decoding = "async";
+      // A dead thumbnail should collapse the frame, not leave a broken icon.
+      img.addEventListener("error", function () { frame.remove(); });
+      frame.appendChild(img);
+      a.appendChild(frame);
+    }
+
+    var body = el("span", "csf-feed__body");
+
+    var badge = el("span", "csf-feed__badge csf-feed__badge--" + item.platform);
+    var i = el("i", "bi " + meta.icon);
+    i.setAttribute("aria-hidden", "true");
+    badge.appendChild(i);
+    badge.appendChild(el("span", null, meta.name));
+    body.appendChild(badge);
+
+    body.appendChild(el("span", "csf-feed__title", item.title || meta.verb));
+
+    if (item.published) {
+      var d = new Date(item.published);
+      if (!isNaN(d)) {
+        var t = el("time", "csf-feed__date",
+          d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }));
+        t.dateTime = d.toISOString();
+        body.appendChild(t);
+      }
+    }
+
+    body.appendChild(el("span", "csf-feed__cta", meta.verb));
+    a.appendChild(body);
+    return a;
+  }
+
+  function fallback(message) {
+    feed.replaceChildren();
+    feed.removeAttribute("aria-busy");
+    if (status) status.textContent = message;
+
+    var box = el("div", "csf-empty");
+    box.appendChild(el("p", null, "The list could not be loaded just now."));
+    var p = el("p");
+    [["https://www.youtube.com/@cuochisenzafuochi", "YouTube"],
+     ["https://www.instagram.com/cuochi_senza_fuochi/", "Instagram"],
+     ["https://www.tiktok.com/@cuochi_senza_fuochi", "TikTok"]
+    ].forEach(function (pair, idx) {
+      if (idx) p.appendChild(document.createTextNode(" · "));
+      var link = el("a", null, pair[1]);
+      link.href = pair[0];
+      p.appendChild(link);
+    });
+    box.appendChild(p);
+    feed.appendChild(box);
+  }
+
+  // Cache busted so a freshly synced file is not hidden behind a stale copy.
+  fetch("data/latest-content.json?t=" + Date.now(), { cache: "no-cache" })
+    .then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(function (payload) {
+      var items = (payload && payload.items) || [];
+      if (!items.length) return fallback("Nothing to show yet.");
+
+      feed.replaceChildren();
+      items.forEach(function (item, idx) { feed.appendChild(card(item, idx === 0)); });
+      feed.removeAttribute("aria-busy");
+
+      if (status) {
+        var when = payload.generated ? new Date(payload.generated) : null;
+        status.textContent = when && !isNaN(when)
+          ? "Everything below is pulled straight from the channel. Last checked " +
+            when.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }) + "."
+          : "Everything below is pulled straight from the channel.";
+      }
+    })
+    .catch(function (err) {
+      if (window.console) console.error("latest content:", err);
+      fallback("The list could not be loaded just now.");
+    });
+})();
+</script>
+```
+
+::: {.csf-band}
+## Seen enough? Come and make some
+
+Every one of these was filmed at a session anybody could have walked into.
+
+::: {.csf-actions}
+[Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
+[How it works](how-it-works.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::

@@ -4,11 +4,16 @@ project:
   # copied into docs/ on every render so GitHub Pages doesn't run Jekyll over it
   resources:
     - .nojekyll
+    # the auto synced social feed, fetched at run time by latest.qmd.
+    # scripts/sync-latest-content.mjs writes both this and the docs/ copy, so the
+    # sync workflow never needs to render the site.
+    - data/latest-content.json
   render:
     - index.qmd
     - how-it-works.qmd
     - events.qmd
     - recipes.qmd
+    - latest.qmd
     - join.qmd
     - about.qmd
     - 404.qmd
@@ -38,6 +43,8 @@ website:
         href: how-it-works.qmd
       - text: "Sessions"
         href: events.qmd
+      - text: "Last content"
+        href: latest.qmd
       - text: "Recipes"
         href: recipes.qmd
       - text: "How it started"
@@ -65,6 +72,8 @@ website:
         href: how-it-works.qmd
       - text: "Sessions"
         href: events.qmd
+      - text: "Last content"
+        href: latest.qmd
       - text: "Recipes"
         href: recipes.qmd
       - text: "Join in"
