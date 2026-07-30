@@ -132,12 +132,22 @@ strong { font-weight: 620; color: var(--csf-ink); }
 }
 .navbar-brand img { max-height: 32px; }
 
+/* Quarto puts .navbar-nav-scroll on both nav lists, which caps their height and
+   can scroll an item out of sight with no visible scrollbar, so a link just
+   seems to vanish at certain widths. Let the bar wrap to a second row instead:
+   a slightly taller navbar is always better than a missing link. */
+.navbar .navbar-container { flex-wrap: wrap; row-gap: .25rem; }
+.navbar .navbar-nav { flex-wrap: wrap; }
+.navbar .navbar-nav-scroll { max-height: none; overflow: visible; }
+
 .navbar .nav-link {
   color: var(--csf-ink-soft) !important;
   font-weight: 500;
   font-size: .94rem;
   border-radius: 999px;
   padding: .3rem .75rem !important;
+  /* keep a label intact rather than breaking it across lines */
+  white-space: nowrap;
   transition: color .18s ease;
 }
 .navbar .nav-link:hover { color: var(--csf-ink) !important; }
@@ -172,6 +182,26 @@ strong { font-weight: 620; color: var(--csf-ink); }
 .navbar .nav-link[href*="instagram.com"]:hover { color: var(--csf-ig) !important; }
 .navbar .nav-link[href*="tiktok.com"]:hover    { color: var(--csf-tt) !important; }
 .navbar .nav-link[href*="youtube.com"]:hover   { color: var(--csf-yt) !important; }
+
+/* Inside the burger menu, which the xl breakpoint now uses up to 1200px.
+   Items are full width there, so the underline that marks the current page
+   stretches across and reads as a divider: use a left rule instead. */
+@media (max-width: 1199.98px) {
+  .navbar .nav-link.active {
+    box-shadow: none;
+    border-left: 2px solid var(--csf-accent);
+    border-radius: 0;
+  }
+  /* keep the three social icons on one row rather than three stacked rows */
+  .navbar .navbar-nav.ms-auto {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .2rem;
+    margin-top: .4rem;
+  }
+  .navbar .navbar-nav.ms-auto .nav-link:has(> .bi) { padding: .35rem .5rem !important; }
+}
 
 /* ------------------------------------------------------------
    Footer

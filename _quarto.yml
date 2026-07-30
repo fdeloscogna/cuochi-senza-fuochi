@@ -36,13 +36,19 @@ website:
     # so it lives in the homepage hero instead and the navbar uses text
     title: "Cuochi senza fuochi"
     pinned: false
+    # Default is lg (992px). Between there and roughly 1250px the brand, the
+    # links, the three social icons, the CTA and the search box do not fit on one
+    # row, and the overflow was silently clipping whichever item fell past the
+    # edge. Collapsing to the burger below 1200px removes that cramped range.
+    collapse-below: xl
     left:
+      # Sessions is deliberately not here: six links plus the icons and the CTA
+      # overcrowded the bar. The page is still linked from the footer and from
+      # the calls to action on the home, how it works and story pages.
       - text: "Home"
         href: index.qmd
       - text: "How it works"
         href: how-it-works.qmd
-      - text: "Sessions"
-        href: events.qmd
       - text: "Last content"
         href: latest.qmd
       - text: "Recipes"
