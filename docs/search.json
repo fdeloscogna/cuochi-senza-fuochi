@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "it/recipes.html#scegline-una-e-vieni-a-farla-con-noi",
+    "href": "it/recipes.html#scegline-una-e-vieni-a-farla-con-noi",
+    "title": "Le ricette",
+    "section": "Scegline una e vieni a farla con noi",
+    "text": "Scegline una e vieni a farla con noi\nNon devi comprare niente né fare pratica prima. Presentati e basta.\n\nVieni alla prossima Guarda i video"
+  },
+  {
+    "objectID": "it/join.html#un-messaggio-e-ci-sei",
+    "href": "it/join.html#un-messaggio-e-ci-sei",
+    "title": "Unisciti a noi",
+    "section": "Un messaggio e ci sei",
+    "text": "Un messaggio e ci sei\nNessun modulo, nessuna quota, niente da portare, e non devi conoscere nessuno.\n\nScrivici:  Instagram  TikTok  YouTube\n\nNon sei a Padova? Portala nella tua città."
+  },
+  {
+    "objectID": "it/how-it-works.html#pronto-per-la-prossima",
+    "href": "it/how-it-works.html#pronto-per-la-prossima",
+    "title": "Come funziona",
+    "section": "Pronto per la prossima?",
+    "text": "Pronto per la prossima?\nBasta un messaggio. Ti mandiamo noi l’indirizzo.\n\nVieni alla prossima Le serate passate\n\n\nOppure seguici:  Instagram  TikTok  YouTube"
+  },
+  {
+    "objectID": "it/cities.html#vuoi-iniziarne-uno",
+    "href": "it/cities.html#vuoi-iniziarne-uno",
+    "title": "La tua città",
+    "section": "Vuoi iniziarne uno?",
+    "text": "Vuoi iniziarne uno?\nMandaci un messaggio con il nome della tua città. Al resto pensiamo insieme.\n\nScrivici su Instagram Oppure su TikTok"
+  },
+  {
     "objectID": "posts/event/photo/journey/index.html",
     "href": "posts/event/photo/journey/index.html",
     "title": "The journey together",
@@ -60,7 +88,7 @@
     "href": "latest.html#seen-enough-come-and-make-some",
     "title": "Videos",
     "section": "Seen enough? Come and make some",
-    "text": "Seen enough? Come and make some\nEvery one of these was filmed at a session anybody could have walked into.\n\nCome to the next one How it works"
+    "text": "Seen enough? Come and make some\nEvery one of these was filmed with people who could have been you.\n\nCome to the next one How it works"
   },
   {
     "objectID": "about.html#come-and-meet-us",
@@ -68,5 +96,40 @@
     "title": "Who we are",
     "section": "Come and meet us",
     "text": "Come and meet us\nReading about it is a poor substitute for standing at the table with a bowl.\n\nCome to the next one Photos from past sessions\n\n\nFollow along:  Instagram  TikTok  YouTube"
+  },
+  {
+    "objectID": "it/about.html#vieni-a-conoscerci",
+    "href": "it/about.html#vieni-a-conoscerci",
+    "title": "Chi siamo",
+    "section": "Vieni a conoscerci",
+    "text": "Vieni a conoscerci\nLeggerne è un pessimo sostituto dello stare al tavolo con una ciotola in mano.\n\nVieni alla prossima Foto delle serate\n\n\nSeguici:  Instagram  TikTok  YouTube"
+  },
+  {
+    "objectID": "it/events.html#vuoi-essere-nelle-prossime-foto",
+    "href": "it/events.html#vuoi-essere-nelle-prossime-foto",
+    "title": "Serate",
+    "section": "Vuoi essere nelle prossime foto?",
+    "text": "Vuoi essere nelle prossime foto?\nVieni a mani vuote. Al resto pensiamo noi.\n\nVieni alla prossima Le ricette"
+  },
+  {
+    "objectID": "it/index.html#nati-a-padova.-perché-non-nella-tua-città",
+    "href": "it/index.html#nati-a-padova.-perché-non-nella-tua-città",
+    "title": "Cuochi senza fuochi",
+    "section": "Nati a Padova. Perché non nella tua città?",
+    "text": "Nati a Padova. Perché non nella tua città?\nBasta un tavolo, un frigo e qualche persona curiosa. Ti raccontiamo le nostre ricette e come organizziamo una serata, così puoi ospitare la prima ovunque tu viva.\n\nPortala nella tua città La nostra storia"
+  },
+  {
+    "objectID": "it/index.html#la-prossima-serata-presentati-e-basta.",
+    "href": "it/index.html#la-prossima-serata-presentati-e-basta.",
+    "title": "Cuochi senza fuochi",
+    "section": "La prossima serata? Presentati e basta.",
+    "text": "La prossima serata? Presentati e basta.\nNon devi conoscere nessuno, cucinare niente o portare niente. Quasi tutti, la prima volta, vengono da soli.\n\nVieni alla prossima Le ricette"
+  },
+  {
+    "objectID": "it/latest.html#visto-abbastanza-vieni-a-prepararne-uno",
+    "href": "it/latest.html#visto-abbastanza-vieni-a-prepararne-uno",
+    "title": "Video",
+    "section": "Visto abbastanza? Vieni a prepararne uno",
+    "text": "Visto abbastanza? Vieni a prepararne uno\nOgnuno di questi video è stato girato con persone che avresti potuto essere tu.\n\nVieni alla prossima Come funziona"
   }
 ]

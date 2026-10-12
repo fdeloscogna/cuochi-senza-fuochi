@@ -1,0 +1,101 @@
+---
+title: "Unisciti a noi"
+pagetitle: "Vieni alla prossima serata di Cuochi senza fuochi"
+description: "Partecipare è gratis, non porti niente, non cucini niente prima e non c'è nessuna gara. Mandaci un messaggio su Instagram, TikTok o YouTube per venire alla prossima serata."
+page-layout: full
+title-block-style: none
+---
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow"><i class="bi bi-chat-heart-fill"></i> Gratis · puoi venire da solo</p>
+
+<h1 class="csf-hero__title">Dicci che vieni. È <em>tutto</em> qui.</h1>
+
+<p class="csf-hero__lede">
+Nessuna candidatura, nessun modulo, nessuna quota. Manda un messaggio a uno dei nostri
+account e ti rispondiamo con il posto, l'orario e il dolce della serata.
+<strong>Porta solo te stesso.</strong>
+</p>
+
+<div class="csf-follow">
+  <span class="csf-follow__label">Scrivici:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi su Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi su TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi su YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+</div>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">scrivici</p>
+<h2 class="csf-section__title">Scegli quello che preferisci</h2>
+<p class="csf-section__sub">
+Arrivano tutti alle stesse poche persone, quindi non puoi sbagliare. Un messaggio tipo
+<em>"Ciao, sono nuovo qui e vorrei venire"</em> basta e avanza.
+</p>
+
+<div class="csf-social">
+  <a class="csf-social__card csf-social__card--ig" href="https://www.instagram.com/cuochi_senza_fuochi/">
+    <span class="csf-social__icon"><i class="bi bi-instagram"></i></span>
+    <span class="csf-social__name">Instagram</span>
+    <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
+    <span class="csf-social__note">La risposta più veloce, ed è lì che esce per prima la prossima data.</span>
+    <span class="csf-social__cta">Manda un messaggio</span>
+  </a>
+  <a class="csf-social__card csf-social__card--tt" href="https://www.tiktok.com/@cuochi_senza_fuochi">
+    <span class="csf-social__icon"><i class="bi bi-tiktok"></i></span>
+    <span class="csf-social__name">TikTok</span>
+    <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
+    <span class="csf-social__note">Guarda prima un dolce che prende forma, poi commenta o scrivici.</span>
+    <span class="csf-social__cta">Guarda e scrivi</span>
+  </a>
+  <a class="csf-social__card csf-social__card--yt" href="https://www.youtube.com/@cuochisenzafuochi">
+    <span class="csf-social__icon"><i class="bi bi-youtube"></i></span>
+    <span class="csf-social__name">YouTube</span>
+    <span class="csf-social__handle">&#64;cuochisenzafuochi</span>
+    <span class="csf-social__note">Video più lunghi delle serate passate. Leggiamo e rispondiamo ai commenti.</span>
+    <span class="csf-social__cta">Lascia un commento</span>
+  </a>
+</div>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">e poi</p>
+<h2 class="csf-section__title">Prima di venire</h2>
+
+::: {.csf-steps}
+- ### Dicci cosa mangi
+  Allergie, vegetariano, vegano, qualsiasi cosa tu non possa mangiare. Cambia cosa si
+  compra, quindi dillo quando ti iscrivi, non la sera stessa.
+
+- ### Non cucinare niente
+  Lo ripetiamo: non è una cena in cui ognuno porta qualcosa. La spesa è fatta e trovi
+  tutto sul tavolo.
+
+- ### Porta un contenitore, se vuoi
+  Solo per gli avanzi. Di solito ce ne sono, e di solito sono la parte migliore della
+  mattina dopo.
+
+- ### Arriva più o meno puntuale
+  La prima mezz'ora è quando si inizia la ricetta e ci si presenta. È più facile arrivare
+  con tutti che in una stanza già piena.
+:::
+:::
+
+::: {.csf-quote}
+Vieni per il dolce. **Resta per le persone.**
+:::
+
+::: {.csf-band}
+## Un messaggio e ci sei
+
+Nessun modulo, nessuna quota, niente da portare, e non devi conoscere nessuno.
+
+<div class="csf-follow">
+  <span class="csf-follow__label">Scrivici:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi su Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi su TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi su YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+</div>
+
+Non sei a Padova? [Portala nella tua città](cities.qmd).
+:::

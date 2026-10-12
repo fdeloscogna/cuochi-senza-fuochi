@@ -1,0 +1,149 @@
+---
+title: "La tua città"
+pagetitle: "Porta Cuochi senza fuochi nella tua città"
+description: "Cuochi senza fuochi è nato a Padova, ma basta un tavolo, un frigo e qualche persona curiosa. Ecco come iniziarlo nella tua città, con il nostro aiuto."
+page-layout: full
+title-block-style: none
+---
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow"><i class="bi bi-geo-alt-fill"></i> Nati a Padova · aperti a ogni città</p>
+
+<h1 class="csf-hero__title">Porta il tavolo nella <em>tua città</em>.</h1>
+
+<p class="csf-hero__lede">
+Niente di Cuochi senza fuochi ha bisogno di Padova. Servono un tavolo, un frigo, pochi
+euro di ingredienti e qualche persona che abbia voglia di conoscersi.
+<strong>Se ti sembra la tua città, iniziamo insieme.</strong>
+</p>
+
+::: {.csf-actions}
+[Scrivici su Instagram](https://www.instagram.com/cuochi_senza_fuochi/){.csf-btn .csf-btn--primary}
+[Come funziona una serata](how-it-works.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">dove siamo</p>
+<h2 class="csf-section__title">La mappa, per ora</h2>
+<p class="csf-section__sub">Una puntina, e tanto spazio per altre.</p>
+
+::: {.csf-grid}
+::: {.csf-card}
+::: {.csf-city}
+<span class="csf-city__pin"><i class="bi bi-geo-alt-fill"></i></span>
+
+::: {}
+### Padova
+Da marzo 2022 · più o meno una volta al mese
+:::
+:::
+:::
+
+::: {.csf-card}
+::: {.csf-city}
+<span class="csf-city__pin csf-city__pin--open"><i class="bi bi-plus-lg"></i></span>
+
+::: {}
+### La tua città?
+Scrivici, e potrebbe essere la prossima.
+:::
+:::
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">cosa serve</p>
+<h2 class="csf-section__title">Meno di quanto pensi</h2>
+<p class="csf-section__sub">
+Nessuna sala da affittare, nessuna attrezzatura da comprare, nessun budget da trovare.
+Solo queste quattro cose.
+</p>
+
+::: {.csf-grid .csf-grid--4}
+::: {.csf-card .csf-card--butter}
+<span class="csf-card__icon"><i class="bi bi-table"></i></span>
+
+### Un tavolo e un frigo
+Una casa condivisa, la sala comune di un cohousing, una residenza universitaria, la
+cucina di un amico. Ovunque si possa stare intorno a un tavolo.
+:::
+
+::: {.csf-card .csf-card--berry}
+<span class="csf-card__icon"><i class="bi bi-basket2-fill"></i></span>
+
+### Ingredienti economici
+Biscotti, cioccolato, panna, frutta. Le nostre ricette sono scelte per sfamare un
+gruppo con una sola spesa.
+:::
+
+::: {.csf-card .csf-card--pista}
+<span class="csf-card__icon"><i class="bi bi-people-fill"></i></span>
+
+### Una decina di curiosi
+Coinquilini, compagni di corso, colleghi, un post in un gruppo locale. Gli sconosciuti
+sono benvenuti: è proprio questo il punto.
+:::
+
+::: {.csf-card .csf-card--blue}
+<span class="csf-card__icon"><i class="bi bi-megaphone-fill"></i></span>
+
+### Una persona che dice "dai"
+Qualcuno che scelga una data e mandi il primo messaggio. Potresti essere tu.
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">per iniziare</p>
+<h2 class="csf-section__title">Come la faremmo partire, insieme</h2>
+
+::: {.csf-steps}
+- ### Scrivici
+  Un messaggio su Instagram, TikTok o YouTube. Dicci la tua città e chi pensi che
+  potrebbe venire.
+
+- ### Ti raccontiamo come facciamo
+  Le ricette che funzionano in gruppo, cosa comprare e come organizziamo una serata,
+  dal primo ciao all'ultimo cucchiaio.
+
+- ### Ospita la prima
+  Scegli un dolce facile, invita qualche persona e preparatelo insieme. La prima volta,
+  meglio in pochi.
+
+- ### Mandaci le foto
+  Raccontaci com'è andata. Poi rifallo il mese dopo, e guarda il gruppo crescere.
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">stesso spirito ovunque</p>
+<h2 class="csf-section__title">Le poche cose che ogni città mantiene</h2>
+<p class="csf-section__sub">
+Ogni città avrà le sue ricette e la sua gente. Queste quattro cose restano uguali,
+perché sono quelle che fanno funzionare tutto.
+</p>
+
+::: {.csf-checks}
+- **Partecipare è gratis.** Nessuno paga alla porta. Gli ingredienti restano economici
+  proprio per questo.
+- **Nessuna gara.** Prepariamo un dolce insieme, come una squadra. Nessuno vince, tutti
+  mangiano.
+- **Niente fuoco.** Niente forno né fornelli, così va bene ogni stanza e chiunque può partecipare.
+- **Tutti sono benvenuti.** Soprattutto chi è appena arrivato ed è venuto da solo.
+:::
+:::
+
+::: {.csf-band .csf-band--butter}
+<span class="csf-band__icon"><i class="bi bi-send-fill"></i></span>
+
+## Vuoi iniziarne uno?
+
+Mandaci un messaggio con il nome della tua città. **Al resto pensiamo insieme.**
+
+::: {.csf-actions}
+[Scrivici su Instagram](https://www.instagram.com/cuochi_senza_fuochi/){.csf-btn .csf-btn--primary}
+[Oppure su TikTok](https://www.tiktok.com/@cuochi_senza_fuochi){.csf-btn .csf-btn--ghost}
+:::
+:::

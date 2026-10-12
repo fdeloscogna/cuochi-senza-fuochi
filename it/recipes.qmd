@@ -1,0 +1,227 @@
+---
+title: "Le ricette"
+pagetitle: "Le ricette di Cuochi senza fuochi: dolci economici senza forno"
+description: "I dolci e le torte che prepariamo insieme a Cuochi senza fuochi, direttamente dal nostro Instagram: salame di cioccolato, tiramisù, gelato biscotto, torta Mars, bounty e altro. Economici, facili, senza forno."
+page-layout: full
+title-block-style: none
+---
+
+<!-- Stesse ricette di recipes.qmd, con le dosi e i passaggi delle slide originali. -->
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow"><i class="bi bi-cake2-fill"></i> Niente forno · niente fornelli · niente esperienza</p>
+
+<h1 class="csf-hero__title">Torte che puoi fare in <em>camera</em>.</h1>
+
+<p class="csf-hero__lede">
+Ogni settimana pubblichiamo su Instagram una nuova ricetta senza fuoco. Queste sono
+quelle che prepariamo insieme, <strong>con le dosi esatte dei nostri post.</strong>
+Impara a farne una con noi, poi rifalla da solo.
+</p>
+
+::: {.csf-actions}
+[Vieni a prepararne una](join.qmd){.csf-btn .csf-btn--primary}
+[Una ricetta nuova ogni settimana su Instagram](https://www.instagram.com/cuochi_senza_fuochi/){.csf-btn .csf-btn--ghost}
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">dal nostro Instagram</p>
+<h2 class="csf-section__title">I nostri dolci, un post alla volta</h2>
+<p class="csf-section__sub">
+Tocca una foto per vedere il post originale, o apri una scheda per ingredienti e passaggi.
+</p>
+
+```{=html}
+<div class="csf-recipes">
+
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="https://www.instagram.com/p/DXFVUbIjH7-/"><img src="../images/recipes/salame.jpg" alt="Salame di cioccolato a fette su un piatto" loading="lazy"></a>
+  <div class="csf-recipe__body">
+    <h3>Salame di cioccolato</h3>
+    <p class="csf-recipe__sub">il nostro classico, formato festa</p>
+    <p>Quello che facciamo di più. Sbricioli, mescoli, arrotoli, metti in frigo, affetti: una ciotola grande fa sei salami per una folla intera.</p>
+    <p class="csf-card__facts"><span><i class="bi bi-basket"></i> 5 ingredienti</span><span><i class="bi bi-people"></i> per 6 salami</span></p>
+    <details>
+      <summary>Ingredienti e passaggi</summary>
+      <h4>Ingredienti</h4>
+      <ul><li>2 kg di biscotti secchi</li><li>2 kg di zucchero</li><li>1 kg di burro</li><li>15 uova (circa 800 g)</li><li>500 g di cacao amaro</li></ul>
+      <h4>Preparazione</h4>
+      <ol><li>Rompere grossolanamente i biscotti secchi.</li><li>Fondere il burro.</li><li>Aggiungere zucchero, burro fuso e poi il cacao.</li><li>Mescolare il tutto.</li><li>Dare forma ai salami con l'aiuto di carta da forno.</li></ol>
+    </details>
+    <p class="csf-recipe__links"><a href="https://www.instagram.com/p/DXFVUbIjH7-/">Vedi il post</a><a href="https://www.youtube.com/watch?v=xhdRcyf1rMo">Guarda la versione in 4 minuti</a></p>
+  </div>
+</article>
+
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="https://www.instagram.com/p/DXrER9UDCrG/"><img src="../images/recipes/tiramisu.jpg" alt="Una fetta di tiramisù spolverata di cacao" loading="lazy"></a>
+  <div class="csf-recipe__body">
+    <h3>Tiramisù in due versioni</h3>
+    <p class="csf-recipe__sub">classico o alle fragole</p>
+    <p>Il nostro classico, servito nel bicchiere: uno con il caffè, uno con latte e fragole fresche.</p>
+    <p class="csf-card__facts"><span><i class="bi bi-basket"></i> 7 ingredienti</span><span><i class="bi bi-cup"></i> 1 porzione</span></p>
+    <details>
+      <summary>Ingredienti e passaggi</summary>
+      <h4>Ingredienti (una porzione)</h4>
+      <ul><li>1 uovo</li><li>30 g di zucchero</li><li>50 g di panna</li><li>90 g di mascarpone</li><li>3–4 savoiardi</li><li>Classico: caffè solubile</li><li>Alle fragole: latte e fragole</li></ul>
+      <h4>Preparazione</h4>
+      <ol><li>Dividere il tuorlo dall'albume.</li><li>Montare il tuorlo con 20 g di zucchero.</li><li>Montare l'albume e la panna con 10 g di zucchero, poi aggiungere il mascarpone.</li><li>Unire le due creme.</li><li>Inzuppare i savoiardi nel caffè (o nel latte, con le fragole) e fare i diversi strati.</li></ol>
+    </details>
+    <p class="csf-recipe__links"><a href="https://www.instagram.com/p/DXrER9UDCrG/">Vedi il post</a></p>
+  </div>
+</article>
+
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="https://www.instagram.com/p/DWPdU3DjNFa/"><img src="../images/recipes/gelato-biscotto.jpg" alt="Gelati biscotto impilati" loading="lazy"></a>
+  <div class="csf-recipe__body">
+    <h3>Gelato biscotto</h3>
+    <p class="csf-recipe__sub">senza gelatiera</p>
+    <p>Panna montata e cioccolato tra due biscotti, dritti in freezer. Venticinque pezzi con soli quattro ingredienti.</p>
+    <p class="csf-card__facts"><span><i class="bi bi-basket"></i> 4 ingredienti</span><span><i class="bi bi-snow"></i> per 25 pezzi</span></p>
+    <details>
+      <summary>Ingredienti e passaggi</summary>
+      <h4>Ingredienti</h4>
+      <ul><li>400 g di biscotti secchi</li><li>500 ml di panna</li><li>125 g di zucchero a velo</li><li>200 g di cioccolato</li></ul>
+      <h4>Preparazione</h4>
+      <ol><li>Montare la panna con la frusta.</li><li>Mescolare lo zucchero con la panna.</li><li>Inserire il cioccolato.</li><li>Spalmare la crema di panna e cioccolato sui biscotti.</li><li>Mettere in freezer.</li></ol>
+    </details>
+    <p class="csf-recipe__links"><a href="https://www.instagram.com/p/DWPdU3DjNFa/">Vedi il post</a></p>
+  </div>
+</article>
+
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="https://www.instagram.com/p/DX7rurnDCig/"><img src="../images/recipes/torta-mars.jpg" alt="Torta Mars con riso soffiato e cioccolato" loading="lazy"></a>
+  <div class="csf-recipe__body">
+    <h3>Torta Mars</h3>
+    <p class="csf-recipe__sub">croccante, golosa, sparita in un attimo</p>
+    <p>Mars sciolti con il burro, riso soffiato, tutto in uno stampo e poi in frigo.</p>
+    <p class="csf-card__facts"><span><i class="bi bi-basket"></i> 4 ingredienti</span><span><i class="bi bi-snow"></i> 1 ora in frigo</span></p>
+    <details>
+      <summary>Ingredienti e passaggi</summary>
+      <h4>Ingredienti (una torta)</h4>
+      <ul><li>6 Mars da 45 g</li><li>80 g di burro</li><li>100 g di riso soffiato</li><li>Mezza barretta di cioccolato al latte</li></ul>
+      <h4>Preparazione</h4>
+      <ol><li>Tagliare i Mars in piccoli pezzi e scioglierli col burro.</li><li>Aggiungere man mano il riso soffiato.</li><li>Versare tutto in uno stampo rivestito di carta da forno e livellarlo con un bicchiere.</li><li>Mettere la torta in frigo per almeno un'ora.</li></ol>
+    </details>
+    <p class="csf-recipe__links"><a href="https://www.instagram.com/p/DX7rurnDCig/">Vedi il post</a></p>
+  </div>
+</article>
+
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="https://www.instagram.com/p/DYNcrjriHjT/"><img src="../images/recipes/bounty.jpg" alt="Bounty fatti in casa ricoperti di cioccolato" loading="lazy"></a>
+  <div class="csf-recipe__body">
+    <h3>Bounty</h3>
+    <p class="csf-recipe__sub">tre ingredienti, dita appiccicose</p>
+    <p>Cocco e latte condensato, modellati a mano e ricoperti di cioccolato al latte.</p>
+    <p class="csf-card__facts"><span><i class="bi bi-basket"></i> 3 ingredienti</span><span><i class="bi bi-people"></i> per 12 bounty</span></p>
+    <details>
+      <summary>Ingredienti e passaggi</summary>
+      <h4>Ingredienti</h4>
+      <ul><li>200 ml di latte condensato</li><li>225 g di cocco rapè</li><li>300 g di cioccolato al latte</li></ul>
+      <h4>Preparazione</h4>
+      <ol><li>Mischiare il latte condensato col cocco rapè.</li><li>Dare forma ai bounty e ricoprirli di cioccolato.</li><li>Decorare i bounty col cocco rapè rimasto.</li></ol>
+    </details>
+    <p class="csf-recipe__links"><a href="https://www.instagram.com/p/DYNcrjriHjT/">Vedi il post</a></p>
+  </div>
+</article>
+
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="https://www.instagram.com/p/DV9eBVaDI8R/"><img src="../images/recipes/cheesecake.jpg" alt="Un vassoio di bicchierini di cheesecake ai frutti di bosco" loading="lazy"></a>
+  <div class="csf-recipe__body">
+    <h3>Cheesecake ai frutti di bosco</h3>
+    <p class="csf-recipe__sub">nel bicchiere</p>
+    <p>Yogurt e panna montata a strati con frollini al cacao sbriciolati e marmellata di frutti di bosco.</p>
+    <p class="csf-card__facts"><span><i class="bi bi-basket"></i> 5 ingredienti</span><span><i class="bi bi-people"></i> per 5 persone</span></p>
+    <details>
+      <summary>Ingredienti e passaggi</summary>
+      <h4>Ingredienti</h4>
+      <ul><li>Yogurt bianco intero (190 g)</li><li>Panna (50 g)</li><li>Zucchero a velo (6 g)</li><li>Frollini al cacao</li><li>Marmellata ai frutti di bosco</li></ul>
+      <h4>Preparazione</h4>
+      <ol><li>Monta la panna (se già zuccherata, meglio).</li><li>Rompi i biscotti e mettili come base del bicchiere.</li><li>Unisci la panna senza smontarla allo yogurt e versala sopra il primo strato di biscotti.</li><li>Fai un secondo strato di biscotti sbriciolati e aggiungi uno strato di marmellata.</li><li>Metti un altro strato di crema e ricoprila con la marmellata.</li></ol>
+      <p>Le dosi complete per cinque sono nel post.</p>
+    </details>
+    <p class="csf-recipe__links"><a href="https://www.instagram.com/p/DV9eBVaDI8R/">Vedi il post</a></p>
+  </div>
+</article>
+
+</div>
+```
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">un ospite molto speciale</p>
+<h2 class="csf-section__title">La sera in cui un maestro pasticcere ha cucinato con noi</h2>
+
+```{=html}
+<div class="csf-recipes">
+<article class="csf-recipe csf-recipe--guest">
+  <a class="csf-recipe__img" href="https://www.instagram.com/p/DZIvNVPDJe7/"><img src="../images/guests/biasetto.jpg" alt="Il pasticcere Luigi Biasetto che impasta in una ciotola durante una serata di Cuochi senza fuochi" loading="lazy"></a>
+  <div class="csf-recipe__body">
+    <h3>Mousse al cioccolato con Luigi Biasetto</h3>
+    <p class="csf-recipe__sub">25 maggio 2026</p>
+    <p>Il pasticcere più famoso di Padova ha passato una serata con noi e ha preparato una mousse al cioccolato con tutti al tavolo.</p>
+    <p class="csf-recipe__links"><a href="https://www.instagram.com/p/DZIvNVPDJe7/">Guarda le foto</a><a href="latest.html">Altri ospiti dolci</a></p>
+  </div>
+</article>
+</div>
+```
+:::
+
+::: {.csf-section}
+::: {.csf-split}
+::: {}
+<p class="csf-section__kicker">e poi</p>
+<h2 class="csf-section__title">Altre ricette in video</h2>
+<p class="csf-section__sub">
+Qualche altro preferito sta su YouTube. E sì, una volta abbiamo fatto anche una ricetta
+salata: [i tramezzini, in tre versioni](https://www.instagram.com/p/DXXk8PtDPfi/).
+</p>
+:::
+
+::: {.csf-checks}
+- **[Tartufi Sacher](https://www.youtube.com/watch?v=r14EIY-7eX0).** Il dolce facile per i
+  gruppi che vedono la cucina come una scienza impossibile.
+- **[Il dolce al cocco con 3 ingredienti](https://www.youtube.com/watch?v=ZXGIKHwHM-8).**
+  Senza nessun elettrodomestico.
+- **[Tiramisù al cocco per 70 persone](https://www.youtube.com/watch?v=pCKiMFqrsL0).** In
+  un'ora. Si può fare?
+- **[Pancake senza impasto](https://www.youtube.com/watch?v=nSHhefm6wzY).** Per il fuorisede
+  con la dispensa vuota.
+:::
+:::
+:::
+
+::: {.csf-section}
+::: {.csf-split}
+::: {}
+<p class="csf-section__kicker">come le scegliamo</p>
+<h2 class="csf-section__title">Perché queste e non altre</h2>
+<p class="csf-section__sub">
+Una ricetta deve superare quattro prove prima di arrivare sul nostro tavolo.
+</p>
+
+Hai un dolce senza forno preferito che le supera tutte? Porta l'idea (non il dolce)
+alla prossima serata.
+:::
+
+::: {.csf-checks}
+- **Niente fiamme.** Niente forno, niente fornelli, niente attese per una cucina condivisa.
+- **È economica.** Ingredienti da supermercato che bastano per un tavolo intero.
+- **I passaggi si dividono.** C'è chi sbriciola, chi scioglie, chi arrotola. Se può
+  farla un solo paio di mani, non è una ricetta da gruppo.
+- **Puoi rifarla da solo.** In camera, con un frigo in fondo al corridoio: è proprio
+  questo il punto.
+:::
+:::
+:::
+
+::: {.csf-band}
+## Scegline una e vieni a farla con noi
+
+Non devi comprare niente né fare pratica prima. Presentati e basta.
+
+::: {.csf-actions}
+[Vieni alla prossima](join.qmd){.csf-btn .csf-btn--primary}
+[Guarda i video](latest.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::

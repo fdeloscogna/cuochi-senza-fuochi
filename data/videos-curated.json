@@ -1,0 +1,119 @@
+{
+  "_note": "Hand-picked videos for the Videos page (latest.qmd and it/latest.qmd). 'guests' is the Sweet guests, interviewed section; 'idea' is Who we are, in a minute. Thumbnails default to the YouTube one when 'id' is set; local paths are relative to the site root. Anything listed here is left out of the automatic feed below it.",
+  "guests": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/p/DZIvNVPDJe7/",
+      "thumbnail": "images/guests/biasetto.jpg",
+      "guest_en": "Luigi Biasetto, pastry chef",
+      "guest_it": "Luigi Biasetto, maestro pasticcere",
+      "title_en": "Chocolate mousse with Padova's most famous pastry chef",
+      "title_it": "La mousse al cioccolato con il pasticcere più famoso di Padova",
+      "published": "2026-06-03"
+    },
+    {
+      "platform": "youtube",
+      "id": "Y1yIsZSWV6k",
+      "url": "https://www.youtube.com/watch?v=Y1yIsZSWV6k",
+      "guest_en": "Riccardo Illy",
+      "guest_it": "Riccardo Illy",
+      "title_en": "The entrepreneur behind a half-billion company, and his antidote to \"we've always done it this way\"",
+      "title_it": "L'imprenditore dall'azienda da mezzo miliardo e il suo antidoto al \"si è fatto sempre così\"",
+      "published": "2026-07-30"
+    },
+    {
+      "platform": "youtube",
+      "id": "68DwuipHWNc",
+      "url": "https://www.youtube.com/watch?v=68DwuipHWNc",
+      "guest_en": "Riccardo Illy",
+      "guest_it": "Riccardo Illy",
+      "title_en": "Riccardo Illy's advice for Gen Z, facing three revolutions at once",
+      "title_it": "La visione di Riccardo Illy per la Generazione Z per affrontare 3 rivoluzioni contemporaneamente"
+    },
+    {
+      "platform": "youtube",
+      "id": "EQURTdYHzp8",
+      "url": "https://www.youtube.com/watch?v=EQURTdYHzp8",
+      "guest_en": "Riccardo Illy",
+      "guest_it": "Riccardo Illy",
+      "title_en": "President Illy's career in 50 seconds (feat. a lot of cats)",
+      "title_it": "La traiettoria del Presidente Illy raccontata in 50 secondi [feat. un sacco di gatti]"
+    },
+    {
+      "platform": "youtube",
+      "id": "t5gsXFL5Yr8",
+      "url": "https://www.youtube.com/watch?v=t5gsXFL5Yr8",
+      "guest_en": "an engineer from THRUST",
+      "guest_it": "un ingegnere di THRUST",
+      "title_en": "How many chocolate salami can you take to space?",
+      "title_it": "Quanti salami al cioccolato puoi portare nello spazio?"
+    },
+    {
+      "platform": "youtube",
+      "id": "UXeOUgxNJDw",
+      "url": "https://www.youtube.com/watch?v=UXeOUgxNJDw",
+      "title_en": "How much biotech science can you put in a chocolate salami?",
+      "title_it": "Quanta scienza biotech ci sta in un salame al cioccolato?"
+    },
+    {
+      "platform": "youtube",
+      "id": "hyvePsk4Ebw",
+      "url": "https://www.youtube.com/watch?v=hyvePsk4Ebw",
+      "title_en": "When the medicine entrance test meets the chocolate salami",
+      "title_it": "Quando il test di medicina incontra il salame al cioccolato"
+    },
+    {
+      "platform": "youtube",
+      "id": "CQ_p2P-_jpY",
+      "url": "https://www.youtube.com/watch?v=CQ_p2P-_jpY",
+      "title_en": "The secrets of a medicine student who doesn't need lecture notes",
+      "title_it": "I segreti dello studente di medicina senza sbobina"
+    },
+    {
+      "platform": "youtube",
+      "id": "Cs0TwJo8MQk",
+      "url": "https://www.youtube.com/watch?v=Cs0TwJo8MQk",
+      "guest_en": "Alice",
+      "guest_it": "Alice",
+      "title_en": "Psychiatric rehabilitation or nursing? Alice's spicy answers",
+      "title_it": "Tecnica della riabilitazione psichiatrica o infermieristica? Le risposte spicy di Alice"
+    },
+    {
+      "platform": "youtube",
+      "id": "shPI3RgSVdI",
+      "url": "https://www.youtube.com/watch?v=shPI3RgSVdI",
+      "title_en": "The chocolate salami, judged by the fitness ambassador",
+      "title_it": "Il giudizio del salame al cioccolato dall'ambasciatore del fitness"
+    }
+  ],
+  "idea": [
+    {
+      "platform": "youtube",
+      "id": "tr34uW9K-WU",
+      "url": "https://www.youtube.com/watch?v=tr34uW9K-WU",
+      "title_en": "How no-bake desserts help you make friends in a new city, on a budget",
+      "title_it": "Come i dolci senza forno ti aiutano a fare amicizia in una nuova città, risparmiando"
+    },
+    {
+      "platform": "youtube",
+      "id": "ZcPcRtNdrxY",
+      "url": "https://www.youtube.com/watch?v=ZcPcRtNdrxY",
+      "title_en": "How to make new friends when you've left your hometown",
+      "title_it": "Come fare nuove amicizie quando hai lasciato la tua città"
+    },
+    {
+      "platform": "youtube",
+      "id": "TF00TE5pnDw",
+      "url": "https://www.youtube.com/watch?v=TF00TE5pnDw",
+      "title_en": "Cuochi senza fuochi in a nutshell",
+      "title_it": "I cuochi senza fuochi in poche parole"
+    },
+    {
+      "platform": "youtube",
+      "id": "OnovgcFV76s",
+      "url": "https://www.youtube.com/watch?v=OnovgcFV76s",
+      "title_en": "A whole year of no-bake cakes",
+      "title_it": "Un anno intero di torte senza forno"
+    }
+  ]
+}

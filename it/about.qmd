@@ -1,0 +1,156 @@
+---
+title: "Chi siamo"
+pagetitle: "Chi siamo, Cuochi senza fuochi"
+description: "Cuochi senza fuochi è un gruppo di persone che prepara insieme dolci facili ed economici per conoscere gente nuova. La nostra missione, la nostra storia da marzo 2022 e perché il gruppo è tutto."
+page-layout: full
+title-block-style: none
+---
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow"><i class="bi bi-heart-fill"></i> Da marzo 2022</p>
+
+<h1 class="csf-hero__title">Il dolce è facile. La ricetta è il <em>gruppo</em>.</h1>
+
+<p class="csf-hero__lede">
+Cuochi senza fuochi è nato a Padova a marzo 2022, tra persone che vivevano a poche
+strade di distanza, non si erano mai parlate e, tutte insieme, avevano più o meno un
+forno funzionante. <strong>Il forno non lo usiamo ancora. I numeri gli uni degli altri
+però ce li abbiamo.</strong>
+</p>
+:::
+
+::: {.csf-section}
+::: {.csf-split}
+::: {}
+<p class="csf-section__kicker">la nostra missione</p>
+<h2 class="csf-section__title">Far conoscere le persone, davanti a qualcosa di dolce ed economico.</h2>
+:::
+
+::: {}
+Mettiamo degli sconosciuti intorno a un tavolo a preparare insieme un dolce facile.
+
+Fare qualcosa con le mani toglie la pressione. Non devi pensare a cosa dire, perché c'è
+sempre un biscotto da sbriciolare o una ciotola da passare. Quando il dolce esce dal
+frigo, non siete più sconosciuti.
+
+Lo teniamo **economico**, perché nessuno resti a casa per i soldi. Lo teniamo
+**facile**, perché nessuno resti a casa perché "non sa cucinare". E lo teniamo
+**amichevole**, perché nessuno senta di dover dimostrare qualcosa.
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">perché il gruppo conta</p>
+<h2 class="csf-section__title">Una persona con una ricetta fa una merenda. Quindici fanno una serata.</h2>
+<p class="csf-section__sub">
+Il dolce non è mai la parte difficile. La parte bella è quello che succede intorno al
+tavolo mentre lo prepari.
+</p>
+
+::: {.csf-grid}
+::: {.csf-card .csf-card--berry}
+<span class="csf-card__icon"><i class="bi bi-hand-index-thumb-fill"></i></span>
+
+### Ognuno ha un compito
+C'è chi sbriciola, chi scioglie, chi compone gli strati e chi assaggia. Nessuno resta a
+guardare, quindi nessuno resta da solo.
+:::
+
+::: {.csf-card .csf-card--butter}
+<span class="csf-card__icon"><i class="bi bi-house-heart-fill"></i></span>
+
+### Nessuno è ospite
+Non c'è uno chef e non c'è un pubblico. L'abbiamo fatto insieme, quindi è di tutti,
+anche di chi è arrivato dieci minuti fa.
+:::
+
+::: {.csf-card .csf-card--pista}
+<span class="csf-card__icon"><i class="bi bi-arrow-repeat"></i></span>
+
+### Continua
+Le persone tornano, portano un coinquilino, offrono il tavolo di casa per la prossima.
+È così che una serata diventa un gruppo.
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">il nome</p>
+<h2 class="csf-section__title">Perché "senza fuochi"?</h2>
+
+::: {.csf-split}
+::: {}
+Perché nessuno di noi aveva una vera cucina. Le stanze da studenti e le case condivise
+hanno due fuochi che funzionano a metà, niente forno e un frigo diviso in cinque.
+
+Poteva essere un motivo per non farlo. È diventata invece la regola che fa funzionare
+tutto: **se la ricetta non ha bisogno del fuoco, tutti possono partecipare**, anche chi
+non ha mai preparato niente in vita sua.
+:::
+
+::: {}
+Decide anche cosa prepariamo. Dolci e torte sono il campo in cui cucinare senza calore
+smette di essere un compromesso: cose da sbriciolare, montare, stratificare e lasciare
+in frigo.
+
+L'unico requisito per partecipare è presentarsi. Tutto qui.
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">per essere chiari</p>
+<h2 class="csf-section__title">Cosa siamo, e cosa non siamo</h2>
+
+::: {.csf-split}
+::: {.csf-checks}
+- **Un gruppo di persone.** Studenti, ricercatori, lavoratori, nuovi arrivati e padovani.
+- **Gratis e aperto.** Chiunque può venire, soprattutto se non conosci ancora nessuno.
+- **Un posto per ridere.** Delle chiacchiere, e di qualche cheesecake crollata.
+- **In crescita, una città alla volta.** Prima Padova, [magari poi la tua](cities.qmd).
+:::
+
+::: {.csf-checks .csf-isnt}
+- **Non una gara.** Niente giuria, niente classifiche, niente "dolce migliore". Mangiamo
+  tutti la stessa torta.
+- **Non un corso di cucina.** Nessuno è pagato e nessuno paga. Nessuno valuta come monti
+  la panna.
+- **Non una cena in cui ognuno porta qualcosa.** Per favore non portare un piatto: c'è
+  già tutto.
+- **Non un'app di incontri né un evento di networking.** Ci si aiuta con case e lavoro,
+  ma come fanno i vicini, non perché sia lo scopo.
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">chi lo organizza</p>
+<h2 class="csf-section__title">Tutti noi, un po' a turno</h2>
+<p class="csf-section__sub">
+Un piccolo gruppo che cambia e che viene dall'inizio. Chi ha lo spazio quel mese ospita
+e fa la spesa; tutti gli altri si presentano. Non c'è un comitato, e non c'è niente a
+cui iscriversi oltre ad arrivare.
+</p>
+
+Hai un tavolo grande e un frigo con un po' di spazio? Dillo: è così che si organizzano
+le prossime serate. Vivi altrove? [Portala nella tua città](cities.qmd).
+:::
+
+::: {.csf-band}
+## Vieni a conoscerci
+
+Leggerne è un pessimo sostituto dello stare al tavolo con una ciotola in mano.
+
+::: {.csf-actions}
+[Vieni alla prossima](join.qmd){.csf-btn .csf-btn--primary}
+[Foto delle serate](events.qmd){.csf-btn .csf-btn--ghost}
+:::
+
+<div class="csf-follow">
+  <span class="csf-follow__label">Seguici:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi su Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi su TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi su YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+</div>
+:::

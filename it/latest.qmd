@@ -1,0 +1,75 @@
+---
+title: "Video"
+pagetitle: "I video di Cuochi senza fuochi"
+description: "Le interviste agli ospiti dolci che si sono seduti al nostro tavolo, brevi video su chi siamo e le ultime ricette e clip di Cuochi senza fuochi."
+page-layout: full
+title-block-style: none
+---
+
+<!-- Le tre liste sono riempite da _includes/site.html, da
+     data/videos-curated.json (ospiti, idea) e data/latest-content.json (feed). -->
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow"><i class="bi bi-play-circle-fill"></i> Video</p>
+
+<h1 class="csf-hero__title">Dolci, ospiti e tante <em>risate</em>.</h1>
+
+<p class="csf-hero__lede">
+Ricette veloci, POV assurdi e interviste agli <strong>ospiti dolci</strong> che si sono
+seduti al nostro tavolo: imprenditori, pasticceri, ingegneri e studenti.
+</p>
+
+<div class="csf-follow">
+  <span class="csf-follow__label">Vai alla fonte:</span>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi su YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi su Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi su TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+</div>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">ospiti dolci</p>
+<h2 class="csf-section__title">Ospiti dolci, intervistati</h2>
+<p class="csf-section__sub">
+A volte qualcuno di speciale si siede al tavolo. Un pasticcere, un imprenditore, un
+ingegnere, uno studente con una storia. Prepara un dolce con noi, e poi gli chiediamo tutto.
+</p>
+
+<div class="csf-feed" id="csf-guests" aria-busy="true" aria-live="polite"></div>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">l'idea in un minuto</p>
+<h2 class="csf-section__title">Chi siamo, in un minuto</h2>
+<p class="csf-section__sub">Se preferisci guardare invece di leggere, inizia da qui.</p>
+
+<div class="csf-feed csf-feed--4" id="csf-idea" aria-busy="true" aria-live="polite"></div>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">appena usciti dal frigo</p>
+<h2 class="csf-section__title">Le ultime dalla nostra cucina</h2>
+<p class="csf-section__sub" id="csf-feed-status">Caricamento degli ultimi video.</p>
+
+<div class="csf-feed" id="csf-feed" aria-busy="true" aria-live="polite"></div>
+
+<noscript>
+<div class="csf-empty">
+Questa pagina costruisce le liste nel browser, quindi serve JavaScript. Trovi tutto anche
+su <a href="https://www.youtube.com/@cuochisenzafuochi">YouTube</a>,
+<a href="https://www.instagram.com/cuochi_senza_fuochi/">Instagram</a> e
+<a href="https://www.tiktok.com/@cuochi_senza_fuochi">TikTok</a>.
+</div>
+</noscript>
+:::
+
+::: {.csf-band}
+## Visto abbastanza? Vieni a prepararne uno
+
+Ognuno di questi video è stato girato con persone che avresti potuto essere tu.
+
+::: {.csf-actions}
+[Vieni alla prossima](join.qmd){.csf-btn .csf-btn--primary}
+[Come funziona](how-it-works.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::

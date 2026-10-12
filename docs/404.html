@@ -123,6 +123,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="/cuochi-senza-fuochi/it/index.html"> <i class="bi bi-translate" role="img">
+</i> 
+<span class="menu-text">Italiano</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.instagram.com/cuochi_senza_fuochi/"> <i class="bi bi-instagram" role="img" aria-label="Cuochi senza fuochi on Instagram">
 </i> 
@@ -181,6 +186,274 @@ Nothing here. The sessions, though, are still happening, and there is still cake
 
 
 </main> <!-- /main -->
+<script>
+/* Quarto places this include before the page footer, so everything below
+   waits for the whole document; otherwise the footer does not exist yet. */
+(function (run) {
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run);
+  else run();
+})(function () {
+
+/* ------------------------------------------------------------------
+   1. Language switch (English is the main site, Italian lives in it/)
+
+   Quarto has a single navbar and footer for the whole project, so on the
+   Italian pages this rewrites their links to the Italian copies and swaps
+   the labels. The "Italiano" button always points at the same page in the
+   other language. Without JavaScript everything still works; the Italian
+   pages just keep the English menu.
+   ------------------------------------------------------------------ */
+(function () {
+  "use strict";
+
+  // Pages that exist in both languages, with their Italian menu label.
+  var IT = {
+    "index.html":        null,
+    "about.html":        "Chi siamo",
+    "how-it-works.html": "Come funziona",
+    "recipes.html":      "Ricette",
+    "cities.html":       "La tua città",
+    "latest.html":       "Video",
+    "join.html":         "Unisciti",
+    "events.html":       "Serate"
+  };
+  var has = function (k) { return Object.prototype.hasOwnProperty.call(IT, k); };
+
+  var brand = document.querySelector(".navbar-brand");
+  if (!brand) return;
+  // The brand always links to the site root, so it tells us where the root is
+  // regardless of how deep the current page sits.
+  var root = new URL(brand.getAttribute("data-original-href") || brand.getAttribute("href"), location.href).href.replace(/index\.html$/, "");
+  var here = location.href.split("#")[0].split("?")[0];
+  var rel = here.indexOf(root) === 0 ? here.slice(root.length) : "";
+  if (rel === "" || rel.slice(-1) === "/") rel += "index.html";
+
+  var isIT = rel.indexOf("it/") === 0;
+  var page = isIT ? rel.slice(3) : rel;
+  var target = has(page) ? page : "index.html";
+  window.csfRoot = root;
+
+  // Quarto rewrites nav hrefs on load (it/index.html becomes it/) and keeps
+  // the original in data-original-href, so read that, and find the switch by
+  // its icon rather than by its href.
+  var hrefOf = function (a) { return a.getAttribute("data-original-href") || a.getAttribute("href"); };
+  var isSwitch = function (a) { return !!a.querySelector(".bi-translate"); };
+
+  document.querySelectorAll(".navbar a.nav-link").forEach(function (a) {
+    if (!isSwitch(a)) return;
+    a.href = root + (isIT ? "" : "it/") + target;
+    a.classList.add("csf-lang");
+    // Quarto marks it active on it/index.html, where its href matches the page
+    a.classList.remove("active");
+    a.removeAttribute("aria-current");
+    a.setAttribute("hreflang", isIT ? "en" : "it");
+    a.setAttribute("lang", isIT ? "en" : "it");
+    var t = a.querySelector(".menu-text");
+    if (t) t.textContent = isIT ? "English" : "Italiano";
+  });
+
+  if (!isIT) return;
+
+  brand.href = root + "it/index.html";
+  document.querySelectorAll(".navbar a.nav-link, .nav-footer a.nav-link").forEach(function (a) {
+    if (isSwitch(a) || !hrefOf(a)) return;
+    var url = new URL(hrefOf(a), location.href).href;
+    if (url.indexOf(root) !== 0) return;
+    var file = url.slice(root.length);
+    if (!has(file)) return;
+    a.href = root + "it/" + file;
+    a.classList.toggle("active", file === page);
+    var t = a.querySelector(".menu-text") || a.querySelector("p");
+    if (t && IT[file]) t.textContent = IT[file];
+  });
+
+  var foot = document.querySelector(".nav-footer-left");
+  if (foot) {
+    foot.innerHTML = "<p><strong>Cuochi senza fuochi.</strong> Dolci facili, fatti " +
+      "insieme, per conoscere persone nuove. Nati a Padova a marzo 2022, aperti a " +
+      "ogni città.</p>";
+  }
+})();
+
+/* ------------------------------------------------------------------
+   2. Videos page (latest.qmd and it/latest.qmd)
+
+   Two sources:
+     data/videos-curated.json  hand-picked: the sweet guests and the
+                               "who we are in a minute" videos
+     data/latest-content.json  the automatic YouTube feed, refreshed by
+                               scripts/sync-latest-content.mjs
+   Anything already shown in a curated section is left out of the feed.
+   ------------------------------------------------------------------ */
+(function () {
+  "use strict";
+
+  var feed = document.getElementById("csf-feed");
+  var guests = document.getElementById("csf-guests");
+  var idea = document.getElementById("csf-idea");
+  if (!feed && !guests && !idea) return;
+
+  var it = (document.documentElement.lang || "").indexOf("it") === 0;
+  var root = window.csfRoot || "";
+  var L = it ? {
+    youtube: "YouTube", instagram: "Instagram", tiktok: "TikTok",
+    watch: "Guarda su YouTube", see: "Guarda su Instagram", tt: "Guarda su TikTok",
+    guest: "Ospite", error: "La lista non si è caricata. Trovi tutto anche qui:",
+    empty: "Ancora niente da mostrare.",
+    checked: "Tutto qui sotto arriva direttamente dal canale. Ultimo controllo: ",
+    loaded: "Tutto qui sotto arriva direttamente dal canale.", locale: "it-IT"
+  } : {
+    youtube: "YouTube", instagram: "Instagram", tiktok: "TikTok",
+    watch: "Watch on YouTube", see: "See on Instagram", tt: "Watch on TikTok",
+    guest: "Guest", error: "The list could not be loaded just now. Everything is also here:",
+    empty: "Nothing to show yet.",
+    checked: "Everything below is pulled straight from the channel. Last checked ",
+    loaded: "Everything below is pulled straight from the channel.", locale: "en-GB"
+  };
+  var ICON = { youtube: "bi-youtube", instagram: "bi-instagram", tiktok: "bi-tiktok" };
+  var VERB = { youtube: L.watch, instagram: L.see, tiktok: L.tt };
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function fmt(d) {
+    return d.toLocaleDateString(L.locale, { day: "numeric", month: "long", year: "numeric" });
+  }
+  // Local thumbnails in the curated file are relative to the site root.
+  function src(u) { return /^https?:/.test(u) ? u : root + u; }
+
+  // Built with the DOM rather than innerHTML: feed titles are untrusted text
+  // and must never be parsed as markup.
+  function card(item) {
+    var platform = item.platform || "youtube";
+    var title = (it ? item.title_it : item.title_en) || item.title || VERB[platform] || "";
+    var who = it ? item.guest_it : item.guest_en;
+
+    var article = el("article", "csf-feed__card");
+    var link = el("a", "csf-feed__link");
+    link.href = item.url;
+    link.rel = "noopener";
+
+    var thumb = item.thumbnail || (platform === "youtube" && item.id
+      ? "https://i.ytimg.com/vi/" + item.id + "/hqdefault.jpg" : null);
+    if (thumb) {
+      var frame = el("figure", "csf-feed__thumb");
+      var img = document.createElement("img");
+      img.src = src(thumb);
+      img.alt = "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      // A dead thumbnail should remove the frame, not leave a broken icon.
+      img.addEventListener("error", function () { frame.remove(); });
+      frame.appendChild(img);
+      link.appendChild(frame);
+    }
+
+    var badge = el("p", "csf-feed__badge csf-feed__badge--" + platform);
+    var icon = el("i", "bi " + (ICON[platform] || "bi-link-45deg"));
+    icon.setAttribute("aria-hidden", "true");
+    badge.appendChild(icon);
+    badge.appendChild(el("span", null, L[platform] || platform));
+    link.appendChild(badge);
+
+    if (who) link.appendChild(el("p", "csf-feed__guest", L.guest + ": " + who));
+    link.appendChild(el("h3", "csf-feed__title", title));
+
+    if (item.published) {
+      var d = new Date(item.published);
+      if (!isNaN(d)) {
+        var wrap = el("p", "csf-feed__date");
+        var t = el("time", null, fmt(d));
+        t.dateTime = d.toISOString();
+        wrap.appendChild(t);
+        link.appendChild(wrap);
+      }
+    }
+    link.appendChild(el("p", "csf-feed__cta", VERB[platform] || ""));
+    article.appendChild(link);
+    return article;
+  }
+
+  function fill(box, items) {
+    if (!box) return;
+    var frag = document.createDocumentFragment();
+    items.forEach(function (item) { frag.appendChild(card(item)); });
+    box.replaceChildren(frag);
+    box.removeAttribute("aria-busy");
+  }
+
+  function fallback(box, message) {
+    if (!box) return;
+    box.replaceChildren();
+    box.removeAttribute("aria-busy");
+    var div = el("div", "csf-empty");
+    div.appendChild(el("p", null, message));
+    var p = el("p");
+    [["https://www.youtube.com/@cuochisenzafuochi", "YouTube"],
+     ["https://www.instagram.com/cuochi_senza_fuochi/", "Instagram"],
+     ["https://www.tiktok.com/@cuochi_senza_fuochi", "TikTok"]
+    ].forEach(function (pair, i) {
+      if (i) p.appendChild(document.createTextNode(" · "));
+      var a = el("a", null, pair[1]);
+      a.href = pair[0];
+      p.appendChild(a);
+    });
+    div.appendChild(p);
+    box.appendChild(div);
+  }
+
+  function getJSON(path) {
+    // Cache busted so a freshly synced file is not hidden behind a stale copy.
+    return fetch(root + path + "?t=" + Date.now(), { cache: "no-cache" }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    });
+  }
+
+  var status = document.getElementById("csf-feed-status");
+
+  getJSON("data/videos-curated.json").catch(function (err) {
+    if (window.console) console.error("curated videos:", err);
+    return null;
+  }).then(function (curated) {
+    var shown = {};
+    if (curated) {
+      fill(guests, curated.guests || []);
+      fill(idea, curated.idea || []);
+      (curated.guests || []).concat(curated.idea || []).forEach(function (v) {
+        if (v.id) shown[v.id] = true;
+      });
+    } else {
+      fallback(guests, L.error);
+      fallback(idea, L.error);
+    }
+    if (!feed) return;
+
+    return getJSON("data/latest-content.json").then(function (payload) {
+      var items = ((payload && payload.items) || []).filter(function (v) { return !shown[v.id]; });
+      if (!items.length) {
+        fallback(feed, L.empty);
+        if (status) status.textContent = L.empty;
+        return;
+      }
+      fill(feed, items);
+      if (status) {
+        var when = payload.generated ? new Date(payload.generated) : null;
+        status.textContent = when && !isNaN(when) ? L.checked + fmt(when) + "." : L.loaded;
+      }
+    }).catch(function (err) {
+      if (window.console) console.error("latest content:", err);
+      fallback(feed, L.error);
+      if (status) status.textContent = L.error;
+    });
+  });
+})();
+
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

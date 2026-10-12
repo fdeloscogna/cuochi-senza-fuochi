@@ -1,0 +1,148 @@
+---
+title: "Come funziona"
+pagetitle: "Come funziona, Cuochi senza fuochi"
+description: "Tutto quello che serve sapere la prima volta: cosa prepariamo, quanto costa, chi viene e cosa succede quando arrivi. Non porti niente, e nessuno gareggia."
+page-layout: full
+title-block-style: none
+---
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow"><i class="bi bi-stars"></i> Per chi viene la prima volta</p>
+
+<h1 class="csf-hero__title">Presentati. Preparalo <em>insieme</em>.</h1>
+
+<p class="csf-hero__lede">
+Una cosa vale la pena dirla due volte, perché tutti pensano il contrario:
+<strong>non cucini niente prima e non porti nessun piatto.</strong>
+Arrivi a mani vuote, e tutto il gruppo prepara insieme un dolce, sul momento.
+</p>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">una serata con noi</p>
+<h2 class="csf-section__title">I quattro passi</h2>
+
+::: {.csf-steps}
+- ### Scrivici un messaggio
+  Un messaggio su [Instagram](https://www.instagram.com/cuochi_senza_fuochi/),
+  [TikTok](https://www.tiktok.com/@cuochi_senza_fuochi) o
+  [YouTube](https://www.youtube.com/@cuochisenzafuochi). Ti rispondiamo con il posto,
+  l'orario e il dolce della serata.
+
+- ### Vieni a mani vuote
+  Ingredienti, ciotole, frigo: c'è tutto. Chi ospita fa la spesa, a te basta trovare la porta.
+
+- ### Preparalo insieme
+  Qualcuno guida il gruppo in una ricetta senza forno e senza fornelli. Si sbriciola, si
+  mescola e si compone a turno. Ci vuole circa un'ora.
+
+- ### Mangialo, tieniti le persone
+  In frigo, poi nei piatti. Torni a casa con una ricetta da rifare senza cucina e con i
+  numeri delle persone con cui l'hai preparata.
+:::
+:::
+
+::: {.csf-quote}
+Vieni per il dolce. **Resta per le persone.**
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">domande giuste</p>
+<h2 class="csf-section__title">Quello che chiedono tutti</h2>
+<p class="csf-section__sub">Se la tua non c'è, chiedicela in un messaggio. Rispondiamo.</p>
+
+::: {.csf-faq}
+::: {.csf-faq__hot}
+### Davvero non devo portare niente?
+Davvero. Non è una cena in cui ognuno porta qualcosa. Chi ospita fa la spesa, e le
+ricette costano così poco che nessuno raccoglie soldi alla porta. Vieni a mani libere.
+:::
+
+::: {.csf-faq__hot}
+### È una gara?
+Per niente. Nessuno viene giudicato, nessuno vince, e una cheesecake traballante sparisce
+veloce quanto una perfetta. Prepariamo un dolce insieme, come una squadra.
+:::
+
+::: {}
+### Come mi iscrivo?
+Manda un messaggio a uno dei nostri account; arrivano tutti alle stesse persone.
+[Instagram](https://www.instagram.com/cuochi_senza_fuochi/) e
+[TikTok](https://www.tiktok.com/@cuochi_senza_fuochi) sono **&#64;cuochi_senza_fuochi**,
+[YouTube](https://www.youtube.com/@cuochisenzafuochi) è **&#64;cuochisenzafuochi**.
+Nessun modulo, niente da pagare.
+:::
+
+::: {}
+### Non so proprio cucinare. È un problema?
+È quasi un requisito. Ogni ricetta è scelta perché anche chi non ha mai preparato niente
+riesca a farla, al primo tentativo, in gruppo.
+:::
+
+::: {}
+### Quanto costa?
+Partecipare non costa niente. Nessuna tessera, nessuna quota, nessuna colletta alla porta.
+:::
+
+::: {}
+### Cosa prepariamo?
+Soprattutto dolci e torte, perché sono le cose più facili da fare bene senza calore:
+salame di cioccolato, tiramisù, gelato biscotto, torta Mars, bounty fatti in casa.
+[Tutte le ricette](recipes.qmd).
+:::
+
+::: {}
+### Devo venire con un amico?
+Quasi tutti vengono da soli. È il modo normale di arrivare e nessuno lo trova strano:
+il punto è proprio che non conosci ancora nessuno.
+:::
+
+::: {}
+### Che lingua si parla?
+Italiano e inglese, spesso nella stessa frase. Se il tuo italiano si ferma a *"un caffè,
+per favore"*, passerai comunque una bella serata.
+:::
+
+::: {}
+### Ho allergie, o sono vegetariano o vegano
+Diccelo quando ti iscrivi. Cambia cosa si compra, quindi saperlo prima aiuta davvero.
+C'è quasi sempre una versione che va bene.
+:::
+
+::: {}
+### Quante persone vengono, e ogni quanto?
+Di solito tra dieci e venti: abbastanza per conoscere gente nuova, pochi abbastanza per
+parlare davvero. Più o meno una volta al mese, di sera, in una casa condivisa o in una
+sala comune a Padova.
+:::
+
+::: {}
+### Non vivo a Padova
+Allora magari la prossima città è la tua. [Ecco come iniziare](cities.qmd), ti aiutiamo noi.
+:::
+
+::: {}
+### È una cosa di networking?
+No. Ci si aiuta con case, lavoro e medici, ma come fanno i vicini: come effetto
+collaterale, non come scopo.
+:::
+:::
+:::
+
+::: {.csf-band}
+## Pronto per la prossima?
+
+Basta un messaggio. Ti mandiamo noi l'indirizzo.
+
+::: {.csf-actions}
+[Vieni alla prossima](join.qmd){.csf-btn .csf-btn--primary}
+[Le serate passate](events.qmd){.csf-btn .csf-btn--ghost}
+:::
+
+<div class="csf-follow">
+  <span class="csf-follow__label">Oppure seguici:</span>
+  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi su Instagram"><i class="bi bi-instagram"></i> Instagram</a>
+  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi su TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
+  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi su YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+</div>
+:::

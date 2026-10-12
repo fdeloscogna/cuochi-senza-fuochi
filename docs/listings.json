@@ -10,5 +10,17 @@
     "items": [
       "/posts/event/photo/journey/index.html"
     ]
+  },
+  {
+    "listing": "/it/events.html",
+    "items": [
+      "/posts/event/photo/journey/index.html"
+    ]
+  },
+  {
+    "listing": "/it/index.html",
+    "items": [
+      "/posts/event/photo/journey/index.html"
+    ]
   }
 ]

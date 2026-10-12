@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/it/recipes.html</loc>
+    <lastmod>2026-10-12T15:13:27.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/it/join.html</loc>
+    <lastmod>2026-10-12T15:13:29.319Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/it/how-it-works.html</loc>
+    <lastmod>2026-10-12T15:12:09.573Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/it/cities.html</loc>
+    <lastmod>2026-10-12T15:13:28.281Z</lastmod>
+  </url>
+  <url>
     <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/posts/event/photo/journey/index.html</loc>
     <lastmod>2026-07-29T07:11:30.751Z</lastmod>
   </url>
@@ -14,15 +30,15 @@
   </url>
   <url>
     <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/recipes.html</loc>
-    <lastmod>2026-10-12T12:14:00.459Z</lastmod>
+    <lastmod>2026-10-12T15:09:43.572Z</lastmod>
   </url>
   <url>
     <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/how-it-works.html</loc>
-    <lastmod>2026-10-12T12:13:59.415Z</lastmod>
+    <lastmod>2026-10-12T15:10:09.707Z</lastmod>
   </url>
   <url>
     <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/index.html</loc>
-    <lastmod>2026-10-12T12:10:50.130Z</lastmod>
+    <lastmod>2026-10-12T15:10:09.705Z</lastmod>
   </url>
   <url>
     <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/events.html</loc>
@@ -30,10 +46,26 @@
   </url>
   <url>
     <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/latest.html</loc>
-    <lastmod>2026-10-12T12:14:17.369Z</lastmod>
+    <lastmod>2026-10-12T15:09:00.534Z</lastmod>
   </url>
   <url>
     <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/about.html</loc>
     <lastmod>2026-10-12T12:13:07.181Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/it/about.html</loc>
+    <lastmod>2026-10-12T15:12:08.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/it/events.html</loc>
+    <lastmod>2026-10-12T15:14:51.207Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/it/index.html</loc>
+    <lastmod>2026-10-12T15:14:51.214Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fdeloscogna.github.io/cuochi-senza-fuochi/it/latest.html</loc>
+    <lastmod>2026-10-12T15:13:51.250Z</lastmod>
   </url>
 </urlset>

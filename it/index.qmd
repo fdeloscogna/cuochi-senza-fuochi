@@ -1,0 +1,255 @@
+---
+title: "Cuochi senza fuochi"
+pagetitle: "Cuochi senza fuochi, dolci economici fatti insieme per conoscere persone nuove"
+description: "Cuochi senza fuochi è un gruppo di persone che prepara insieme dolci facili ed economici, senza forno e senza fornelli, per conoscere gente nuova. Niente esperienza, niente gare, niente da portare. Nati a Padova, aperti a ogni città."
+page-layout: full
+title-block-style: none
+listing:
+  id: latest-sessions
+  contents: "../posts/event/photo/*/index.qmd"
+  sort: "date desc"
+  type: grid
+  max-items: 3
+  grid-columns: 3
+  image-height: 240px
+  categories: false
+  fields: [image, date, title, description]
+---
+
+::: {.csf-hero .csf-hero--split}
+::: {.csf-hero__body}
+<p class="csf-hero__eyebrow"><i class="bi bi-geo-alt-fill"></i> Nati a Padova · aperti a ogni città</p>
+
+<h1 class="csf-hero__title">Dolci economici.<br>Nuovi <em>amici</em>.</h1>
+
+<p class="csf-hero__lede">
+<strong>Cuochi senza fuochi</strong> è un gruppo di persone che si ritrova per preparare
+insieme dolci e torte facili ed economici, senza forno e senza fornelli.
+Il dolce è la scusa. <strong>Il punto sono le persone con cui lo prepari.</strong>
+</p>
+
+::: {.csf-actions}
+[Vieni alla prossima](join.qmd){.csf-btn .csf-btn--primary}
+[Come funziona una serata](how-it-works.qmd){.csf-btn .csf-btn--ghost}
+:::
+
+<div class="csf-hero__meta">
+  <span><i class="bi bi-check-circle-fill"></i> Partecipare è gratis</span>
+  <span><i class="bi bi-check-circle-fill"></i> Niente forno, niente esperienza</span>
+  <span><i class="bi bi-check-circle-fill"></i> Puoi venire da solo</span>
+  <span><i class="bi bi-check-circle-fill"></i> Italiano &amp; English</span>
+</div>
+:::
+
+::: {.csf-hero__figure}
+<span class="csf-sticker csf-sticker--butter" aria-hidden="true">Niente forno.<br>Niente ansia.</span>
+<span class="csf-sticker csf-sticker--berry" aria-hidden="true">Zero esperienza</span>
+
+![](../images/session-01.jpg){.csf-hero__photo fig-alt="Circa diciotto persone intorno ai tavoli di una sala comune a Padova, con ciotole di biscotti sbriciolati e ingredienti"}
+
+<p class="csf-hero__caption">Quasi tutti si sono conosciuti quella sera.</p>
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">chi siamo</p>
+<h2 class="csf-section__title">Un gruppo di persone, non una scuola di cucina.</h2>
+<p class="csf-section__sub">
+Quando arrivi in una nuova città, una stanza e il tragitto per il lavoro li sistemi in
+poche settimane. Trovare persone richiede di più. Così la teniamo semplice: un tavolo,
+una ricetta facile, una ciotola a testa e chiunque si presenti. Mentre hai le mani nei
+biscotti e nella panna, parlare con degli sconosciuti viene da sé.
+</p>
+
+::: {.csf-grid}
+::: {.csf-card .csf-card--berry}
+<span class="csf-card__icon"><i class="bi bi-people-fill"></i></span>
+
+### Insieme, mai contro
+Niente giuria, niente punteggi, niente "dolce migliore". Prepariamo tutti lo stesso dolce
+e lo mangiamo tutti. L'unica cosa che si giudica è quanto velocemente sparisce il tiramisù.
+:::
+
+::: {.csf-card .csf-card--butter}
+<span class="csf-card__icon"><i class="bi bi-piggy-bank-fill"></i></span>
+
+### Economici per scelta
+Partecipare è gratis. Le ricette si fanno con pochi ingredienti da supermercato, così i
+soldi non sono mai il motivo per restare a casa.
+:::
+
+::: {.csf-card .csf-card--pista}
+<span class="csf-card__icon"><i class="bi bi-emoji-smile-fill"></i></span>
+
+### Facili per tutti
+Niente forno, niente fornelli, niente esperienza. Se sai mescolare, sbriciolare un
+biscotto o leccare un cucchiaio, sei già qualificato.
+:::
+:::
+:::
+
+::: {.csf-quote}
+Nessuno vince. **Tutti mangiano.**
+
+<cite>tutta l'idea, in tre parole</cite>
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">una serata con noi</p>
+<h2 class="csf-section__title">Quattro passi, e il primo richiede un minuto</h2>
+<p class="csf-section__sub">Nessun modulo, nessuna quota, niente da preparare. Il format è tutto qui.</p>
+
+::: {.csf-steps}
+- ### Scrivici un messaggio
+  Un messaggio su Instagram, TikTok o YouTube. Ti rispondiamo con il posto, l'orario e
+  il dolce della serata.
+
+- ### Vieni a mani vuote
+  Non cucinare e non portare niente. Ingredienti e ciotole sono già sul tavolo quando arrivi.
+
+- ### Preparalo insieme
+  Qualcuno guida tutti nella ricetta. Sbricioli, mescoli e componi gli strati,
+  chiacchierando con chi ti sta accanto.
+
+- ### Mangialo, tieniti le persone
+  In frigo, nei piatti, sparito. Torni a casa con una ricetta da rifare anche senza
+  cucina e qualche nome nuovo in rubrica.
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">cosa prepariamo</p>
+<h2 class="csf-section__title">Dolci e torte che non vedono mai un forno</h2>
+<p class="csf-section__sub">
+Una ciotola, un cucchiaio e un frigo: questa è tutta la cucina. Ogni settimana ne
+pubblichiamo una nuova su Instagram, facile da fare in tanti ed economica da rifare a casa.
+</p>
+
+```{=html}
+<div class="csf-recipes csf-recipes--4">
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="recipes.html"><img src="../images/recipes/salame.jpg" alt="Salame di cioccolato a fette" loading="lazy"></a>
+  <div class="csf-recipe__body"><h3>Salame di cioccolato</h3><p class="csf-recipe__sub">il nostro classico, formato festa</p></div>
+</article>
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="recipes.html"><img src="../images/recipes/tiramisu.jpg" alt="Una fetta di tiramisù" loading="lazy"></a>
+  <div class="csf-recipe__body"><h3>Tiramisù in due versioni</h3><p class="csf-recipe__sub">classico o alle fragole</p></div>
+</article>
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="recipes.html"><img src="../images/recipes/gelato-biscotto.jpg" alt="Gelati biscotto impilati" loading="lazy"></a>
+  <div class="csf-recipe__body"><h3>Gelato biscotto</h3><p class="csf-recipe__sub">senza gelatiera</p></div>
+</article>
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="recipes.html"><img src="../images/recipes/bounty.jpg" alt="Bounty fatti in casa" loading="lazy"></a>
+  <div class="csf-recipe__body"><h3>Bounty</h3><p class="csf-recipe__sub">tre ingredienti, dita appiccicose</p></div>
+</article>
+</div>
+```
+
+::: {.csf-actions style="margin-top:1.75rem"}
+[Tutte le ricette](recipes.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::
+
+::: {.csf-section}
+::: {.csf-split}
+::: {}
+<p class="csf-section__kicker">perché venire</p>
+<h2 class="csf-section__title">Non siamo i cuochi migliori della città. Siamo buona compagnia.</h2>
+<p class="csf-section__sub">
+Ci sono tanti bei modi per conoscere persone. Questo è semplicemente molto facile da
+accettare, chiunque tu sia e da quanto tempo tu sia qui.
+</p>
+
+::: {.csf-tags}
+- Appena arrivato in città
+- Erasmus e scambio
+- Dottorandi e ricercatori
+- Nuovo lavoro qui
+- Vivi in un cohousing o in una casa condivisa
+- Qui da anni, voglia di facce nuove
+:::
+:::
+
+::: {.csf-checks}
+- **Non devi conoscere nessuno.** Quasi tutti vengono da soli. È il modo normale di
+  arrivare, e nessuno resta uno sconosciuto a lungo.
+- **Non devi saper cucinare.** Ogni ricetta è scelta perché anche un principiante la
+  azzecchi al primo colpo.
+- **Non devi spendere.** Partecipare è gratis, e nessuno raccoglie soldi alla porta.
+- **Torni a casa con più di un dolce.** Una ricetta da rifare senza cucina, e persone
+  con cui condividere la prossima.
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">dal tavolo</p>
+<h2 class="csf-section__title">Le ultime serate</h2>
+<p class="csf-section__sub">Foto e brevi racconti delle ultime serate. È questo che ti aspetta.</p>
+
+::: {#latest-sessions}
+:::
+
+[Tutte le serate](events.qmd)
+:::
+
+::: {.csf-band .csf-band--butter}
+<span class="csf-band__icon"><i class="bi bi-geo-alt-fill"></i></span>
+
+## Nati a Padova. Perché non nella tua città?
+
+Basta **un tavolo, un frigo e qualche persona curiosa.** Ti raccontiamo le nostre
+ricette e come organizziamo una serata, così puoi ospitare la prima ovunque tu viva.
+
+::: {.csf-actions}
+[Portala nella tua città](cities.qmd){.csf-btn .csf-btn--primary}
+[La nostra storia](about.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">guarda prima</p>
+<h2 class="csf-section__title">Guardane una prima di venire a una</h2>
+<p class="csf-section__sub">
+Ricette, POV assurdi e [interviste ai nostri ospiti dolci](latest.qmd). Dai
+un'occhiata, e se ti piace quello che vedi, un messaggio su uno di questi va benissimo
+per iscriverti.
+</p>
+
+<div class="csf-social">
+  <a class="csf-social__card csf-social__card--ig" href="https://www.instagram.com/cuochi_senza_fuochi/">
+    <span class="csf-social__icon"><i class="bi bi-instagram"></i></span>
+    <span class="csf-social__name">Instagram</span>
+    <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
+    <span class="csf-social__note">Foto di ogni serata, una ricetta nuova ogni settimana e la prossima data nelle storie.</span>
+    <span class="csf-social__cta">Seguici</span>
+  </a>
+  <a class="csf-social__card csf-social__card--tt" href="https://www.tiktok.com/@cuochi_senza_fuochi">
+    <span class="csf-social__icon"><i class="bi bi-tiktok"></i></span>
+    <span class="csf-social__name">TikTok</span>
+    <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
+    <span class="csf-social__note">Clip brevi di un dolce che prende forma. Il modo più veloce per capire l'idea.</span>
+    <span class="csf-social__cta">Guarda</span>
+  </a>
+  <a class="csf-social__card csf-social__card--yt" href="https://www.youtube.com/@cuochisenzafuochi">
+    <span class="csf-social__icon"><i class="bi bi-youtube"></i></span>
+    <span class="csf-social__name">YouTube</span>
+    <span class="csf-social__handle">&#64;cuochisenzafuochi</span>
+    <span class="csf-social__note">Video più lunghi, interviste e ricette complete da rifare senza forno.</span>
+    <span class="csf-social__cta">Iscriviti</span>
+  </a>
+</div>
+:::
+
+::: {.csf-band}
+## La prossima serata? Presentati e basta.
+
+Non devi conoscere nessuno, cucinare niente o portare niente. **Quasi tutti, la prima
+volta, vengono da soli.**
+
+::: {.csf-actions}
+[Vieni alla prossima](join.qmd){.csf-btn .csf-btn--primary}
+[Le ricette](recipes.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::

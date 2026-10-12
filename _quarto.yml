@@ -11,6 +11,12 @@ project:
     # only referenced from styles.css (the round navbar emblem), so Quarto
     # would not otherwise know to copy it
     - images/logo-wordmark.jpg
+    # hand-picked videos (sweet guests, who we are in a minute) for the Videos page
+    - data/videos-curated.json
+    # recipe and guest photos, saved from our Instagram posts. Listed because the
+    # recipe cards are raw HTML and the guest photo is only referenced from JSON.
+    - images/recipes/*.jpg
+    - images/guests/*.jpg
   render:
     - index.qmd
     - how-it-works.qmd
@@ -24,6 +30,9 @@ project:
     # only the individual event posts. events.qmd is the single events index,
     # so the old nested posts/event/index.qmd is deliberately not rendered
     - posts/event/photo/*/index.qmd
+    # the Italian copies. English is the main site; the "Italiano" button in the
+    # navbar (see _includes/site.html) switches to the same page in it/.
+    - it/*.qmd
   # Old drafts from a different project, kept on disk but not published:
   #   science.qmd, Chicche.qmd, tech.qmd, tutorials.qmd, jobs.qmd
 
@@ -60,6 +69,11 @@ website:
       - text: "Videos"
         href: latest.qmd
     right:
+      # the language switch. _includes/site.html finds it by this href and points
+      # it at the same page in the other language.
+      - text: "Italiano"
+        icon: translate
+        href: it/index.qmd
       # social icons before the CTA so "Join us" stays the last, rightmost thing
       - icon: instagram
         href: https://www.instagram.com/cuochi_senza_fuochi/
@@ -108,6 +122,8 @@ format:
     theme: cosmo
     # plain CSS, loaded after the Bootstrap theme (not an scss layer)
     css: styles.css
+    # language switch and the Videos page script, shared by every page
+    include-after-body: _includes/site.html
     # Quarto otherwise builds <title> as "page title EN-DASH site title".
     # Every pagetitle below already names the club, and we want no dashes anywhere.
     title-prefix: ""

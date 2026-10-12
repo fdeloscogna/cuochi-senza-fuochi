@@ -122,39 +122,30 @@ Nobody wins. **Everybody eats.**
 <p class="csf-section__kicker">what we make</p>
 <h2 class="csf-section__title">Desserts and cakes that never see an oven</h2>
 <p class="csf-section__sub">
-A bowl, a spoon and a fridge: that's the whole kitchen. Everything is easy enough to make
-with fifteen people talking at once, and cheap enough to make again at home.
+A bowl, a spoon and a fridge: that's the whole kitchen. We post a new one on Instagram
+every week, easy enough for a room full of people and cheap enough to make again at home.
 </p>
 
-::: {.csf-grid .csf-grid--4}
-::: {.csf-card .csf-card--cocoa}
-<span class="csf-card__icon"><i class="bi bi-cookie"></i></span>
-
-### Salame di cioccolato
-Biscuits, chocolate, butter, sugar. Roll it, chill it, slice it.
-:::
-
-::: {.csf-card .csf-card--butter}
-<span class="csf-card__icon"><i class="bi bi-cup-hot-fill"></i></span>
-
-### Tiramisù
-The Italian classic, and no-bake by definition.
-:::
-
-::: {.csf-card .csf-card--berry}
-<span class="csf-card__icon"><i class="bi bi-cake2-fill"></i></span>
-
-### No-bake cheesecake
-Looks like the hardest thing on the table. It's the easiest.
-:::
-
-::: {.csf-card .csf-card--blue}
-<span class="csf-card__icon"><i class="bi bi-cup-straw"></i></span>
-
-### Chocolate mousse
-Two ingredients and a lot of whisking, shared out.
-:::
-:::
+```{=html}
+<div class="csf-recipes csf-recipes--4">
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="recipes.html"><img src="images/recipes/salame.jpg" alt="Salame di cioccolato, sliced" loading="lazy"></a>
+  <div class="csf-recipe__body"><h3>Salame di cioccolato</h3><p class="csf-recipe__sub">our classic, party size</p></div>
+</article>
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="recipes.html"><img src="images/recipes/tiramisu.jpg" alt="A slice of tiramisù" loading="lazy"></a>
+  <div class="csf-recipe__body"><h3>Tiramisù, two ways</h3><p class="csf-recipe__sub">classic or with strawberries</p></div>
+</article>
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="recipes.html"><img src="images/recipes/gelato-biscotto.jpg" alt="Ice-cream biscuit sandwiches" loading="lazy"></a>
+  <div class="csf-recipe__body"><h3>Gelato biscotto</h3><p class="csf-recipe__sub">ice-cream sandwiches, no machine</p></div>
+</article>
+<article class="csf-recipe">
+  <a class="csf-recipe__img" href="recipes.html"><img src="images/recipes/bounty.jpg" alt="Homemade bounty bars" loading="lazy"></a>
+  <div class="csf-recipe__body"><h3>Bounty</h3><p class="csf-recipe__sub">three ingredients, sticky fingers</p></div>
+</article>
+</div>
+```
 
 ::: {.csf-actions style="margin-top:1.75rem"}
 [See all the recipes](recipes.qmd){.csf-btn .csf-btn--ghost}
@@ -222,8 +213,8 @@ and how we run an evening, so you can host the first one wherever you live.
 <p class="csf-section__kicker">see it first</p>
 <h2 class="csf-section__title">Watch one before you come to one</h2>
 <p class="csf-section__sub">
-We film and photograph the sessions. Have a look, and if you like what you see, a
-message on any of these is also a perfectly good way to sign up.
+Recipes, silly POVs and [interviews with our sweet guests](latest.qmd). Have a look,
+and if you like what you see, a message on any of these is a perfectly good way to sign up.
 </p>
 
 <div class="csf-social">
