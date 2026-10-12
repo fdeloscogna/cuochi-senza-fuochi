@@ -1,146 +1,138 @@
 ---
 title: "How it works"
 pagetitle: "How it works at Cuochi senza fuochi"
-description: "Everything a first timer needs to know: what gets made, what it costs, who comes, and what happens when you get there. You bring nothing."
+description: "Everything a first timer needs to know: what we make, what it costs, who comes, and what happens when you get there. You bring nothing, and nobody competes."
 page-layout: full
 title-block-style: none
 ---
 
 ::: {.csf-hero}
-<p class="csf-hero__eyebrow">For first timers</p>
+<p class="csf-hero__eyebrow"><i class="bi bi-stars"></i> For first timers</p>
 
-<h1 class="csf-hero__title">Turn up.<br>Make it <em>together</em>.</h1>
+<h1 class="csf-hero__title">Turn up. Make it <em>together</em>.</h1>
 
 <p class="csf-hero__lede">
 One thing is worth saying twice, because everybody assumes the opposite:
-<strong>nothing gets cooked beforehand and nobody brings a dish.</strong>
-You arrive with empty hands, and the whole group makes something together on the spot.
+<strong>you don't cook anything beforehand and you don't bring a dish.</strong>
+You arrive with empty hands, and the whole group makes one dessert together, on the spot.
 </p>
 :::
 
+::: {.csf-section}
+<p class="csf-section__kicker">an evening with us</p>
 <h2 class="csf-section__title">The four steps</h2>
 
 ::: {.csf-steps}
-- ### Say you're coming
+- ### Send us a message
   One message on [Instagram](https://www.instagram.com/cuochi_senza_fuochi/),
   [TikTok](https://www.tiktok.com/@cuochi_senza_fuochi) or
-  [YouTube](https://www.youtube.com/@cuochisenzafuochi) is enough. Back comes the
-  address, the time and the recipe for that evening.
+  [YouTube](https://www.youtube.com/@cuochisenzafuochi). We reply with the place, the
+  time and the dessert of the evening.
 
-- ### Turn up empty handed
-  Everything is already there: ingredients, bowls, a fridge. Whoever is hosting does
-  the shopping, so all you have to do is find the door.
+- ### Come empty-handed
+  Ingredients, bowls, a fridge: it's all there. Whoever is hosting does the shopping,
+  so all you have to do is find the door.
 
 - ### Make it together
-  Somebody walks the group through a recipe that needs no oven and no hob. Crushing,
-  mixing, rolling and layering all get shared out. It takes about an hour and nobody
-  stands around watching.
+  Someone walks the group through a recipe that needs no oven and no stove. Crushing,
+  mixing and layering get shared out. It takes about an hour.
 
-- ### Eat the results
-  Into the fridge, then onto the table. You leave with a recipe you can repeat in a
-  room with no kitchen, and with the numbers of the people you made it with.
+- ### Eat it, keep the people
+  Into the fridge, then onto the plates. You leave with a recipe you can redo without a
+  kitchen, and with the numbers of the people you made it with.
 :::
-
-::: {.csf-section}
-<p class="csf-section__kicker">Practical answers</p>
-<h2 class="csf-section__title">The questions everybody asks</h2>
-
-### How do I actually sign up?
-
-Send one message to any of the three accounts, they all reach the same people.
-[Instagram](https://www.instagram.com/cuochi_senza_fuochi/) and
-[TikTok](https://www.tiktok.com/@cuochi_senza_fuochi) are both
-**&#64;cuochi_senza_fuochi**; [YouTube](https://www.youtube.com/@cuochisenzafuochi)
-is **&#64;cuochisenzafuochi**. There is no form to fill in and nothing to pay.
-
-### So I really don't bring anything?
-
-Really. This is not a potluck. Whoever hosts does the shopping for the recipe, and the
-cost per head is small enough that nobody collects it at the door. Turn up with your
-hands free.
-
-### What actually gets made?
-
-Desserts, mostly, because they are the easiest thing to make well without heat. Salame
-di cioccolato, tiramisù, no bake cheesecake, chocolate mousse, fruit with lemon and
-sugar. Sometimes a savoury thing that needs nothing but a bowl and a knife. The
-[recipes page](recipes.qmd) has the full list.
-
-### What does it cost?
-
-Nothing to attend. There is no membership, no fee and no collection at the door.
-
-### I genuinely cannot cook. Is that a problem?
-
-It is closer to a qualification. The name means cooks without fires, and half the club
-has no working kitchen. Every recipe is chosen so that somebody who has never made
-anything in their life can do it in a group, first try.
-
-### Do I need to bring a friend?
-
-Most people come alone. That is the normal way to arrive and nobody will find it odd,
-because the whole point is that you don't know anyone yet.
-
-### What language is spoken?
-
-Both Italian and English, usually in the same sentence. If your Italian stops at
-*"un caffè, per favore"* you will still have a good evening.
-
-### I have allergies, or I'm vegetarian, or I'm vegan
-
-Say so when you sign up. It changes what gets bought, so it genuinely helps to know in
-advance rather than on the night. There is almost always a version that works.
-
-### How many people come?
-
-Usually between ten and twenty. Big enough that you have options, small enough that
-you actually talk to people rather than shout over music.
-
-### How often does it happen?
-
-Roughly once a month, in the evening, in somebody's flat or a shared common room in
-Padova. Dates go out on the social accounts a couple of weeks ahead.
-
-### Is this a networking thing?
-
-No. People do end up helping each other find flats, jobs and doctors, but that happens
-the way it happens between neighbours: as a side effect, not as the agenda.
 :::
 
 ::: {.csf-quote}
-Housing is solvable. **Loneliness is the expensive part.**
-
-<cite>the idea behind Cuochi senza fuochi, March 2022</cite>
+Come for the cake. **Stay for the people.**
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">Why this exists</p>
-<h2 class="csf-section__title">You can rent a room. You cannot rent the people.</h2>
+<p class="csf-section__kicker">good questions</p>
+<h2 class="csf-section__title">The things everybody asks</h2>
+<p class="csf-section__sub">If yours isn't here, just ask it in a message. We answer.</p>
 
-<p class="csf-section__sub">
-When you move somewhere new, you sort out a room and a commute within weeks. Those two
-things guarantee the financial capital. Human capital is the one nobody hands you a
-contract for, and working or studying full time leaves very little room to build it.
-</p>
+::: {.csf-faq}
+::: {.csf-faq__hot}
+### So I really don't bring anything?
+Really. This isn't a potluck. Whoever hosts does the shopping, and the recipes are cheap
+enough that nobody collects money at the door. Turn up with your hands free.
+:::
 
-Cuochi senza fuochi exists because the usual alternatives don't work for everyone. Bars
-cost money every single time. Clubs are loud and you meet no one. Apps put you back on
-a screen. Standing around a table making a dessert costs nothing, and it puts you in a
-room with people who live ten minutes away: the ones you can actually keep seeing.
+::: {.csf-faq__hot}
+### Is it a competition?
+Not at all. Nobody is graded, nobody wins, and a wobbly cheesecake gets eaten just as
+fast as a perfect one. We make one dessert together, as a team.
+:::
 
-::: {.csf-tags}
-- New in Padova
-- Erasmus and exchange
-- PhD students and researchers
-- Started a job here
-- Lived here for years and want a wider table
+::: {}
+### How do I sign up?
+Send one message to any of our accounts; they all reach the same people.
+[Instagram](https://www.instagram.com/cuochi_senza_fuochi/) and
+[TikTok](https://www.tiktok.com/@cuochi_senza_fuochi) are **&#64;cuochi_senza_fuochi**,
+[YouTube](https://www.youtube.com/@cuochisenzafuochi) is **&#64;cuochisenzafuochi**.
+No form, nothing to pay.
+:::
+
+::: {}
+### I genuinely can't cook. Is that a problem?
+It's closer to a qualification. Every recipe is chosen so that someone who has never
+made anything can get it right, first try, in a group.
+:::
+
+::: {}
+### What does it cost?
+Nothing to join. No membership, no fee, no collection at the door.
+:::
+
+::: {}
+### What do we make?
+Mostly desserts and cakes, because they're the easiest things to make well without heat:
+salame di cioccolato, tiramisù, no-bake cheesecake, chocolate mousse.
+[All the recipes](recipes.qmd).
+:::
+
+::: {}
+### Do I need to bring a friend?
+Most people come alone. That's the normal way to arrive, and nobody finds it odd: the
+whole point is that you don't know anyone yet.
+:::
+
+::: {}
+### What language is spoken?
+Italian and English, often in the same sentence. If your Italian stops at *"un caffè, per
+favore"*, you'll still have a great evening.
+:::
+
+::: {}
+### I have allergies, or I'm vegetarian or vegan
+Tell us when you sign up. It changes what gets bought, so it really helps to know in
+advance. There's almost always a version that works.
+:::
+
+::: {}
+### How many people come, and how often?
+Usually ten to twenty: enough to meet new people, few enough to actually talk. Roughly
+once a month, in the evening, in a shared flat or common room in Padova.
+:::
+
+::: {}
+### I don't live in Padova
+Then maybe your city is next. [Here's how to start one](cities.qmd), and we'll help.
+:::
+
+::: {}
+### Is this a networking thing?
+No. People do end up helping each other with flats, jobs and doctors, but the way
+neighbours do: as a side effect, not the agenda.
+:::
 :::
 :::
 
 ::: {.csf-band}
 ## Ready for the next one?
 
-One message is all it takes. The address comes back with it.
+One message is all it takes. We'll send you the address.
 
 ::: {.csf-actions}
 [Come to the next one](join.qmd){.csf-btn .csf-btn--primary}

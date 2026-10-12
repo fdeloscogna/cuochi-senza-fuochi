@@ -1,38 +1,53 @@
 /* ============================================================
    Cuochi senza fuochi, design system
 
-   Direction: clean and photo forward, on a warm kitchen palette.
-   Cream paper rather than white, espresso brown rather than black,
-   burnt orange as the accent and pistachio as a second one.
-   Hairline rules instead of drop shadows, large confident type,
-   real line icons (Bootstrap Icons) instead of emoji.
+   Direction: a dessert shop window, not a newspaper.
+   Vanilla paper, dark chocolate ink, and three "flavours" used as
+   accents and pastel card fills: strawberry, butter and pistachio
+   (plus a blueberry for a fourth). Rounded shapes, sticker-style
+   buttons with a solid offset shadow, a friendly grotesque for
+   headlines and a handwritten face only for small asides.
+   Real line icons (Bootstrap Icons), no emoji.
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  /* surfaces. --csf-white is the lightest warm tone, not pure white: it lifts
-     the navbar off the page and reads as warm white on the espresso blocks. */
-  --csf-white:      #FFFAF0;
-  --csf-paper:      #FAF1E0;
+  /* surfaces */
+  --csf-paper:      #FFF8EE;   /* vanilla, the page */
+  --csf-white:      #FFFDF9;   /* cards and the navbar */
 
-  /* ink: espresso brown rather than black, so nothing on the page is neutral */
-  --csf-ink:        #2E1F16;
-  --csf-ink-soft:   #5E4B3C;
-  --csf-ink-faint:  #907E6C;
+  /* ink: dark chocolate rather than black */
+  --csf-ink:        #2B1A12;
+  --csf-ink-soft:   #5C4436;
+  --csf-ink-faint:  #7D6555;   /* still 5:1 on the paper */
 
-  /* the accent is the flame in the logo */
-  --csf-accent:     #C1440E;
-  --csf-accent-dk:  #9A3409;
-  /* a second accent, used for the card icons and the small hero markers */
-  --csf-pistachio:  #6B7F5B;
+  /* flavours. The -dk tones are the ones that carry text or white-on-colour,
+     and all clear 4.5:1. The -tint tones are card fills only. */
+  --csf-berry:      #CF3550;
+  --csf-berry-dk:   #A82640;
+  --csf-berry-tint: #FFE4E4;
+  --csf-butter:     #FFC94A;
+  --csf-butter-dk:  #8A5A00;
+  --csf-butter-tint:#FFF0C7;
+  --csf-pista:      #8DB06A;
+  --csf-pista-dk:   #456128;
+  --csf-pista-tint: #E7F1D9;
+  --csf-blue-dk:    #2F5E8E;
+  --csf-blue-tint:  #DFECFA;
+  --csf-cocoa-tint: #F4E6D9;
 
-  /* hairlines do the work that shadows used to */
-  --csf-line:       rgba(46, 31, 22, 0.16);
-  --csf-line-firm:  rgba(46, 31, 22, 0.32);
+  --csf-line:       rgba(43, 26, 18, 0.14);
+  --csf-line-firm:  rgba(43, 26, 18, 0.3);
 
-  --csf-radius:     10px;
-  --csf-measure:    66ch;
+  --csf-radius:     22px;
+  --csf-radius-sm:  14px;
+  --csf-measure:    64ch;
+  --csf-pop:        3px 3px 0 var(--csf-ink);   /* the sticker shadow */
+
+  --csf-display: 'Bricolage Grotesque', 'Inter', system-ui, sans-serif;
+  --csf-hand:    'Caveat', 'Segoe Print', cursive;
+  --csf-sans:    'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
   /* platform brand colours, used only on the social cards */
   --csf-ig:         #C13584;
@@ -47,47 +62,49 @@
 body {
   background-color: var(--csf-paper);
   color: var(--csf-ink);
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-family: var(--csf-sans);
   font-size: 1.0625rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, .csf-display {
-  font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.12;
+  font-family: var(--csf-display);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.08;
   color: var(--csf-ink);
+  /* no orphaned last word ("make / it") on display headings */
+  text-wrap: balance;
 }
 
-/* Quarto underlines section h2s; whitespace and hairlines separate them here */
+/* Quarto underlines section h2s; whitespace separates them here */
 h2 {
-  font-size: clamp(1.65rem, 1.1rem + 1.9vw, 2.4rem);
+  font-size: clamp(1.75rem, 1.15rem + 2vw, 2.6rem);
   margin-top: 2.75rem;
   border-bottom: none;
   padding-bottom: 0;
 }
-h3 { font-size: clamp(1.15rem, 1rem + 0.6vw, 1.4rem); margin-top: 2rem; }
+h3 { font-size: clamp(1.15rem, 1rem + 0.6vw, 1.35rem); font-weight: 700; margin-top: 2rem; }
 
 /* Prose is always the sans face, whatever a section wrapper might have inherited. */
 p, li, dd, td, figcaption {
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-family: var(--csf-sans);
   font-weight: 400;
 }
 p, li { max-width: var(--csf-measure); }
 
 a {
-  color: var(--csf-accent-dk);
-  text-decoration-color: rgba(193, 68, 14, .35);
-  text-decoration-thickness: 1px;
+  color: var(--csf-berry-dk);
+  text-decoration-color: rgba(207, 53, 80, .4);
+  text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
-a:hover { color: var(--csf-accent); text-decoration-color: currentColor; }
+a:hover { color: var(--csf-berry); text-decoration-color: currentColor; }
 
-strong { font-weight: 620; color: var(--csf-ink); }
+strong { font-weight: 650; color: var(--csf-ink); }
 
-::selection { background: var(--csf-ink); color: var(--csf-white); }
+::selection { background: var(--csf-butter); color: var(--csf-ink); }
 
 /* ------------------------------------------------------------
    Navbar
@@ -97,16 +114,16 @@ strong { font-weight: 620; color: var(--csf-ink); }
   background: var(--csf-white) !important;
   border-bottom: 1px solid var(--csf-line);
   box-shadow: none;
-  padding-block: .5rem;
+  padding-block: .55rem;
 }
 
 /* Quarto stamps data-bs-theme="dark" on the navbar, so Bootstrap's burger glyph
    and search chrome default to white and vanish on our light surface. */
 .navbar .navbar-toggler {
   border-color: var(--csf-line);
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%232E1F16' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%232B1A12' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-.navbar .navbar-toggler:focus { box-shadow: 0 0 0 3px rgba(193, 68, 14, .3); }
+.navbar .navbar-toggler:focus { box-shadow: 0 0 0 3px rgba(207, 53, 80, .3); }
 
 .navbar #quarto-search .aa-Autocomplete .aa-Form,
 .navbar .aa-DetachedSearchButton {
@@ -124,13 +141,40 @@ strong { font-weight: 620; color: var(--csf-ink); }
 
 .navbar-brand,
 .navbar .navbar-title {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 900;
-  font-size: 1.1rem;
-  letter-spacing: -0.025em;
+  font-family: var(--csf-display);
+  font-weight: 800;
+  font-size: 1.12rem;
+  letter-spacing: -0.02em;
   color: var(--csf-ink) !important;
 }
-.navbar-brand img { max-height: 32px; }
+.navbar-brand { display: inline-flex; align-items: center; gap: .6rem; }
+
+/* The round whisk-and-flame emblem, cropped out of the wide wordmark.
+   The emblem sits in a ~720px square starting at (20, 40) of the 1280x805
+   source, so at 40px the image is drawn at 40/720 scale and nudged by that
+   offset. Done in CSS so there is no second logo file to keep in sync. */
+.navbar-brand::before {
+  content: "";
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #F8E1C0 url("images/logo-wordmark.jpg") no-repeat;
+  background-size: 71px auto;
+  background-position: -1px -2px;
+  box-shadow: 0 0 0 2px var(--csf-ink);
+}
+/* On phones the burger, emblem, name and search share ~390px: shrink the
+   emblem and the name so "Cuochi senza fuochi" is not cut to an ellipsis. */
+@media (max-width: 420px) {
+  .navbar-brand { gap: .45rem; }
+  .navbar-brand::before { width: 32px; height: 32px; background-size: 57px auto; background-position: -1px -2px; }
+  .navbar-brand, .navbar .navbar-title { font-size: .98rem; }
+  .navbar .navbar-title { overflow: visible; text-overflow: clip; white-space: nowrap; }
+  /* Quarto caps this at calc(100% - 115px) and centres it, which clips the
+     name; let it take whatever the burger and search icon leave over. */
+  .navbar .navbar-brand-container { max-width: none; flex: 1 1 auto; margin-inline: .25rem !important; padding-right: 0; }
+}
 
 /* Quarto puts .navbar-nav-scroll on both nav lists, which caps their height and
    can scroll an item out of sight with no visible scrollbar, so a link just
@@ -143,31 +187,35 @@ strong { font-weight: 620; color: var(--csf-ink); }
 .navbar .nav-link {
   color: var(--csf-ink-soft) !important;
   font-weight: 500;
-  font-size: .94rem;
+  font-size: .95rem;
   border-radius: 999px;
-  padding: .3rem .75rem !important;
+  padding: .35rem .8rem !important;
   /* keep a label intact rather than breaking it across lines */
   white-space: nowrap;
-  transition: color .18s ease;
+  transition: color .18s ease, background .18s ease;
 }
-.navbar .nav-link:hover { color: var(--csf-ink) !important; }
+.navbar .nav-link:hover { color: var(--csf-ink) !important; background: var(--csf-cocoa-tint); }
 .navbar .nav-link.active {
   color: var(--csf-ink) !important;
   font-weight: 600;
-  box-shadow: inset 0 -2px 0 var(--csf-accent);
-  border-radius: 0;
+  background: var(--csf-butter-tint);
 }
 
 /* the "Join us" navbar item: Quarto gives no hook for a class, so target the href */
 .navbar-nav .nav-link[href$="join.html"] {
-  background: var(--csf-ink) !important;
-  color: var(--csf-white) !important;
-  font-weight: 600;
-  box-shadow: none;
+  background: var(--csf-berry) !important;
+  color: #fff !important;
+  font-weight: 650;
+  border: 2px solid var(--csf-ink);
+  box-shadow: 2px 2px 0 var(--csf-ink);
+  margin-left: .35rem;
+  transition: transform .15s ease, box-shadow .15s ease;
 }
 .navbar-nav .nav-link[href$="join.html"]:hover {
-  background: var(--csf-accent) !important;
-  color: var(--csf-white) !important;
+  background: var(--csf-berry-dk) !important;
+  color: #fff !important;
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--csf-ink);
 }
 
 /* Social icons in the navbar. Quarto renders icon only items as
@@ -175,32 +223,25 @@ strong { font-weight: 620; color: var(--csf-ink); }
    class, so size them via the icon child and tint per platform by href. */
 .navbar .nav-link > .bi { font-size: 1.1rem; line-height: 1; vertical-align: -.1em; }
 .navbar .nav-link:has(> .bi) {
-  padding: .3rem .45rem !important;
+  padding: .35rem .5rem !important;
   color: var(--csf-ink) !important;
-  box-shadow: none;
 }
 .navbar .nav-link[href*="instagram.com"]:hover { color: var(--csf-ig) !important; }
 .navbar .nav-link[href*="tiktok.com"]:hover    { color: var(--csf-tt) !important; }
 .navbar .nav-link[href*="youtube.com"]:hover   { color: var(--csf-yt) !important; }
 
-/* Inside the burger menu, which the xl breakpoint now uses up to 1200px.
-   Items are full width there, so the underline that marks the current page
-   stretches across and reads as a divider: use a left rule instead. */
+/* Inside the burger menu, which the xl breakpoint uses up to 1200px. */
 @media (max-width: 1199.98px) {
-  .navbar .nav-link.active {
-    box-shadow: none;
-    border-left: 2px solid var(--csf-accent);
-    border-radius: 0;
-  }
-  /* keep the three social icons on one row rather than three stacked rows */
+  .navbar .navbar-nav .nav-link { display: inline-block; }
+  /* keep the three social icons and the CTA on one row rather than stacked */
   .navbar .navbar-nav.ms-auto {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     gap: .2rem;
-    margin-top: .4rem;
+    margin-top: .5rem;
+    padding-bottom: .4rem;
   }
-  .navbar .navbar-nav.ms-auto .nav-link:has(> .bi) { padding: .35rem .5rem !important; }
 }
 
 /* ------------------------------------------------------------
@@ -209,39 +250,40 @@ strong { font-weight: 620; color: var(--csf-ink); }
 
 .nav-footer {
   background: var(--csf-ink);
-  color: rgba(255, 255, 255, .68);
+  color: rgba(255, 255, 255, .7);
   border-top: none;
   font-size: .9rem;
-  padding-block: 2rem;
+  padding-block: 2.25rem;
 }
-.nav-footer a { color: rgba(255, 255, 255, .8); text-decoration: none; }
-.nav-footer a:hover { color: var(--csf-white); text-decoration: underline; }
+.nav-footer a { color: rgba(255, 255, 255, .85); text-decoration: none; }
+.nav-footer a:hover { color: #fff; text-decoration: underline; }
 .nav-footer p { max-width: none; margin-bottom: 0; }
 .nav-footer .nav-footer-left { max-width: 42ch; line-height: 1.55; }
 /* the global `strong` rule paints dark ink, which vanishes on the dark footer */
-.nav-footer strong { color: var(--csf-white); font-weight: 600; }
-.nav-footer .nav-footer-center .nav-link { padding-inline: .55rem; }
+.nav-footer strong { color: var(--csf-butter); font-weight: 650; }
+.nav-footer .nav-footer-center .footer-items { display: flex; flex-wrap: wrap; justify-content: center; row-gap: .1rem; }
+.nav-footer .nav-footer-center .nav-link { padding-inline: .55rem; white-space: nowrap; }
 
 .nav-footer .nav-link:has(> .bi) {
   display: inline-grid;
   place-items: center;
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 2.3rem;
+  height: 2.3rem;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, .22);
-  color: var(--csf-white) !important;
+  border: 1px solid rgba(255, 255, 255, .25);
+  color: #fff !important;
   transition: background .18s ease, color .18s ease, border-color .18s ease;
 }
 .nav-footer .nav-link:has(> .bi) > .bi { font-size: 1rem; line-height: 1; }
 .nav-footer .nav-link[href*="instagram.com"]:hover { background: var(--csf-ig); border-color: var(--csf-ig); }
-.nav-footer .nav-link[href*="tiktok.com"]:hover    { background: var(--csf-white); color: var(--csf-tt) !important; border-color: var(--csf-white); }
+.nav-footer .nav-link[href*="tiktok.com"]:hover    { background: #fff; color: var(--csf-tt) !important; border-color: #fff; }
 .nav-footer .nav-link[href*="youtube.com"]:hover   { background: var(--csf-yt); border-color: var(--csf-yt); }
 
-/* Quarto's banner title block on post pages, flattened to match the new system. */
+/* Quarto's banner title block on post pages, flattened to match the system. */
 .quarto-title-banner {
-  background: var(--csf-white);
+  background: var(--csf-butter-tint);
   color: var(--csf-ink);
-  border-bottom: 1px solid var(--csf-line);
+  border-bottom: none;
   padding-block: 3rem 2.25rem;
   margin-bottom: 2.5rem;
   text-align: left;
@@ -261,102 +303,110 @@ strong { font-weight: 620; color: var(--csf-ink); }
    is a duplicate h1, so drop it from the accessibility tree entirely. */
 main:has(.csf-hero) > #title-block-header { display: none; }
 
-/* No box, no gradient, no shadow. The hero is type and photograph on the page. */
 .csf-hero {
   position: relative;
-  margin: 0 0 3.5rem;
-  padding: clamp(1.5rem, 3vw, 2.75rem) 0 clamp(2rem, 4vw, 3.25rem);
-  border-bottom: 1px solid var(--csf-line);
+  margin: 0 0 3rem;
+  padding: clamp(1.75rem, 4vw, 3.5rem) 0 clamp(1.5rem, 3vw, 2.5rem);
 }
 
-.csf-hero img.csf-hero__mark {
-  display: block;
-  width: 100%;
-  max-width: 132px;
-  height: auto;
-  border-radius: 6px;
-  margin: 0 0 1.75rem;
-}
-
+/* A small pill above the headline, like a label on a jar */
 .csf-hero__eyebrow {
-  display: block;
-  font-size: .76rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  font-size: .82rem;
   font-weight: 600;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-  color: var(--csf-accent);
-  margin: 0 0 1.1rem;
+  letter-spacing: .02em;
+  color: var(--csf-ink);
+  background: var(--csf-butter-tint);
+  border: 1.5px solid var(--csf-ink);
+  border-radius: 999px;
+  padding: .3rem .85rem;
+  margin: 0 0 1.4rem;
+  max-width: none;
 }
+.csf-hero__eyebrow .bi { color: var(--csf-berry); }
 
 .csf-hero h1,
 .csf-hero__title {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 700;
-  font-size: clamp(2.3rem, 1.2rem + 4.4vw, 4.4rem);
-  line-height: 1.02;
-  letter-spacing: -0.035em;
-  margin: 0 0 1.25rem;
-  max-width: 20ch;
+  font-family: var(--csf-display);
+  font-weight: 800;
+  font-size: clamp(2.5rem, 1.3rem + 4.6vw, 4.9rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  margin: 0 0 1.4rem;
+  max-width: 16ch;
 }
-/* Italic correction: without it the slanted final letter collides with the
-   upright word after it ("filledso far") at display sizes. */
+
+/* The highlighted word gets a hand-drawn strawberry squiggle under it. */
 .csf-hero__title em {
-  font-style: italic;
-  font-weight: 600;
-  color: var(--csf-accent);
-  padding-right: .06em;
+  font-style: normal;
+  color: var(--csf-berry);
+  white-space: nowrap;
+  padding-bottom: .12em;
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'%3e%3cpath d='M2 8 C 15 2, 25 2, 38 7 S 62 12, 76 6 S 102 1, 118 6' fill='none' stroke='%23FFC94A' stroke-width='5' stroke-linecap='round'/%3e%3c/svg%3e") no-repeat left bottom / 100% .32em;
 }
 
 .csf-hero__lede {
-  font-size: clamp(1.05rem, 1rem + .45vw, 1.25rem);
+  font-size: clamp(1.08rem, 1rem + .45vw, 1.28rem);
   line-height: 1.6;
   color: var(--csf-ink-soft);
-  max-width: 50ch;
+  max-width: 48ch;
   margin-bottom: 1.9rem;
 }
-.csf-hero__lede strong { color: var(--csf-ink); font-weight: 600; }
+.csf-hero__lede strong { color: var(--csf-ink); font-weight: 650; }
 
-/* A short list of plain facts. Hairline separated, no icons, no boxes. */
+/* A short row of plain facts, as soft chips */
 .csf-hero__meta {
   display: flex;
   flex-wrap: wrap;
-  gap: .4rem 1.5rem;
-  margin-top: 2rem;
-  padding-top: 1.3rem;
-  border-top: 1px solid var(--csf-line);
-  font-size: .9rem;
-  color: var(--csf-ink-soft);
+  gap: .5rem;
+  margin-top: 1.9rem;
+  font-size: .88rem;
+  color: var(--csf-ink);
 }
-.csf-hero__meta span { display: inline-flex; align-items: center; gap: .5rem; }
-.csf-hero__meta span::before {
-  content: "";
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--csf-pistachio);
-  flex: none;
+.csf-hero__meta > p { display: contents; }
+.csf-hero__meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .32rem .8rem;
+  border-radius: 999px;
+  background: var(--csf-white);
+  border: 1px solid var(--csf-line);
 }
+.csf-hero__meta .bi { color: var(--csf-pista-dk); }
 
-/* --- Split hero: copy on the left, a large photograph on the right -------- */
+/* --- Split hero: copy on the left, a photograph on the right -------- */
 
 .csf-hero--split {
   display: grid;
-  gap: clamp(1.75rem, 4vw, 3.5rem);
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr);
   align-items: center;
 }
 /* Grid items default to a min-content floor; the photo's intrinsic width would
    otherwise push the track, and the page, wider than the viewport. */
 .csf-hero--split > * { min-width: 0; }
 
-/* Below the two column breakpoint the photograph leads, because it explains
-   the club faster than any paragraph does. */
+/* Below the two column breakpoint the copy leads: the headline says what this
+   is faster than the photo does, and the photo follows straight after. */
 @media (max-width: 860px) {
   .csf-hero--split { grid-template-columns: minmax(0, 1fr); }
-  .csf-hero--split .csf-hero__figure { order: -1; }
 }
 
-.csf-hero__figure { margin: 0; min-width: 0; }
+/* The photo is a slightly tilted print, with stickers on it. */
+.csf-hero__figure {
+  position: relative;
+  margin: 0;
+  min-width: 0;
+  padding: .75rem .75rem 0;
+  background: var(--csf-white);
+  border: 2px solid var(--csf-ink);
+  border-radius: var(--csf-radius);
+  box-shadow: 6px 6px 0 var(--csf-ink);
+  transform: rotate(1.5deg);
+}
 .csf-hero__figure > p { margin: 0; }
 /* Over-qualified to beat the generic `main p > img` and `.page-columns img`
    rules further down, which would otherwise cap and centre this photo. */
@@ -364,20 +414,52 @@ main:has(.csf-hero) > #title-block-header { display: none; }
   display: block;
   width: 100%;
   max-width: 100%;
-  /* squarer than the source portrait, so the photo sits level with the copy
-     column instead of towering over it */
   aspect-ratio: 1 / 1;
   height: auto;
   margin: 0;
   object-fit: cover;
-  border-radius: var(--csf-radius);
+  object-position: 50% 45%;
+  border-radius: var(--csf-radius-sm);
 }
 p.csf-hero__caption {
-  margin: .85rem 0 0;
-  max-width: 40ch;
-  font-size: .82rem;
-  line-height: 1.5;
-  color: var(--csf-ink-faint);
+  margin: 0;
+  padding: .55rem .25rem .7rem;
+  max-width: none;
+  font-family: var(--csf-hand);
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--csf-ink-soft);
+  text-align: center;
+}
+
+/* Round stickers stuck on the photo corner */
+.csf-sticker {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 7.2rem;
+  height: 7.2rem;
+  padding: .8rem;
+  border-radius: 50%;
+  border: 2px solid var(--csf-ink);
+  box-shadow: var(--csf-pop);
+  font-family: var(--csf-display);
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: var(--csf-ink);
+}
+.csf-sticker--butter { background: var(--csf-butter); top: -1.6rem; left: -1.8rem; transform: rotate(-12deg); }
+.csf-sticker--berry  { background: var(--csf-berry); color: #fff; bottom: 3.2rem; right: -1.6rem; transform: rotate(9deg); width: 6.4rem; height: 6.4rem; }
+@media (max-width: 575px) {
+  .csf-sticker { width: 5.6rem; height: 5.6rem; font-size: .82rem; }
+  .csf-sticker--butter { left: -.6rem; top: -1.2rem; }
+  /* higher up, so it sits on the photo rather than over the caption */
+  .csf-sticker--berry  { right: -.6rem; bottom: 5.5rem; width: 5.2rem; height: 5.2rem; }
 }
 
 /* ------------------------------------------------------------
@@ -387,7 +469,7 @@ p.csf-hero__caption {
 .csf-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: .7rem;
+  gap: .8rem;
   align-items: center;
 }
 
@@ -395,47 +477,45 @@ p.csf-hero__caption {
   display: inline-flex;
   align-items: center;
   gap: .5rem;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: .98rem;
+  font-family: var(--csf-sans);
+  font-weight: 650;
+  font-size: 1rem;
   line-height: 1;
-  padding: .9rem 1.6rem;
+  padding: .95rem 1.6rem;
   border-radius: 999px;
   text-decoration: none !important;
-  border: 1px solid transparent;
-  transition: background .18s ease, color .18s ease, border-color .18s ease;
+  border: 2px solid var(--csf-ink);
+  box-shadow: var(--csf-pop);
+  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
 }
+.csf-btn:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--csf-ink); }
+.csf-btn:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 var(--csf-ink); }
 .csf-btn--primary {
-  background: var(--csf-ink);
-  color: var(--csf-white) !important;
+  background: var(--csf-berry);
+  color: #fff !important;
 }
-.csf-btn--primary:hover {
-  background: var(--csf-accent);
-  color: var(--csf-white) !important;
-}
+.csf-btn--primary:hover { background: var(--csf-berry-dk); color: #fff !important; }
 .csf-btn--ghost {
-  background: transparent;
+  background: var(--csf-white);
   color: var(--csf-ink) !important;
-  border-color: var(--csf-line-firm);
 }
-.csf-btn--ghost:hover {
-  border-color: var(--csf-ink);
-  background: transparent;
-}
+.csf-btn--ghost:hover { background: var(--csf-butter-tint); }
 
 /* ------------------------------------------------------------
    Section headers
    ------------------------------------------------------------ */
 
-.csf-section { margin: 4.5rem 0; }
+.csf-section { margin: 5rem 0; }
 
 .csf-section__kicker {
-  font-size: .76rem;
-  font-weight: 600;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-  color: var(--csf-accent);
-  margin-bottom: .7rem;
+  font-family: var(--csf-hand);
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--csf-berry);
+  margin-bottom: .35rem;
+  transform: rotate(-1.5deg);
+  transform-origin: left center;
 }
 /* Element-qualified on purpose: pandoc copies a heading's classes onto the
    wrapping <section> as well, so a bare .csf-section__title selector would
@@ -443,67 +523,106 @@ p.csf-hero__caption {
 h1.csf-section__title,
 h2.csf-section__title,
 h3.csf-section__title {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 700;
-  font-size: clamp(1.7rem, 1.2rem + 1.8vw, 2.6rem);
-  letter-spacing: -0.028em;
-  line-height: 1.08;
-  margin: 0 0 .7rem;
-  max-width: 26ch;
+  font-family: var(--csf-display);
+  font-weight: 800;
+  font-size: clamp(1.85rem, 1.2rem + 2.1vw, 2.9rem);
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+  margin: 0 0 .8rem;
+  max-width: 24ch;
 }
 p.csf-section__sub {
-  font-family: 'Inter', system-ui, sans-serif;
-  font-size: 1.05rem;
+  font-family: var(--csf-sans);
+  font-size: 1.08rem;
   font-weight: 400;
   line-height: 1.65;
   color: var(--csf-ink-soft);
-  max-width: 54ch;
+  max-width: 56ch;
   margin-bottom: 2.25rem;
 }
+.csf-center { text-align: center; }
+.csf-center h2.csf-section__title,
+.csf-center p.csf-section__sub { margin-inline: auto; }
+.csf-center .csf-section__kicker { transform-origin: center; }
 
 /* ------------------------------------------------------------
    Cards & grids
    ------------------------------------------------------------ */
 
-/* Hairline grids.
-   Rules are per cell and horizontal only, with whitespace between columns.
-   An earlier version used `gap: 1px` over a tinted container to draw the rules,
-   which is tidier when the rows are full but paints the empty cells of a ragged
-   last row as a solid block. Horizontal rules cannot do that.
-   Column counts are explicit rather than auto-fit: page-layout: full spans the
+/* Column counts are explicit rather than auto-fit: page-layout: full spans the
    whole viewport, so auto-fit produced five and six narrow columns on wide screens. */
 .csf-grid {
   display: grid;
   grid-template-columns: 1fr;
-  column-gap: clamp(1.5rem, 3vw, 2.75rem);
-  row-gap: 0;
-  border-top: 1px solid var(--csf-line);
+  gap: clamp(1rem, 2vw, 1.5rem);
 }
 @media (min-width: 620px)  { .csf-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (min-width: 940px)  { .csf-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 940px)  { .csf-grid--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 620px)  { .csf-grid--2 { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } }
 
-/* Cards are separated by hairlines, not by shadows or fills. */
+/* Cards are soft pastel tiles. The flavour modifier sets the fill and icon tone. */
 .csf-card {
-  padding: 1.7rem 0 1.8rem;
-  border-bottom: 1px solid var(--csf-line);
+  --csf-card-bg: var(--csf-white);
+  --csf-card-ic: var(--csf-berry-dk);
+  background: var(--csf-card-bg);
+  border-radius: var(--csf-radius);
+  padding: 1.6rem 1.5rem 1.7rem;
+  border: 1px solid var(--csf-line);
 }
-.csf-card h3 {
-  margin: 0 0 .55rem;
-  font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: -0.015em;
-}
-.csf-card p { margin: 0; color: var(--csf-ink-soft); font-size: .97rem; max-width: none; }
+.csf-card--berry  { --csf-card-bg: var(--csf-berry-tint);  --csf-card-ic: var(--csf-berry-dk); border-color: transparent; }
+.csf-card--butter { --csf-card-bg: var(--csf-butter-tint); --csf-card-ic: var(--csf-butter-dk); border-color: transparent; }
+.csf-card--pista  { --csf-card-bg: var(--csf-pista-tint);  --csf-card-ic: var(--csf-pista-dk); border-color: transparent; }
+.csf-card--blue   { --csf-card-bg: var(--csf-blue-tint);   --csf-card-ic: var(--csf-blue-dk); border-color: transparent; }
+.csf-card--cocoa  { --csf-card-bg: var(--csf-cocoa-tint);  --csf-card-ic: var(--csf-ink-soft); border-color: transparent; }
 
-/* Line icons (Bootstrap Icons) replace the old emoji. */
-.csf-card__icon {
-  display: block;
-  margin-bottom: 1rem;
-  font-size: 1.6rem;
-  line-height: 1;
-  color: var(--csf-pistachio);
+.csf-card h3 {
+  margin: 0 0 .5rem;
+  font-size: 1.22rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
+.csf-card p { margin: 0; color: var(--csf-ink-soft); font-size: .98rem; max-width: none; }
+.csf-card p + p { margin-top: .6rem; }
+
+/* Line icon in a white circle on the pastel tile */
+.csf-card__icon {
+  display: inline-grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background: var(--csf-white);
+  font-size: 1.35rem;
+  line-height: 1;
+  color: var(--csf-card-ic);
+}
+.csf-card--plain .csf-card__icon,
+.csf-card:not([class*="csf-card--"]) .csf-card__icon { background: var(--csf-cocoa-tint); }
 .csf-card__icon .bi { line-height: 1; }
+
+/* Little facts at the foot of a recipe card: time, ingredients */
+/* a plain paragraph straight after a card grid (the savoury note on Recipes) */
+.csf-grid + p { margin-top: 1.75rem; color: var(--csf-ink-soft); }
+
+.csf-card__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-top: 1rem !important;
+  font-size: .8rem !important;
+  font-weight: 600;
+}
+.csf-card__facts span {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  padding: .2rem .6rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .7);
+  color: var(--csf-ink);
+}
 
 /* Numbered steps. Pandoc wraps a markdown list inside the div, so the grid has to
    live on the <ul>; when the markup is a bare <ul class="csf-steps"> it applies directly. */
@@ -511,9 +630,7 @@ ul.csf-steps,
 .csf-steps > ul {
   display: grid;
   grid-template-columns: 1fr;
-  column-gap: clamp(1.5rem, 3vw, 2.5rem);
-  row-gap: 0;
-  border-top: 1px solid var(--csf-line);
+  gap: clamp(1rem, 2vw, 1.5rem);
   counter-reset: csf-step;
   list-style: none;
   padding: 0;
@@ -524,53 +641,59 @@ ul.csf-steps,
 .csf-steps li {
   counter-increment: csf-step;
   position: relative;
-  padding: 1.5rem 0 1.7rem;
+  padding: 1.5rem 1.4rem 1.6rem;
   max-width: none;
-  border-bottom: 1px solid var(--csf-line);
+  background: var(--csf-white);
+  border: 1px solid var(--csf-line);
+  border-radius: var(--csf-radius);
 }
-/* A large thin numeral, set in the display face, instead of a filled circle. */
 .csf-steps li::before {
-  content: counter(csf-step, decimal-leading-zero);
-  display: block;
-  margin-bottom: .9rem;
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 400;
-  font-size: 1.6rem;
+  content: counter(csf-step);
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  border: 2px solid var(--csf-ink);
+  background: var(--csf-butter);
+  font-family: var(--csf-display);
+  font-weight: 800;
+  font-size: 1.15rem;
   line-height: 1;
-  letter-spacing: -0.02em;
-  color: var(--csf-accent);
+  color: var(--csf-ink);
 }
+.csf-steps li:nth-child(2)::before { background: var(--csf-berry-tint); }
+.csf-steps li:nth-child(3)::before { background: var(--csf-pista-tint); }
+.csf-steps li:nth-child(4)::before { background: var(--csf-blue-tint); }
 .csf-steps h3 {
   margin: 0 0 .4rem;
-  font-size: 1.08rem;
-  letter-spacing: -0.015em;
+  font-size: 1.15rem;
+  letter-spacing: -0.02em;
 }
-.csf-steps p { margin: 0; font-size: .96rem; color: var(--csf-ink-soft); max-width: none; }
+.csf-steps p { margin: 0; font-size: .97rem; color: var(--csf-ink-soft); max-width: none; }
 
-/* pull quote */
+/* A big, friendly one-liner between sections */
 .csf-quote {
-  border-top: 1px solid var(--csf-ink);
-  border-bottom: 1px solid var(--csf-line);
-  padding: 1.9rem 0;
-  margin: 3.5rem 0;
+  margin: 4.5rem auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 .csf-quote p {
-  font-family: 'Fraunces', Georgia, serif;  /* deliberate: the pull-quote voice */
-  font-size: clamp(1.25rem, 1.05rem + .8vw, 1.7rem);
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.35;
-  letter-spacing: -0.02em;
-  margin: 0 0 .9rem;
-  max-width: 34ch;
+  font-family: var(--csf-display);
+  font-size: clamp(1.7rem, 1.1rem + 2.4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+  margin: 0 auto .6rem;
+  max-width: 22ch;
 }
-.csf-quote p strong { font-weight: 700; color: var(--csf-ink); }
+.csf-quote p strong { font-weight: 800; color: var(--csf-berry); }
 .csf-quote cite {
-  font-family: 'Inter', sans-serif;
+  font-family: var(--csf-hand);
   font-style: normal;
-  font-size: .84rem;
-  font-weight: 500;
-  letter-spacing: .02em;
+  font-size: 1.4rem;
+  font-weight: 600;
   color: var(--csf-ink-faint);
 }
 
@@ -580,10 +703,9 @@ ul.csf-steps,
 
 .csf-strip {
   display: grid;
-  gap: 0;
+  gap: .75rem;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
-  margin: 0 0 4.5rem;
-  border-bottom: 1px solid var(--csf-line);
+  margin: 0 0 4rem;
 }
 /* The items are inline elements, so pandoc collects them into a <p> inside the
    wrapper. Dissolve that paragraph box so they become grid items directly.
@@ -591,61 +713,126 @@ ul.csf-steps,
 .csf-strip > p { display: contents; }
 
 .csf-strip__item {
-  font-size: .9rem;
-  line-height: 1.45;
+  font-size: .92rem;
+  line-height: 1.4;
   color: var(--csf-ink-soft);
-  padding: 1.3rem 1.3rem 1.4rem 0;
+  padding: 1.1rem 1.25rem 1.2rem;
+  border-radius: var(--csf-radius-sm);
+  background: var(--csf-white);
+  border: 1px solid var(--csf-line);
 }
 .csf-strip__item strong {
   display: block;
-  margin-bottom: .2rem;
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 700;
-  font-size: 1.5rem;
+  margin-bottom: .15rem;
+  font-family: var(--csf-display);
+  font-weight: 800;
+  font-size: 1.45rem;
   line-height: 1.1;
   letter-spacing: -0.03em;
   color: var(--csf-ink);
 }
 
 /* ------------------------------------------------------------
-   Inverted band
+   Two column split: text on one side, a list or card on the other
+   ------------------------------------------------------------ */
+
+.csf-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(1.75rem, 4vw, 3.5rem);
+  align-items: start;
+}
+@media (min-width: 900px) { .csf-split { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.csf-split > * { min-width: 0; }
+
+/* A checklist with round pistachio ticks */
+ul.csf-checks,
+.csf-checks > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: .75rem;
+}
+.csf-checks li {
+  position: relative;
+  max-width: none;
+  padding: 1rem 1.2rem 1rem 3.4rem;
+  background: var(--csf-white);
+  border: 1px solid var(--csf-line);
+  border-radius: var(--csf-radius-sm);
+  color: var(--csf-ink-soft);
+  font-size: .98rem;
+}
+.csf-checks li::before {
+  content: "";
+  position: absolute;
+  left: 1.05rem;
+  top: 1.1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--csf-pista) url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath d='M4 8.5l2.6 2.6L12 5.6' fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e") center / 70% no-repeat;
+}
+.csf-checks li strong { display: block; color: var(--csf-ink); margin-bottom: .1rem; }
+
+/* "It is / it isn't" pair */
+.csf-isnt li::before {
+  background: var(--csf-berry) url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath d='M5 5l6 6M11 5l-6 6' fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round'/%3e%3c/svg%3e") center / 70% no-repeat;
+}
+
+/* ------------------------------------------------------------
+   Coloured bands
    ------------------------------------------------------------ */
 
 .csf-band {
   background: var(--csf-ink);
-  color: var(--csf-white);
-  border-radius: var(--csf-radius);
-  padding: clamp(2.25rem, 5vw, 4rem) clamp(1.5rem, 4vw, 3rem);
-  margin: 4.5rem 0 2rem;
+  color: #fff;
+  border-radius: calc(var(--csf-radius) + 6px);
+  padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 4vw, 3rem);
+  margin: 5rem 0 2.5rem;
   text-align: center;
 }
 .csf-band h2 {
-  color: var(--csf-white);
+  color: #fff;
   margin: 0 auto .9rem;
-  max-width: 24ch;
-  font-size: clamp(1.7rem, 1.2rem + 1.8vw, 2.6rem);
-  letter-spacing: -0.03em;
+  max-width: 22ch;
+  font-size: clamp(1.85rem, 1.2rem + 2.2vw, 3rem);
+  letter-spacing: -0.035em;
 }
 .csf-band p {
-  color: rgba(255, 255, 255, .72);
-  max-width: 46ch;
+  color: rgba(255, 255, 255, .78);
+  max-width: 48ch;
   margin: 0 auto 1.9rem;
 }
-.csf-band strong { color: var(--csf-white); }
+.csf-band strong { color: var(--csf-butter); }
 .csf-band .csf-actions { justify-content: center; }
-.csf-band .csf-btn--primary {
+.csf-band .csf-btn { border-color: #fff; box-shadow: 3px 3px 0 var(--csf-butter); }
+.csf-band .csf-btn:hover { box-shadow: 5px 5px 0 var(--csf-butter); }
+.csf-band .csf-btn--ghost { background: transparent; color: #fff !important; }
+.csf-band .csf-btn--ghost:hover { background: rgba(255, 255, 255, .1); }
+
+/* The light variant: butter yellow with dark ink, used for "your city" */
+.csf-band--butter { background: var(--csf-butter); color: var(--csf-ink); border: 2px solid var(--csf-ink); box-shadow: 6px 6px 0 var(--csf-ink); }
+.csf-band--butter h2 { color: var(--csf-ink); }
+.csf-band--butter p { color: var(--csf-ink); }
+.csf-band--butter strong { color: var(--csf-ink); }
+.csf-band--butter .csf-btn { border-color: var(--csf-ink); box-shadow: var(--csf-pop); }
+.csf-band--butter .csf-btn:hover { box-shadow: 5px 5px 0 var(--csf-ink); }
+.csf-band--butter .csf-btn--ghost { background: var(--csf-white); color: var(--csf-ink) !important; }
+.csf-band--butter .csf-btn--ghost:hover { background: var(--csf-white); }
+.csf-band__icon {
+  display: inline-grid;
+  place-items: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
   background: var(--csf-white);
-  color: var(--csf-ink) !important;
+  border: 2px solid var(--csf-ink);
+  font-size: 1.5rem;
+  color: var(--csf-berry);
 }
-.csf-band .csf-btn--primary:hover {
-  background: var(--csf-accent);
-  color: var(--csf-white) !important;
-}
-.csf-band .csf-btn--ghost {
-  color: var(--csf-white) !important;
-  border-color: rgba(255, 255, 255, .35);
-}
-.csf-band .csf-btn--ghost:hover { border-color: var(--csf-white); }
 
 /* ------------------------------------------------------------
    Inline social row
@@ -660,7 +847,7 @@ ul.csf-steps,
 }
 .csf-follow > p { display: contents; }
 .csf-follow__label {
-  font-size: .82rem;
+  font-size: .85rem;
   font-weight: 500;
   color: var(--csf-ink-faint);
   margin-right: .2rem;
@@ -669,27 +856,28 @@ ul.csf-steps,
   display: inline-flex;
   align-items: center;
   gap: .4rem;
-  font-size: .86rem;
-  font-weight: 500;
-  padding: .35rem .85rem;
+  font-size: .87rem;
+  font-weight: 550;
+  padding: .38rem .9rem;
   border-radius: 999px;
   border: 1px solid var(--csf-line-firm);
-  background: transparent;
+  background: var(--csf-white);
   color: var(--csf-ink) !important;
   text-decoration: none !important;
   transition: background .18s ease, color .18s ease, border-color .18s ease;
 }
 .csf-follow__link .bi { font-size: .98rem; line-height: 1; }
-.csf-follow__link:hover { border-color: transparent; color: var(--csf-white) !important; }
+.csf-follow__link:hover { border-color: transparent; color: #fff !important; }
 .csf-follow__link[href*="instagram.com"]:hover { background: var(--csf-ig); }
 .csf-follow__link[href*="tiktok.com"]:hover    { background: var(--csf-tt); }
 .csf-follow__link[href*="youtube.com"]:hover   { background: var(--csf-yt); }
 
 .csf-band .csf-follow { justify-content: center; margin-top: 1.75rem; }
-.csf-band .csf-follow__label { color: rgba(255, 255, 255, .6); }
+.csf-band .csf-follow__label { color: rgba(255, 255, 255, .65); }
 .csf-band .csf-follow__link {
-  border-color: rgba(255, 255, 255, .3);
-  color: var(--csf-white) !important;
+  background: transparent;
+  border-color: rgba(255, 255, 255, .35);
+  color: #fff !important;
 }
 
 /* ------------------------------------------------------------
@@ -699,9 +887,7 @@ ul.csf-steps,
 .csf-social {
   display: grid;
   grid-template-columns: 1fr;
-  column-gap: clamp(1.5rem, 3vw, 2.75rem);
-  row-gap: 0;
-  border-top: 1px solid var(--csf-line);
+  gap: clamp(1rem, 2vw, 1.5rem);
   margin: 2.25rem 0;
 }
 @media (min-width: 620px)  { .csf-social { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
@@ -709,26 +895,28 @@ ul.csf-steps,
 .csf-social > p { display: contents; }
 
 .csf-social__card {
-  --csf-social-brand: var(--csf-accent);
+  --csf-social-brand: var(--csf-berry);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: .25rem;
-  padding: 1.7rem 0 1.6rem;
-  border-bottom: 1px solid var(--csf-line);
+  gap: .2rem;
+  padding: 1.5rem 1.5rem 1.4rem;
+  background: var(--csf-white);
+  border: 1px solid var(--csf-line);
+  border-radius: var(--csf-radius);
   text-decoration: none !important;
   color: var(--csf-ink) !important;
+  transition: border-color .18s ease, transform .18s ease;
 }
-.csf-social__card:hover { color: var(--csf-ink) !important; }
+.csf-social__card:hover { color: var(--csf-ink) !important; border-color: var(--csf-social-brand); transform: translateY(-2px); }
 .csf-social__card:hover .csf-social__name { color: var(--csf-social-brand); }
 .csf-social__card--ig { --csf-social-brand: var(--csf-ig); }
 .csf-social__card--tt { --csf-social-brand: var(--csf-tt); }
 .csf-social__card--yt { --csf-social-brand: var(--csf-yt); }
 
-/* A plain line glyph in the brand colour, not a filled tile. */
 .csf-social__icon {
   display: block;
-  margin-bottom: .9rem;
+  margin-bottom: .8rem;
   font-size: 1.6rem;
   line-height: 1;
   color: var(--csf-social-brand);
@@ -736,9 +924,9 @@ ul.csf-steps,
 .csf-social__icon .bi { line-height: 1; }
 
 .csf-social__name {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 700;
-  font-size: 1.12rem;
+  font-family: var(--csf-display);
+  font-weight: 800;
+  font-size: 1.18rem;
   letter-spacing: -0.02em;
   transition: color .18s ease;
 }
@@ -749,18 +937,19 @@ ul.csf-steps,
   word-break: break-all;
 }
 .csf-social__note {
-  margin-top: .55rem;
-  font-size: .94rem;
+  margin-top: .5rem;
+  font-size: .95rem;
   line-height: 1.55;
   color: var(--csf-ink-soft);
 }
 .csf-social__cta {
   margin-top: auto;
-  padding-top: 1.1rem;
-  font-size: .86rem;
-  font-weight: 600;
+  padding-top: 1rem;
+  font-size: .88rem;
+  font-weight: 650;
   color: var(--csf-ink);
 }
+.csf-social__cta::after { content: " \2192"; }
 .csf-social__card:hover .csf-social__cta { color: var(--csf-social-brand); }
 
 /* ------------------------------------------------------------
@@ -769,42 +958,74 @@ ul.csf-steps,
 
 ul.csf-tags,
 .csf-tags > ul {
-  display: flex; flex-wrap: wrap; gap: .4rem;
+  display: flex; flex-wrap: wrap; gap: .45rem;
   margin: 1.25rem 0 0; padding: 0; list-style: none;
 }
 .csf-tags li {
   max-width: none;
-  font-size: .82rem;
-  font-weight: 500;
-  padding: .3rem .8rem;
+  font-size: .86rem;
+  font-weight: 550;
+  padding: .35rem .9rem;
   border-radius: 999px;
+  background: var(--csf-white);
   border: 1px solid var(--csf-line);
-  color: var(--csf-ink-soft);
+  color: var(--csf-ink);
 }
+.csf-tags li:nth-child(4n+1) { background: var(--csf-berry-tint);  border-color: transparent; }
+.csf-tags li:nth-child(4n+2) { background: var(--csf-butter-tint); border-color: transparent; }
+.csf-tags li:nth-child(4n+3) { background: var(--csf-pista-tint);  border-color: transparent; }
+.csf-tags li:nth-child(4n+4) { background: var(--csf-blue-tint);   border-color: transparent; }
 
 /* ------------------------------------------------------------
-   Quarto listings (sessions / recipes)
+   Cities
+   ------------------------------------------------------------ */
+
+.csf-city {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.csf-city__pin {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px solid var(--csf-ink);
+  background: var(--csf-berry);
+  color: #fff;
+  font-size: 1.25rem;
+}
+.csf-city__pin--open { background: var(--csf-white); color: var(--csf-ink-faint); border-style: dashed; }
+.csf-city h3 { margin: 0; font-size: 1.25rem; }
+.csf-city p { margin: .1rem 0 0; font-size: .9rem; color: var(--csf-ink-soft); }
+
+/* ------------------------------------------------------------
+   Quarto listings (sessions)
    ------------------------------------------------------------ */
 
 .quarto-listing { margin-top: 1rem; }
 
 div.quarto-post,
 .quarto-grid-item.card {
-  background: transparent;
-  border: none !important;
-  border-radius: 0 !important;
+  background: var(--csf-white);
+  border: 1px solid var(--csf-line) !important;
+  border-radius: var(--csf-radius) !important;
   box-shadow: none;
+  overflow: hidden;
 }
 
-.quarto-grid-item .card-body { padding: 1.1rem 0 1.5rem; }
+.quarto-grid-item .card-body { padding: 1.1rem 1.3rem 1.4rem; }
+.quarto-grid-item .card-footer { background: transparent; border: none; padding: 0 1.3rem 1.2rem; }
 
 .quarto-grid-item .card-title,
 div.quarto-post .listing-title {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 700;
-  font-size: 1.18rem;
+  font-family: var(--csf-display);
+  font-weight: 800;
+  font-size: 1.22rem;
   letter-spacing: -0.02em;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 .quarto-grid-item .card-title a,
 div.quarto-post .listing-title a {
@@ -812,7 +1033,7 @@ div.quarto-post .listing-title a {
   text-decoration: none;
 }
 .quarto-grid-item .card-title a:hover,
-div.quarto-post .listing-title a:hover { color: var(--csf-accent); }
+div.quarto-post .listing-title a:hover { color: var(--csf-berry); }
 
 .quarto-grid-item .card-text,
 div.quarto-post .listing-description {
@@ -822,9 +1043,9 @@ div.quarto-post .listing-description {
 
 .quarto-grid-item .listing-date,
 div.quarto-post .metadata .listing-date {
-  font-size: .76rem;
+  font-size: .78rem;
   font-weight: 600;
-  letter-spacing: .12em;
+  letter-spacing: .06em;
   text-transform: uppercase;
   color: var(--csf-ink-faint);
 }
@@ -835,27 +1056,27 @@ div.quarto-post .thumbnail img {
   object-fit: cover;
   width: 100%;
   aspect-ratio: 4 / 3;
-  border-radius: var(--csf-radius);
-  transition: opacity .2s ease;
+  border-radius: 0;
+  transition: transform .3s ease;
 }
 .quarto-grid-item:hover img.thumbnail-image,
-div.quarto-post:hover .thumbnail img { opacity: .88; }
+div.quarto-post:hover .thumbnail img { transform: scale(1.02); }
 
 .listing-category,
 .quarto-category {
-  background: transparent !important;
-  border: 1px solid var(--csf-line) !important;
-  color: var(--csf-ink-soft) !important;
+  background: var(--csf-butter-tint) !important;
+  border: none !important;
+  color: var(--csf-ink) !important;
   border-radius: 999px !important;
   font-size: .76rem !important;
-  padding: .2rem .7rem !important;
+  padding: .22rem .7rem !important;
   text-transform: none !important;
 }
-.listing-category:hover { border-color: var(--csf-ink) !important; color: var(--csf-ink) !important; }
+.listing-category:hover { background: var(--csf-butter) !important; }
 
 /* empty-listing hint we render ourselves */
 .csf-empty {
-  border: 1px dashed var(--csf-line-firm);
+  border: 2px dashed var(--csf-line-firm);
   border-radius: var(--csf-radius);
   padding: 2.5rem;
   text-align: center;
@@ -863,23 +1084,47 @@ div.quarto-post:hover .thumbnail img { opacity: .88; }
 }
 
 /* ------------------------------------------------------------
+   FAQ (How it works). Each h3 + paragraph becomes a soft card.
+   ------------------------------------------------------------ */
+
+.csf-faq {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+@media (min-width: 900px) { .csf-faq { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+/* Pandoc folds a div that only holds a heading into that heading section, so
+   the cards are <section class="level3"> here, not divs: style any child. */
+.csf-faq > * {
+  background: var(--csf-white);
+  border: 1px solid var(--csf-line);
+  border-radius: var(--csf-radius-sm);
+  padding: 1.3rem 1.4rem 1.4rem;
+}
+.csf-faq h3 { margin: 0 0 .45rem; font-size: 1.12rem; }
+.csf-faq > *, .csf-faq > * > p { margin-top: 0; }
+.csf-faq p { margin: 0; color: var(--csf-ink-soft); font-size: .98rem; max-width: none; }
+.csf-faq p + p { margin-top: .5rem; }
+.csf-faq__hot { background: var(--csf-berry-tint) !important; border-color: transparent !important; }
+
+/* ------------------------------------------------------------
    Post pages
    ------------------------------------------------------------ */
 
 #title-block-header .quarto-title h1.title {
   font-size: clamp(2rem, 1.3rem + 2.6vw, 3.2rem);
-  font-weight: 700;
-  letter-spacing: -0.032em;
+  font-weight: 800;
+  letter-spacing: -0.035em;
   margin-bottom: .5rem;
 }
 #title-block-header .quarto-title-meta { color: var(--csf-ink-faint); font-size: .88rem; }
 
 .page-columns img,
-main img { border-radius: var(--csf-radius); max-width: 100%; height: auto; }
+main img { border-radius: var(--csf-radius-sm); max-width: 100%; height: auto; }
 
 /* Cap photos in post bodies so a portrait shot doesn't fill the whole screen.
    Listing thumbnails and the hero photo are sized by their own rules. */
-main p > img:not(.thumbnail-image):not(.csf-hero__mark):not(.csf-hero__photo) {
+main p > img:not(.thumbnail-image):not(.csf-hero__photo) {
   display: block;
   max-height: 620px;
   width: auto;
@@ -895,9 +1140,9 @@ figcaption { color: var(--csf-ink-faint); font-size: .86rem; }
 a:focus-visible,
 .csf-btn:focus-visible,
 .nav-link:focus-visible {
-  outline: 2px solid var(--csf-accent);
+  outline: 3px solid var(--csf-berry);
   outline-offset: 3px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -905,6 +1150,7 @@ a:focus-visible,
     animation-duration: .01ms !important;
     transition-duration: .01ms !important;
   }
+  .csf-btn:hover, .csf-social__card:hover { transform: none; }
 }
 
 /* ------------------------------------------------------------
@@ -916,7 +1162,13 @@ a:focus-visible,
   /* the pill social links stay inline; only the large CTAs go full width */
   .csf-btn { justify-content: center; width: 100%; }
 
-  .csf-hero--split .csf-hero__figure img.csf-hero__photo { aspect-ratio: 1 / 1; }
-  .csf-strip__item { padding-right: 0; }
+  .csf-hero__figure { transform: rotate(.8deg); box-shadow: 4px 4px 0 var(--csf-ink); }
   .csf-follow__label { width: 100%; margin-bottom: .15rem; }
+  .csf-section { margin: 3.75rem 0; }
 }
+
+/* Text links inside the bands: the default berry link vanishes on chocolate */
+.csf-band a:not(.csf-btn):not(.csf-follow__link) { color: var(--csf-butter); text-decoration-color: rgba(255, 201, 74, .5); }
+.csf-band--butter a:not(.csf-btn):not(.csf-follow__link) { color: var(--csf-ink); text-decoration-color: var(--csf-ink); }
+.csf-band p:last-child { margin-bottom: 0; }
+.csf-band .csf-follow + p { margin-top: 1.5rem; font-size: .95rem; }

@@ -1,15 +1,15 @@
 ---
-title: "Last content"
-pagetitle: "Last content from Cuochi senza fuochi"
+title: "Videos"
+pagetitle: "Videos from Cuochi senza fuochi"
 description: "The newest videos and posts from Cuochi senza fuochi, updated automatically as soon as something new goes up on YouTube."
 page-layout: full
 title-block-style: none
 ---
 
 ::: {.csf-hero}
-<p class="csf-hero__eyebrow">Updated automatically</p>
+<p class="csf-hero__eyebrow"><i class="bi bi-play-circle-fill"></i> Updated automatically</p>
 
-<h1 class="csf-hero__title">The <em>newest</em> thing, always on top</h1>
+<h1 class="csf-hero__title">The <em>newest</em> videos, always on top</h1>
 
 <p class="csf-hero__lede">
 Whatever went up most recently lands here on its own. Nobody edits this page: it reads
@@ -47,7 +47,7 @@ the channel directly, so a video posted this morning is already below.
 .csf-feed__link {
   display: block;
   text-decoration: none !important;
-  color: var(--csf-ink, #2E1F16) !important;
+  color: var(--csf-ink, #2B1A12) !important;
 }
 
 /* The padding-top ratio box works in every browser, unlike aspect-ratio, and
@@ -61,8 +61,8 @@ the channel directly, so a video posted this morning is already below.
   padding-top: 75%;            /* 4:3 */
   margin: 0 0 .9rem;
   overflow: hidden;
-  border-radius: var(--csf-radius, 10px);
-  background: rgba(46, 31, 22, .08);
+  border-radius: var(--csf-radius-sm, 14px);
+  background: rgba(43, 26, 18, .08);
 }
 .csf-feed__thumb img {
   position: absolute;
@@ -87,31 +87,31 @@ the channel directly, so a video posted this morning is already below.
   font-weight: 600;
   letter-spacing: .1em;
   text-transform: uppercase;
-  color: var(--csf-ink-faint, #907E6C);
+  color: var(--csf-ink-faint, #7D6555);
 }
 .csf-feed__badge .bi { font-size: .95rem; line-height: 1; }
 .csf-feed__badge--youtube   { color: #FF0000; }
 .csf-feed__badge--instagram { color: #C13584; }
-.csf-feed__badge--tiktok    { color: var(--csf-ink, #2E1F16); }
+.csf-feed__badge--tiktok    { color: var(--csf-ink, #2B1A12); }
 
 /* Element qualified so the global h3 margin-top does not push it down */
 h3.csf-feed__title {
   margin: 0 0 .3rem;
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 700;
+  font-family: var(--csf-display, sans-serif);
+  font-weight: 800;
   font-size: 1.1rem;
   line-height: 1.22;
   letter-spacing: -0.02em;
   /* feed titles are arbitrary text and must not widen the grid track */
   overflow-wrap: anywhere;
 }
-.csf-feed__link:hover h3.csf-feed__title { color: var(--csf-accent, #C1440E); }
+.csf-feed__link:hover h3.csf-feed__title { color: var(--csf-berry, #CF3550); }
 
 .csf-feed__date {
   margin: 0;
   max-width: none;
   font-size: .82rem;
-  color: var(--csf-ink-faint, #907E6C);
+  color: var(--csf-ink-faint, #7D6555);
 }
 
 .csf-feed__cta {
@@ -119,7 +119,7 @@ h3.csf-feed__title {
   max-width: none;
   font-size: .86rem;
   font-weight: 600;
-  color: var(--csf-accent-dk, #9A3409);
+  color: var(--csf-berry-dk, #A82640);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -130,8 +130,8 @@ h3.csf-feed__title {
 ```
 
 ::: {.csf-section}
-<p class="csf-section__kicker">Fresh out</p>
-<h2 class="csf-section__title">Last content</h2>
+<p class="csf-section__kicker">fresh out of the fridge</p>
+<h2 class="csf-section__title">Latest videos</h2>
 <p class="csf-section__sub" id="csf-feed-status">Loading the newest posts.</p>
 
 <div class="csf-feed" id="csf-feed" aria-busy="true" aria-live="polite"></div>

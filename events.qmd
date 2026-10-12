@@ -21,13 +21,13 @@ listing:
 ---
 
 ::: {.csf-hero}
-<p class="csf-hero__eyebrow">The archive</p>
+<p class="csf-hero__eyebrow"><i class="bi bi-camera-fill"></i> The archive</p>
 
 <h1 class="csf-hero__title">Every table <em>filled</em> so far</h1>
 
 <p class="csf-hero__lede">
-Photos and short notes from past sessions. Have a scroll if you want to know exactly
-what you would be walking into before you commit to an evening.
+Photos and short notes from past evenings. Have a scroll to see exactly what you
+would be walking into: a table, a dessert, and a room full of people meeting for the first time.
 </p>
 
 ::: {.csf-actions}

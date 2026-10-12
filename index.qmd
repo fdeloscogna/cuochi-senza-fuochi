@@ -1,7 +1,7 @@
 ---
 title: "Cuochi senza fuochi"
-pagetitle: "Cuochi senza fuochi, a free no kitchen baking club in Padova"
-description: "A free club in Padova for making desserts and easy recipes together, without an oven and without a kitchen. Nothing to bring, no skill needed, come on your own."
+pagetitle: "Cuochi senza fuochi, cheap desserts made together to meet new people"
+description: "Cuochi senza fuochi is a group of people who make easy, cheap desserts together, with no oven and no stove, to meet new people. No skills, no competition, nothing to bring. Started in Padova, open to every city."
 page-layout: full
 title-block-style: none
 listing:
@@ -19,144 +19,184 @@ listing:
 
 ::: {.csf-hero .csf-hero--split}
 ::: {.csf-hero__body}
-<p class="csf-hero__eyebrow">Padova · free · no kitchen needed</p>
+<p class="csf-hero__eyebrow"><i class="bi bi-geo-alt-fill"></i> Started in Padova · open to every city</p>
 
-<h1 class="csf-hero__title">Make dessert.<br>Without a <em>kitchen</em>.</h1>
+<h1 class="csf-hero__title">Cheap desserts.<br>New <em>friends</em>.</h1>
 
 <p class="csf-hero__lede">
-<strong>Cuochi senza fuochi means cooks without fires.</strong> About fifteen people get
-together in Padova and make desserts and easy recipes on the spot: no oven, no hob,
-nothing that needs a real kitchen. The ingredients are already there when you arrive.
-You pick up a recipe you can redo in your own room, and then everyone eats the result.
+<strong>Cuochi senza fuochi</strong> (it means <em>cooks without fires</em>) is a group of
+people who get together to make easy, cheap desserts and cakes, with no oven and no stove.
+The cake is the excuse. <strong>The people you make it with are the point.</strong>
 </p>
 
 ::: {.csf-actions}
 [Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
-[See how it works](how-it-works.qmd){.csf-btn .csf-btn--ghost}
+[How an evening works](how-it-works.qmd){.csf-btn .csf-btn--ghost}
 :::
 
 <div class="csf-hero__meta">
-  <span>Always free</span>
-  <span>Nothing to cook beforehand</span>
-  <span>Come on your own</span>
-  <span>Italian and English</span>
-</div>
-
-<div class="csf-follow">
-  <span class="csf-follow__label">Have a look first:</span>
-  <a class="csf-follow__link" href="https://www.instagram.com/cuochi_senza_fuochi/" aria-label="Cuochi senza fuochi on Instagram"><i class="bi bi-instagram"></i> Instagram</a>
-  <a class="csf-follow__link" href="https://www.tiktok.com/@cuochi_senza_fuochi" aria-label="Cuochi senza fuochi on TikTok"><i class="bi bi-tiktok"></i> TikTok</a>
-  <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>
+  <span><i class="bi bi-check-circle-fill"></i> Free to join</span>
+  <span><i class="bi bi-check-circle-fill"></i> No oven, no skills</span>
+  <span><i class="bi bi-check-circle-fill"></i> Come on your own</span>
+  <span><i class="bi bi-check-circle-fill"></i> Italiano &amp; English</span>
 </div>
 :::
 
 ::: {.csf-hero__figure}
-![](images/session-01.jpg){.csf-hero__photo fig-alt="A group of about eighteen people standing around tables in a borrowed common room in Padova, with bowls and ingredients laid out"}
+<span class="csf-sticker csf-sticker--butter" aria-hidden="true">No oven.<br>No stress.</span>
+<span class="csf-sticker csf-sticker--berry" aria-hidden="true">Zero skills needed</span>
 
-<p class="csf-hero__caption">A real session in a borrowed common room. Almost everybody here had met for the first time two hours earlier.</p>
-:::
-:::
+![](images/session-01.jpg){.csf-hero__photo fig-alt="About eighteen people standing around tables in a common room in Padova, with bowls of crushed biscuits and ingredients laid out"}
 
-<div class="csf-strip">
-  <span class="csf-strip__item"><strong>Zero euro</strong> to take part</span>
-  <span class="csf-strip__item"><strong>No oven</strong> and no hob, ever</span>
-  <span class="csf-strip__item"><strong>About 15</strong> people per session</span>
-  <span class="csf-strip__item"><strong>Monthly</strong> in Padova</span>
-</div>
-
-::: {.csf-section}
-<p class="csf-section__kicker">Start to finish</p>
-<h2 class="csf-section__title">What actually happens</h2>
-<p class="csf-section__sub">Four steps, with nothing hidden between them. This is the whole format.</p>
-
-::: {.csf-steps}
-- ### Say you're coming
-  One message on Instagram, TikTok or YouTube is enough. Back comes the address, the
-  time, and the recipe for that evening.
-
-- ### Turn up empty handed
-  This is the part people get wrong. Nothing gets cooked beforehand and nobody brings
-  a dish. Everything is already on the table when you walk in.
-
-- ### Everyone makes it together
-  Somebody talks the group through a recipe that needs no oven and no hob. Salame di
-  cioccolato, tiramisù, a no bake cheesecake. The mixing, the crushing and the rolling
-  get shared out, standing up, talking to whoever is next to you.
-
-- ### Then everyone eats it
-  It goes in the fridge, everybody waits, and then the whole thing disappears. You
-  leave with a recipe you can repeat in a room with no kitchen, and with the numbers
-  of the people you made it with.
+<p class="csf-hero__caption">Most of these people met for the first time that evening.</p>
 :::
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">Why it works</p>
-<h2 class="csf-section__title">Three things that make it different</h2>
+<p class="csf-section__kicker">who we are</p>
+<h2 class="csf-section__title">A group of people, not a cooking school.</h2>
+<p class="csf-section__sub">
+Moving to a new city, you sort out a room and a commute in a few weeks. Finding people
+takes longer. So we keep it simple: one table, one easy recipe, a bowl each, and whoever
+turns up. While your hands are busy with biscuits and cream, talking to strangers just happens.
+</p>
 
 ::: {.csf-grid}
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-fire"></i></span>
+::: {.csf-card .csf-card--berry}
+<span class="csf-card__icon"><i class="bi bi-people-fill"></i></span>
 
-### Senza fuochi, without fires
-The name is the promise. Student rooms come with two hobs that half work, no oven, and
-a fridge shared between five people. Every recipe here is built for exactly that, so
-nobody is ever excluded by their kitchen.
+### Together, never against
+No jury, no score, no "best cake". We all make the same dessert together, and we all eat
+it. The only thing that gets judged is how fast the tiramisù disappears.
 :::
 
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-piggy-bank"></i></span>
+::: {.csf-card .csf-card--butter}
+<span class="csf-card__icon"><i class="bi bi-piggy-bank-fill"></i></span>
 
-### Cheaper than one drink
-Taking part costs nothing. Meeting people in this city usually means a bar tab or a
-club entry, every single time. This is the version you can afford every month.
+### Cheap on purpose
+Joining is free. Recipes are made from a few supermarket basics, so money is never the
+reason someone stays home.
 :::
 
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-wifi-off"></i></span>
+::: {.csf-card .csf-card--pista}
+<span class="csf-card__icon"><i class="bi bi-emoji-smile-fill"></i></span>
 
-### Offline, on purpose
-No app, no swiping, no feed. Fifteen people, one table, phones face down and everyone's
-hands covered in crushed biscuit. It turns out that talking is easier when you are both
-busy doing something else.
+### Easy for everyone
+No oven, no stove, no experience. If you can stir, crush a biscuit or lick a spoon, you
+are already qualified.
 :::
 :::
 :::
 
 ::: {.csf-quote}
-Housing is solvable. **Loneliness is the expensive part.**
+Nobody wins. **Everybody eats.**
 
-<cite>the idea behind Cuochi senza fuochi, March 2022</cite>
+<cite>the whole idea, in four words</cite>
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">Why this exists</p>
-<h2 class="csf-section__title">You can rent a room. You cannot rent the people.</h2>
+<p class="csf-section__kicker">an evening with us</p>
+<h2 class="csf-section__title">Four steps, and the first one takes a minute</h2>
+<p class="csf-section__sub">No form, no fee, nothing to prepare. This is the whole format.</p>
 
+::: {.csf-steps}
+- ### Send us a message
+  One message on Instagram, TikTok or YouTube. We reply with the place, the time and the
+  dessert of the evening.
+
+- ### Come empty-handed
+  Don't cook and don't bring a dish. The ingredients and the bowls are already on the
+  table when you arrive.
+
+- ### Make it together
+  Someone talks everyone through the recipe. You crush, mix and layer, chatting with
+  whoever is standing next to you.
+
+- ### Eat it, keep the people
+  Into the fridge, onto the plates, gone. You go home with a recipe you can redo without
+  a kitchen, and a few new names in your phone.
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">what we make</p>
+<h2 class="csf-section__title">Desserts and cakes that never see an oven</h2>
 <p class="csf-section__sub">
-When you move somewhere new, you sort out a room and a commute within weeks. Those two
-things guarantee the financial capital. Human capital is the one nobody hands you a
-contract for, and working or studying full time leaves very little room to build it.
+A bowl, a spoon and a fridge: that's the whole kitchen. Everything is easy enough to make
+with fifteen people talking at once, and cheap enough to make again at home.
 </p>
 
-Cuochi senza fuochi exists because the usual alternatives don't work for everyone. Bars
-cost money every single time. Clubs are loud and you meet no one. Apps put you back on
-a screen. Standing around a table making a dessert costs nothing, and it puts you in a
-room with people who live ten minutes away: the ones you can actually keep seeing.
+::: {.csf-grid .csf-grid--4}
+::: {.csf-card .csf-card--cocoa}
+<span class="csf-card__icon"><i class="bi bi-cookie"></i></span>
 
-::: {.csf-tags}
-- New in Padova
-- Erasmus and exchange
-- PhD students and researchers
-- Started a job here
-- Lived here for years and want a wider table
+### Salame di cioccolato
+Biscuits, chocolate, butter, sugar. Roll it, chill it, slice it.
+:::
+
+::: {.csf-card .csf-card--butter}
+<span class="csf-card__icon"><i class="bi bi-cup-hot-fill"></i></span>
+
+### Tiramisù
+The Italian classic, and no-bake by definition.
+:::
+
+::: {.csf-card .csf-card--berry}
+<span class="csf-card__icon"><i class="bi bi-cake2-fill"></i></span>
+
+### No-bake cheesecake
+Looks like the hardest thing on the table. It's the easiest.
+:::
+
+::: {.csf-card .csf-card--blue}
+<span class="csf-card__icon"><i class="bi bi-cup-straw"></i></span>
+
+### Chocolate mousse
+Two ingredients and a lot of whisking, shared out.
+:::
+:::
+
+::: {.csf-actions style="margin-top:1.75rem"}
+[See all the recipes](recipes.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">From the table</p>
+::: {.csf-split}
+::: {}
+<p class="csf-section__kicker">why come along</p>
+<h2 class="csf-section__title">We're not the best cooks in town. We're good company.</h2>
+<p class="csf-section__sub">
+There are lots of good ways to meet people. This one is just very easy to say yes to,
+whoever you are and however long you've been here.
+</p>
+
+::: {.csf-tags}
+- New in town
+- Erasmus and exchange
+- PhD students and researchers
+- Just started a job here
+- Living in a cohousing or a shared flat
+- Here for years, up for new faces
+:::
+:::
+
+::: {.csf-checks}
+- **You don't need to know anyone.** Most people come on their own. It's the normal way
+  to arrive, and nobody stays a stranger for long.
+- **You don't need to cook.** Every recipe is chosen so a total beginner gets it right
+  the first time.
+- **You don't need to spend.** Joining is free, and nobody collects money at the door.
+- **You leave with more than dessert.** A recipe you can repeat with no kitchen, and
+  people to share the next one with.
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">from the table</p>
 <h2 class="csf-section__title">Recent sessions</h2>
-<p class="csf-section__sub">Photos and short write ups from the last few. This is what you would be walking into.</p>
+<p class="csf-section__sub">Photos and short notes from the last few evenings. This is what you'd be walking into.</p>
 
 ::: {#latest-sessions}
 :::
@@ -164,12 +204,26 @@ room with people who live ten minutes away: the ones you can actually keep seein
 [See all sessions](events.qmd)
 :::
 
+::: {.csf-band .csf-band--butter}
+<span class="csf-band__icon"><i class="bi bi-geo-alt-fill"></i></span>
+
+## Started in Padova. Why not your city?
+
+All it takes is **a table, a fridge and a few curious people.** We'll share our recipes
+and how we run an evening, so you can host the first one wherever you live.
+
+::: {.csf-actions}
+[Start one in your city](cities.qmd){.csf-btn .csf-btn--primary}
+[Read our story](about.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::
+
 ::: {.csf-section}
-<p class="csf-section__kicker">Follow along</p>
+<p class="csf-section__kicker">see it first</p>
 <h2 class="csf-section__title">Watch one before you come to one</h2>
 <p class="csf-section__sub">
-Every session gets filmed and photographed. If you would rather see it before you
-commit, start here. A message on any of the three is also a perfectly good way to sign up.
+We film and photograph the sessions. Have a look, and if you like what you see, a
+message on any of these is also a perfectly good way to sign up.
 </p>
 
 <div class="csf-social">
@@ -184,28 +238,27 @@ commit, start here. A message on any of the three is also a perfectly good way t
     <span class="csf-social__icon"><i class="bi bi-tiktok"></i></span>
     <span class="csf-social__name">TikTok</span>
     <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
-    <span class="csf-social__note">Short clips of a recipe coming together. The fastest way to get the idea.</span>
+    <span class="csf-social__note">Short clips of a dessert coming together. The fastest way to get the idea.</span>
     <span class="csf-social__cta">Watch</span>
   </a>
   <a class="csf-social__card csf-social__card--yt" href="https://www.youtube.com/@cuochisenzafuochi">
     <span class="csf-social__icon"><i class="bi bi-youtube"></i></span>
     <span class="csf-social__name">YouTube</span>
     <span class="csf-social__handle">&#64;cuochisenzafuochi</span>
-    <span class="csf-social__note">Longer cuts, and the full recipes anyone can redo with no oven.</span>
+    <span class="csf-social__note">Longer videos and full recipes anyone can redo without an oven.</span>
     <span class="csf-social__cta">Subscribe</span>
   </a>
 </div>
 :::
 
 ::: {.csf-band}
-## Next session: just turn up
+## Next session? Just turn up.
 
-You don't need to know anyone. You don't need to cook. You don't need to bring
-anything. Most people at their first Cuochi senza fuochi came on their own, and that
-is the normal way to arrive.
+You don't need to know anyone, cook anything or bring anything. **Most people come on
+their own the first time.**
 
 ::: {.csf-actions}
 [Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
-[The recipes](recipes.qmd){.csf-btn .csf-btn--ghost}
+[See the recipes](recipes.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -15,10 +15,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,10 +46,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-7899cfc0e443fec68f4c72deeef9df69.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-6c323ae12f2b8b310eab223181cae85c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,24 +111,24 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../../index.html"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../../../about.html"> 
+<span class="menu-text">Who we are</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../../how-it-works.html"> 
 <span class="menu-text">How it works</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../latest.html"> 
-<span class="menu-text">Last content</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../../../recipes.html"> 
 <span class="menu-text">Recipes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../about.html"> 
-<span class="menu-text">How it started</span></a>
+    <a class="nav-link" href="../../../../cities.html"> 
+<span class="menu-text">Your city</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../latest.html"> 
+<span class="menu-text">Videos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -146,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../../../join.html"> 
-<span class="menu-text">Join in</span></a>
+<span class="menu-text">Join us</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -624,13 +627,23 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><strong>Cuochi senza fuochi.</strong> Desserts made without a kitchen, in Padova. Free, monthly, since March 2022.</p>
+<p><strong>Cuochi senza fuochi.</strong> Easy desserts, made together, to meet new people. Started in Padova in March 2022, open to any city.</p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
+    <a class="nav-link" href="../../../../about.html">
+<p>Who we are</p>
+</a>
+  </li>  
+    <li class="nav-item">
     <a class="nav-link" href="../../../../how-it-works.html">
 <p>How it works</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../../../recipes.html">
+<p>Recipes</p>
 </a>
   </li>  
     <li class="nav-item">
@@ -640,22 +653,17 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="../../../../latest.html">
-<p>Last content</p>
+<p>Videos</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../../../recipes.html">
-<p>Recipes</p>
+    <a class="nav-link" href="../../../../cities.html">
+<p>Your city</p>
 </a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="../../../../join.html">
-<p>Join in</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="../../../../about.html">
-<p>How it started</p>
+<p>Join us</p>
 </a>
   </li>  
 </ul>

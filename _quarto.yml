@@ -8,6 +8,9 @@ project:
     # scripts/sync-latest-content.mjs writes both this and the docs/ copy, so the
     # sync workflow never needs to render the site.
     - data/latest-content.json
+    # only referenced from styles.css (the round navbar emblem), so Quarto
+    # would not otherwise know to copy it
+    - images/logo-wordmark.jpg
   render:
     - index.qmd
     - how-it-works.qmd
@@ -16,6 +19,7 @@ project:
     - latest.qmd
     - join.qmd
     - about.qmd
+    - cities.qmd
     - 404.qmd
     # only the individual event posts. events.qmd is the single events index,
     # so the old nested posts/event/index.qmd is deliberately not rendered
@@ -25,15 +29,16 @@ project:
 
 website:
   title: "Cuochi senza fuochi"
-  description: "A free club in Padova for making desserts and easy recipes together, without an oven and without a kitchen."
+  description: "A group of people who make cheap, easy desserts together to meet new people. No oven, no skills, no competition. Started in Padova, open to every city."
   site-url: "https://fdeloscogna.github.io/cuochi-senza-fuochi/"
   favicon: images/logo.jpg
   open-graph: true
   twitter-card: true
 
   navbar:
-    # the logo is a wide script wordmark, illegible at navbar height,
-    # so it lives in the homepage hero instead and the navbar uses text
+    # the logo is a wide script wordmark, illegible at navbar height, so the
+    # navbar uses text plus the round emblem, cropped out of the wordmark in CSS
+    # (.navbar-brand::before in styles.css)
     title: "Cuochi senza fuochi"
     pinned: false
     # Default is lg (992px). Between there and roughly 1250px the brand, the
@@ -42,21 +47,20 @@ website:
     # edge. Collapsing to the burger below 1200px removes that cramped range.
     collapse-below: xl
     left:
-      # Sessions is deliberately not here: six links plus the icons and the CTA
-      # overcrowded the bar. The page is still linked from the footer and from
-      # the calls to action on the home, how it works and story pages.
-      - text: "Home"
-        href: index.qmd
+      # No "Home": the brand already links there. Sessions lives in the footer
+      # and in the calls to action, to keep the bar uncrowded.
+      - text: "Who we are"
+        href: about.qmd
       - text: "How it works"
         href: how-it-works.qmd
-      - text: "Last content"
-        href: latest.qmd
       - text: "Recipes"
         href: recipes.qmd
-      - text: "How it started"
-        href: about.qmd
+      - text: "Your city"
+        href: cities.qmd
+      - text: "Videos"
+        href: latest.qmd
     right:
-      # social icons before the CTA so "Join in" stays the last, rightmost thing
+      # social icons before the CTA so "Join us" stays the last, rightmost thing
       - icon: instagram
         href: https://www.instagram.com/cuochi_senza_fuochi/
         aria-label: "Cuochi senza fuochi on Instagram"
@@ -66,26 +70,28 @@ website:
       - icon: youtube
         href: https://www.youtube.com/@cuochisenzafuochi
         aria-label: "Cuochi senza fuochi on YouTube"
-      - text: "Join in"
+      - text: "Join us"
         href: join.qmd
 
   page-footer:
     left: |
-      **Cuochi senza fuochi.** Desserts made without a kitchen, in Padova.
-      Free, monthly, since March 2022.
+      **Cuochi senza fuochi.** Easy desserts, made together, to meet new people.
+      Started in Padova in March 2022, open to any city.
     center:
+      - text: "Who we are"
+        href: about.qmd
       - text: "How it works"
         href: how-it-works.qmd
-      - text: "Sessions"
-        href: events.qmd
-      - text: "Last content"
-        href: latest.qmd
       - text: "Recipes"
         href: recipes.qmd
-      - text: "Join in"
+      - text: "Sessions"
+        href: events.qmd
+      - text: "Videos"
+        href: latest.qmd
+      - text: "Your city"
+        href: cities.qmd
+      - text: "Join us"
         href: join.qmd
-      - text: "How it started"
-        href: about.qmd
     right:
       - icon: instagram
         href: https://www.instagram.com/cuochi_senza_fuochi/

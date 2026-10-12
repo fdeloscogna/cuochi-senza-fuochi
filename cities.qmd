@@ -1,0 +1,146 @@
+---
+title: "Your city"
+pagetitle: "Start Cuochi senza fuochi in your city"
+description: "Cuochi senza fuochi started in Padova, but all it needs is a table, a fridge and a few curious people. Here's how to start one in your city, with our help."
+page-layout: full
+title-block-style: none
+---
+
+::: {.csf-hero}
+<p class="csf-hero__eyebrow"><i class="bi bi-geo-alt-fill"></i> Started in Padova · open to every city</p>
+
+<h1 class="csf-hero__title">Bring the table to <em>your city</em>.</h1>
+
+<p class="csf-hero__lede">
+Nothing about Cuochi senza fuochi needs Padova. It needs a table, a fridge, a few euro
+of ingredients and some people who'd like to meet each other.
+<strong>If that sounds like your city, let's start one together.</strong>
+</p>
+
+::: {.csf-actions}
+[Write to us on Instagram](https://www.instagram.com/cuochi_senza_fuochi/){.csf-btn .csf-btn--primary}
+[How an evening works](how-it-works.qmd){.csf-btn .csf-btn--ghost}
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">where we are</p>
+<h2 class="csf-section__title">The map so far</h2>
+<p class="csf-section__sub">One pin, and plenty of space for more.</p>
+
+::: {.csf-grid}
+::: {.csf-card}
+::: {.csf-city}
+<span class="csf-city__pin"><i class="bi bi-geo-alt-fill"></i></span>
+
+::: {}
+### Padova
+Since March 2022 · roughly monthly
+:::
+:::
+:::
+
+::: {.csf-card}
+::: {.csf-city}
+<span class="csf-city__pin csf-city__pin--open"><i class="bi bi-plus-lg"></i></span>
+
+::: {}
+### Your city?
+Send us a message and it could be next.
+:::
+:::
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">what it takes</p>
+<h2 class="csf-section__title">Less than you'd think</h2>
+<p class="csf-section__sub">
+No venue to rent, no equipment to buy, no budget to raise. Just these four things.
+</p>
+
+::: {.csf-grid .csf-grid--4}
+::: {.csf-card .csf-card--butter}
+<span class="csf-card__icon"><i class="bi bi-table"></i></span>
+
+### A table and a fridge
+A shared flat, a cohousing common room, a student residence, a friend's kitchen. Anywhere
+people can stand around a table.
+:::
+
+::: {.csf-card .csf-card--berry}
+<span class="csf-card__icon"><i class="bi bi-basket2-fill"></i></span>
+
+### Cheap ingredients
+Biscuits, chocolate, cream, fruit. Our recipes are picked to feed a crowd from a single
+supermarket run.
+:::
+
+::: {.csf-card .csf-card--pista}
+<span class="csf-card__icon"><i class="bi bi-people-fill"></i></span>
+
+### Ten-ish curious people
+Flatmates, classmates, colleagues, a post in a local group. Strangers are welcome; that's
+the point.
+:::
+
+::: {.csf-card .csf-card--blue}
+<span class="csf-card__icon"><i class="bi bi-megaphone-fill"></i></span>
+
+### One person who says "let's"
+Someone to pick a date and send the first message. That could be you.
+:::
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">starting one</p>
+<h2 class="csf-section__title">How we'd start it, together</h2>
+
+::: {.csf-steps}
+- ### Write to us
+  A message on Instagram, TikTok or YouTube. Tell us your city and who you think might
+  come.
+
+- ### We share what we know
+  The recipes that work with a crowd, what to buy, and how we run an evening from the
+  first hello to the last spoon.
+
+- ### Host your first one
+  Pick an easy dessert, invite a few people, and let everyone make it together. Keep it
+  small the first time.
+
+- ### Send us the photos
+  Tell us how it went. Then do it again next month, and watch the group grow.
+:::
+:::
+
+::: {.csf-section}
+<p class="csf-section__kicker">same spirit everywhere</p>
+<h2 class="csf-section__title">The few things every city keeps</h2>
+<p class="csf-section__sub">
+Every city will have its own recipes and its own crowd. These four things stay the same,
+because they're what make it work.
+</p>
+
+::: {.csf-checks}
+- **Free to join.** Nobody pays at the door. Ingredients stay cheap so it stays that way.
+- **No competition.** We make one dessert together, as a team. Nobody wins, everybody eats.
+- **No fire needed.** No oven, no stove, so any room works and anyone can take part.
+- **Everybody's welcome.** Especially the person who's new and came on their own.
+:::
+:::
+
+::: {.csf-band .csf-band--butter}
+<span class="csf-band__icon"><i class="bi bi-send-fill"></i></span>
+
+## Want to start one?
+
+Send us one message with the name of your city. **We'll take it from there, together.**
+
+::: {.csf-actions}
+[Message us on Instagram](https://www.instagram.com/cuochi_senza_fuochi/){.csf-btn .csf-btn--primary}
+[Or on TikTok](https://www.tiktok.com/@cuochi_senza_fuochi){.csf-btn .csf-btn--ghost}
+:::
+:::

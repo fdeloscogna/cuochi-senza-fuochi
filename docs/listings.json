@@ -1,12 +1,12 @@
 [
   {
-    "listing": "/events.html",
+    "listing": "/index.html",
     "items": [
       "/posts/event/photo/journey/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/events.html",
     "items": [
       "/posts/event/photo/journey/index.html"
     ]

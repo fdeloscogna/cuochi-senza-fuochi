@@ -1,20 +1,20 @@
 ---
 title: "The recipes"
-pagetitle: "The recipes at Cuochi senza fuochi: no oven, no hob"
-description: "The recipes made together at Cuochi senza fuochi. Desserts and easy dishes that need no oven, no hob and no real kitchen, so you can repeat them in any room."
+pagetitle: "The recipes at Cuochi senza fuochi: cheap desserts and cakes, no oven"
+description: "The desserts and cakes we make together at Cuochi senza fuochi. Cheap, easy, and no oven or stove needed, so you can make them again in any room."
 page-layout: full
 title-block-style: none
 ---
 
 ::: {.csf-hero}
-<p class="csf-hero__eyebrow">No oven · no hob · no skill</p>
+<p class="csf-hero__eyebrow"><i class="bi bi-cake2-fill"></i> No oven · no stove · no skills</p>
 
-<h1 class="csf-hero__title">Everything here can be made in a <em>bedroom</em></h1>
+<h1 class="csf-hero__title">Cakes you can make in a <em>bedroom</em>.</h1>
 
 <p class="csf-hero__lede">
-These are the recipes that get made together at a session, and they are all
-chosen for the same reason: a bowl, a knife and a fridge is the entire equipment list.
-Take any of them home and you can do it again on your own.
+These are the desserts we make together, and they're all chosen for the same reasons:
+<strong>they're cheap, they're easy, and a bowl, a spoon and a fridge are all you need.</strong>
+Learn one with us, then make it again on your own.
 </p>
 
 ::: {.csf-actions}
@@ -23,117 +23,104 @@ Take any of them home and you can do it again on your own.
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">The house speciality</p>
-<h2 class="csf-section__title">Desserts, because heat is the thing you don't have</h2>
+<p class="csf-section__kicker">our favourites</p>
+<h2 class="csf-section__title">Desserts, because heat is the thing we don't have</h2>
 <p class="csf-section__sub">
-Dessert is where cooking without fire stops being a limitation and starts being an
-advantage. Almost nothing good in this category was ever baked.
+Dessert is where cooking without fire stops being a limit and starts being an
+advantage. A lot of the best ones were never baked anyway.
 </p>
 
 ::: {.csf-grid}
-::: {.csf-card}
+::: {.csf-card .csf-card--cocoa}
 <span class="csf-card__icon"><i class="bi bi-cookie"></i></span>
 
 ### Salame di cioccolato
-The one that comes up most. Crush dry biscuits in a bag, melt dark chocolate with butter,
-mix with a little sugar, roll it into a log in baking paper and put it in the fridge
-for two hours. It slices like a salami and it never fails.
+The one we make most. Crush dry biscuits in a bag, melt dark chocolate with butter, mix
+with a little sugar, roll it into a log in baking paper and chill it. It slices like a
+salami and it never fails.
+
+<p class="csf-card__facts"><span><i class="bi bi-basket"></i> 4 ingredients</span><span><i class="bi bi-snow"></i> 2 hours in the fridge</span></p>
 :::
 
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-cup-hot"></i></span>
+::: {.csf-card .csf-card--butter}
+<span class="csf-card__icon"><i class="bi bi-cup-hot-fill"></i></span>
 
 ### Tiramisù
-No bake by definition. Mascarpone, eggs, sugar, coffee, savoiardi, cocoa. The only
-hard part is not moving the tray too fast on the way to the fridge.
+No-bake by definition. Mascarpone, eggs, sugar, coffee, savoiardi, cocoa. The only hard
+part is not tipping the tray on the way to the fridge.
+
+<p class="csf-card__facts"><span><i class="bi bi-basket"></i> 6 ingredients</span><span><i class="bi bi-snow"></i> a few hours in the fridge</span></p>
 :::
 
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-cake2"></i></span>
+::: {.csf-card .csf-card--berry}
+<span class="csf-card__icon"><i class="bi bi-cake2-fill"></i></span>
 
-### No bake cheesecake
+### No-bake cheesecake
 A crushed biscuit and butter base pressed into a tin, cream cheese whipped with sugar
-and lemon on top, then several hours of doing nothing at all. Looks like the hardest
-thing on this page and is the easiest.
+and lemon on top, then hours of doing nothing at all. Looks like the hardest thing here;
+it's the easiest.
+
+<p class="csf-card__facts"><span><i class="bi bi-basket"></i> 5 ingredients</span><span><i class="bi bi-snow"></i> a few hours in the fridge</span></p>
 :::
 
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-basket"></i></span>
+::: {.csf-card .csf-card--blue}
+<span class="csf-card__icon"><i class="bi bi-cup-straw"></i></span>
+
+### Two-ingredient chocolate mousse
+Dark chocolate and cream, whipped. That's the whole recipe. The whisking gets passed
+around the table, which is half the fun.
+
+<p class="csf-card__facts"><span><i class="bi bi-basket"></i> 2 ingredients</span><span><i class="bi bi-people"></i> whisking shared out</span></p>
+:::
+
+::: {.csf-card .csf-card--pista}
+<span class="csf-card__icon"><i class="bi bi-apple"></i></span>
 
 ### Fruit with lemon and sugar
-Chop whatever is in season, add sugar and lemon juice, thirty minutes in the fridge and
-it makes its own syrup. Costs almost nothing and everybody takes some.
+Chop whatever's in season, add sugar and lemon juice, and in thirty minutes it makes its
+own syrup. Costs almost nothing, and everybody takes some.
+
+<p class="csf-card__facts"><span><i class="bi bi-basket"></i> 3 ingredients</span><span><i class="bi bi-clock"></i> 30 minutes</span></p>
 :::
 
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-egg"></i></span>
-
-### Chocolate mousse, two ingredients
-Dark chocolate and cream, whipped. That is the whole recipe. Good in small glasses,
-and it makes the room smell like a much more serious kitchen than it is.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-snow"></i></span>
+::: {.csf-card .csf-card--cocoa}
+<span class="csf-card__icon"><i class="bi bi-snow2"></i></span>
 
 ### Affogato
-Very cold vanilla ice cream, very hot espresso poured over it at the table. Not really
-a recipe, more a reliable way to end an evening.
-:::
+Very cold vanilla ice cream, very hot espresso poured over it at the table. Less a
+recipe, more a reliable way to end an evening.
+
+<p class="csf-card__facts"><span><i class="bi bi-basket"></i> 2 ingredients</span><span><i class="bi bi-clock"></i> 1 minute</span></p>
 :::
 :::
 
+Sometimes something savoury sneaks in before the sugar: a lazy hummus mashed with a
+fork, a panzanella, a grated carrot and orange salad, a board of cheese and fruit. Same
+rule: nothing goes near a flame.
+:::
+
 ::: {.csf-section}
-<h2 class="csf-section__title">Savoury, for before the sugar</h2>
+::: {.csf-split}
+::: {}
+<p class="csf-section__kicker">how we pick them</p>
+<h2 class="csf-section__title">Why these and not others</h2>
 <p class="csf-section__sub">
-Same rule applies. Nothing here goes near a flame.
+A recipe has to pass four tests before it makes it onto our table.
 </p>
 
-::: {.csf-grid}
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-droplet"></i></span>
-
-### Hummus, the lazy version
-Blitz a tin of chickpeas with tahini, lemon, garlic and plenty of olive oil. No
-blender in the flat? Mash it with a fork and call it rustic. Bring carrots and bread.
+Got a favourite no-bake dessert that passes all four? Bring the idea (not the dessert)
+to the next session.
 :::
 
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-basket"></i></span>
-
-### Panzanella
-Tear up yesterday's bread, add chopped tomatoes, red onion, basil, a lot of olive oil,
-a splash of vinegar and salt. Twenty minutes of sitting still and the bread softens.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-stars"></i></span>
-
-### Carrot, orange and cumin
-Grate carrots, squeeze in an orange, add a big pinch of cumin, oil and salt. Three
-ingredients, five minutes, and it looks like somebody tried.
-:::
-
-::: {.csf-card}
-<span class="csf-card__icon"><i class="bi bi-people"></i></span>
-
-### A proper board
-Cheese, olives, fruit, bread, nuts. Zero cooking, arranged on anything flat. Always
-one of the first things to disappear.
+::: {.csf-checks}
+- **Nothing needs heat.** No oven, no stove, no waiting for a shared kitchen to free up.
+- **It's cheap.** Supermarket basics that feed a whole table without anyone chipping in.
+- **The steps split up.** Someone crushes, someone melts, someone rolls. If only one pair
+  of hands can make it, it's the wrong recipe for a group.
+- **You can make it again alone.** In a bedroom with a fridge down the hall, which is the
+  whole point.
 :::
 :::
-:::
-
-::: {.csf-section}
-<h2 class="csf-section__title">Why these and not others</h2>
-
-- **Nothing needs heat.** No oven, no hob, no risk of a shared kitchen being occupied.
-- **Everything survives being made by fifteen people at once.** Recipes that need
-  precision or timing do not work in a room full of people talking.
-- **The steps split up.** Somebody crushes, somebody melts, somebody rolls. If a recipe
-  can only be done by one pair of hands, it is the wrong recipe for a group.
-- **You can repeat it alone.** Every one of these is doable in a bedroom with a fridge
-  down the hall, which is the whole point of the club.
 :::
 
 ::: {.csf-band}
@@ -143,6 +130,6 @@ You don't need to buy anything or practise first. Just turn up.
 
 ::: {.csf-actions}
 [Come to the next one](join.qmd){.csf-btn .csf-btn--primary}
-[How it works](how-it-works.qmd){.csf-btn .csf-btn--ghost}
+[Watch the videos](latest.qmd){.csf-btn .csf-btn--ghost}
 :::
 :::

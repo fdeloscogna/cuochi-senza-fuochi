@@ -11,7 +11,7 @@ title-block-style: none
 <h1 class="csf-hero__title">This page went the way of the <em>leftovers</em></h1>
 
 <p class="csf-hero__lede">
-Nothing here. The sessions, though, are still happening.
+Nothing here. The sessions, though, are still happening, and there is still cake.
 </p>
 
 ::: {.csf-actions}

@@ -1,21 +1,20 @@
 ---
-title: "Join in"
-pagetitle: "Come to the next Cuochi senza fuochi session"
-description: "Free to attend, nothing to bring, nothing to cook beforehand. Send one message on Instagram, TikTok or YouTube to come to the next Cuochi senza fuochi session in Padova."
+title: "Join us"
+pagetitle: "Join the next Cuochi senza fuochi session"
+description: "Free to join, nothing to bring, nothing to cook beforehand, and no competition. Send one message on Instagram, TikTok or YouTube to come to the next Cuochi senza fuochi session."
 page-layout: full
 title-block-style: none
 ---
 
 ::: {.csf-hero}
-<p class="csf-hero__eyebrow">Free · Padova · come on your own</p>
+<p class="csf-hero__eyebrow"><i class="bi bi-chat-heart-fill"></i> Free · come on your own</p>
 
-<h1 class="csf-hero__title">Say you're coming.<br>That's the <em>whole</em> process.</h1>
+<h1 class="csf-hero__title">Say you're coming. That's the <em>whole</em> process.</h1>
 
 <p class="csf-hero__lede">
-No application, no form, no fee. Send one message to any of the three accounts below
-and back comes the address, the time and the recipe for that evening.
-<strong>You bring nothing.</strong> Curiosity is the entire packing list, and nobody
-checks it at the door.
+No application, no form, no fee. Send one message to any of our accounts and we'll
+reply with the place, the time and the dessert of the evening.
+<strong>You bring nothing but yourself.</strong>
 </p>
 
 <div class="csf-follow">
@@ -27,11 +26,11 @@ checks it at the door.
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">Get in touch</p>
+<p class="csf-section__kicker">get in touch</p>
 <h2 class="csf-section__title">Pick whichever is easiest</h2>
 <p class="csf-section__sub">
-All three reach the same handful of people, so there is no wrong one. A message saying
-<em>"I'm new in Padova, I'd like to come"</em> is genuinely enough.
+They all reach the same few people, so there's no wrong one. A message saying
+<em>"Hi, I'm new here and I'd like to come"</em> is plenty.
 </p>
 
 <div class="csf-social">
@@ -46,46 +45,44 @@ All three reach the same handful of people, so there is no wrong one. A message 
     <span class="csf-social__icon"><i class="bi bi-tiktok"></i></span>
     <span class="csf-social__name">TikTok</span>
     <span class="csf-social__handle">&#64;cuochi_senza_fuochi</span>
-    <span class="csf-social__note">Watch a recipe come together first, then comment or send a message.</span>
+    <span class="csf-social__note">Watch a dessert come together first, then comment or send a message.</span>
     <span class="csf-social__cta">Watch and message</span>
   </a>
   <a class="csf-social__card csf-social__card--yt" href="https://www.youtube.com/@cuochisenzafuochi">
     <span class="csf-social__icon"><i class="bi bi-youtube"></i></span>
     <span class="csf-social__name">YouTube</span>
     <span class="csf-social__handle">&#64;cuochisenzafuochi</span>
-    <span class="csf-social__note">Longer videos from past sessions. Comments get read and answered.</span>
+    <span class="csf-social__note">Longer videos from past sessions. We read and answer the comments.</span>
     <span class="csf-social__cta">Leave a comment</span>
   </a>
 </div>
 :::
 
 ::: {.csf-section}
-<p class="csf-section__kicker">Then what</p>
+<p class="csf-section__kicker">then what</p>
 <h2 class="csf-section__title">Before you come</h2>
 
 ::: {.csf-steps}
-- ### Say something about food
-  Allergies, vegetarian, vegan, anything you can't eat. This one matters, because it
-  changes what gets bought for the recipe. Say it when you sign up, not on the night.
+- ### Tell us about food
+  Allergies, vegetarian, vegan, anything you can't eat. It changes what gets bought, so
+  say it when you sign up, not on the night.
 
 - ### Don't cook anything
-  Worth repeating: this is not a potluck. The shopping is done for you and everything
-  is on the table when you arrive.
+  Worth repeating: this isn't a potluck. The shopping is done and everything is on the
+  table when you arrive.
 
-- ### Bring a container if you like
-  Only for leftovers. There are usually leftovers, and they are usually the best part
-  of the following morning.
+- ### Bring a container, if you like
+  Only for leftovers. There usually are some, and they're usually the best part of the
+  next morning.
 
 - ### Come roughly on time
-  The first half hour is when the recipe gets started and when everybody introduces
-  themselves. Arriving with everyone else is easier than arriving late to a full room.
+  The first half hour is when we start the recipe and say hello. It's easier to arrive
+  with everyone than into a full room.
 :::
 :::
 
 ::: {.csf-quote}
-Avoid the clubs you don't enjoy anyway. To meet new brains, just turn up and start crushing biscuits.
-
-<cite>the founding principle, more or less</cite>
+Come for the cake. **Stay for the people.**
 :::
 
 ::: {.csf-band}
@@ -100,7 +97,5 @@ No forms, no fee, nothing to carry, and no need to know anybody already there.
   <a class="csf-follow__link" href="https://www.youtube.com/@cuochisenzafuochi" aria-label="Cuochi senza fuochi on YouTube"><i class="bi bi-youtube"></i> YouTube</a>
 </div>
 
-::: {.csf-actions}
-[See what a session looks like](events.qmd){.csf-btn .csf-btn--ghost}
-:::
+Not in Padova? [Start one in your city](cities.qmd).
 :::
